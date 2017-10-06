@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style 
+		name="Platform.AppCompat.Light" 
+		parent="@android:style/Theme.Material">
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:colorForeground">#00000000</item>
+		<item name="android:colorBackground">@*android:color/Indigo_800</item>
+		
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>
+		
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>	
+		<item name="android:statusBarColor">@*android:color/Indigo_800</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+        <item name="android:colorAccent">@*android:color/Teal_700</item>	
+	</style>
+	
+</resources>

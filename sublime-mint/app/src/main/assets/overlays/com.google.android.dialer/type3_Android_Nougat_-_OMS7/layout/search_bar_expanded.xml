@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.google.android.dialer:id/search_box_expanded"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+	android:background="@*android:color/Pink_700"
+    android:visibility="gone" >
+
+    <ImageButton
+        android:id="@*com.google.android.dialer:id/search_back_button"
+        android:layout_width="@*com.google.android.dialer:dimen/search_box_icon_size"
+        android:layout_height="@*com.google.android.dialer:dimen/search_box_icon_size"
+        android:layout_margin="@*com.google.android.dialer:dimen/search_box_navigation_icon_margin"
+        android:src="@*com.google.android.dialer:drawable/ic_back_arrow"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@*com.google.android.dialer:string/action_menu_back_from_search"
+        android:tint="@android:color/white" />
+
+    <EditText
+        android:id="@*com.google.android.dialer:id/search_view"
+        android:layout_width="0dp"
+        android:layout_height="@*com.google.android.dialer:dimen/search_box_icon_size"
+        android:layout_weight="1"
+        android:layout_marginLeft="@*com.google.android.dialer:dimen/search_box_text_left_margin"
+        android:textSize="@*com.google.android.dialer:dimen/search_text_size"
+        android:fontFamily="@*com.google.android.dialer:string/search_font_family"
+        android:textColor="@android:color/white"
+        android:textColorHint="@*com.google.android.dialer:color/searchbox_hint_text_color"
+        android:textCursorDrawable="@*com.google.android.dialer:drawable/searchedittext_custom_cursor"
+        android:background="@null"
+        android:inputType="textFilter"
+        android:singleLine="true"
+        android:imeOptions="flagNoExtractUi" />
+
+    <ImageView
+        android:id="@*com.google.android.dialer:id/search_close_button"
+        android:layout_height="@*com.google.android.dialer:dimen/search_box_close_icon_size"
+        android:layout_width="@*com.google.android.dialer:dimen/search_box_close_icon_size"
+        android:padding="@*com.google.android.dialer:dimen/search_box_close_icon_padding"
+        android:src="@*com.google.android.dialer:drawable/ic_close_dk"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@*com.google.android.dialer:string/description_clear_search"
+        android:tint="@android:color/white"/>
+
+</LinearLayout>

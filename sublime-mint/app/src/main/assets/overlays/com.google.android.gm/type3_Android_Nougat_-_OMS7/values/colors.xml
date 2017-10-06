@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- ACTION BAR -->
+	<color name="primary_color">@*android:color/Pink_700</color>
+	<color name="action_mode_background">@*android:color/Pink_700</color>
+	<color name="activated_item_background_color">@*android:color/Pink_700</color>
+	<color name="quantum_googred500">@*android:color/Pink_700</color>
+    <color name="quantum_googred800">@*android:color/Pink_700</color>
+	<color name="conversation_item_blue_background_color">@*android:color/Pink_700</color>
+    <color name="conversation_item_grey_pressed_color">@*android:color/Pink_700</color>
+    <color name="play_highlight_grey_fill_dark">@*android:color/Pink_700</color>
+    <color name="play_action_button_pressed_grey">@*android:color/Pink_700</color>
+    <color name="play_ripple_dark">@*android:color/Pink_700</color>
+    <color name="holo_light_background_color">@*android:color/Pink_700</color>
+    <color name="default_folder_background_color">@*android:color/Pink_700</color>
+    <color name="default_folder_foreground_color">@*android:color/Pink_700</color>  
+    <color name="mini_drawer_activated_background_color">@*android:color/Pink_700</color>
+    <color name="chips_dropdown_background_pressed">@*android:color/Pink_700</color>
+    <color name="primary_text">@*android:color/Pink_700</color>
+    <color name="secondary_text">@*android:color/Pink_700</color>
+    <color name="holo_blue_light_trans">@*android:color/Pink_700</color>
+    <color name="holo_blue_light_semitrans">@*android:color/Pink_700</color>
+    <color name="holo_blue_light_verytrans">@*android:color/Pink_700</color>
+    <color name="holo_blue_light">@*android:color/Pink_700</color>
+	<color name="divider_color">@*android:color/Pink_700</color>
+	
+	<!-- STATUS BAR -->
+	<color name="primary_dark_color">@*android:color/Red_700</color>
+    <color name="action_mode_statusbar_color">@*android:color/Red_700</color>
+	<color name="mail_activity_status_bar_color">@*android:color/Indigo_700</color>
+	
+	<!-- BACKGROUND -->
+	<color name="list_background_color">@*android:color/Indigo_800</color>
+    <color name="conversation_list_background_color">@*android:color/Indigo_800</color>
+    <color name="drawer_item_activated_background_color">@*android:color/Purple_700</color>
+	<color name="swiped_bg_color">@*android:color/Indigo_800</color>
+	<color name="loading_messages_background_color">@*android:color/Indigo_800</color>
+	<color name="tip_teaser_bg">@*android:color/Indigo_800</color>
+	<color name="swiped_bg_color_archive">@*android:color/Indigo_800</color>
+	<color name="swiped_bg_color_delete">@*android:color/Indigo_800</color>
+	
+	<!-- TEXT PRIMARY -->
+	<color name="quantum_black_secondary_text">#ffffffff</color>
+    <color name="account_text_color">#ffffffff</color>
+    <color name="add_accounts_text_color">#ffffffff</color>
+	
+	<!-- TEXT COLOR -->
+	<color name="text_color_black">@*android:color/Blue_700</color>
+	<color name="text_color_grey">@*android:color/Blue_800</color>
+    <color name="text_color_hint_grey">@*android:color/Blue_700</color>
+    <color name="very_light_grey">@*android:color/Blue_700</color>
+    <color name="text_color_blue">@*android:color/Blue_700</color>
+    <color name="text_color_disabled">@*android:color/Blue_700</color>
+    <color name="black">@*android:color/Blue_700</color>
+    <color name="ampm_text_color">@*android:color/Teal_700</color>
+	<color name="text_color_draft_red">@*android:color/Blue_700</color>
+	<color name="solid_black">@*android:color/Blue_700</color>
+	
+	<!-- MISC COLORS -->
+    <color name="folder_list_heading_text_color">#ffffffff</color>
+    <color name="folder_list_divider_color">#ffffffff</color>
+    <color name="quantum_indigoA100">#ffffffff</color>
+    <color name="quantum_googblue400">#ffffffff</color>
+    <color name="quantum_googblue500">#ffffffff</color>
+    <color name="quantum_lightblue600">#ffffffff</color>
+    <color name="quantum_lightblue700">#ffffffff</color>
+    <color name="brand_ig_br">#ffffffff</color>
+    
+	<!--
+    <color name="manage_accounts_text_color">#ffd2d2d2</color>    
+    <color name="account_setup_xlarge_background_color">#ff1f1f1f</color>
+    <color name="message_header_background_color">@android:color/black</color>
+    <color name="background_floating_material_light">#ff141920</color>
+    <color name="background_material_light">#ff141920</color>
+    <color name="conv_header_add_label_background">#ff141920</color>
+    <color name="conversation_item_grey_ripple_color">#30777777</color>
+    <color name="folder_teaser_icon_background">#ff141920</color>
+    <color name="main_background">#ff000000</color>
+    <color name="checked_item_background_color">#ff555555</color>
+    <color name="conversation_item_grey_background_color">#ff576368</color>
+    <color name="default_account_details_color">#ffffffff</color>
+    <color name="accent_blue">#ffc3bec3</color>
+    <color name="light_gray">#ffff11ff</color>
+    <color name="dark_gray">#ff11ff11</color>
+	-->
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<!-- Notification Timer Color -->
+    <color name="black_87p">#FFFFFF</color>
+    <color name="black_54p">#9F9F9F</color>
+</resources>

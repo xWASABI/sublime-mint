@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<dimen name="browse_index_card_corner_radius">10dp</dimen>
+	
+</resources>

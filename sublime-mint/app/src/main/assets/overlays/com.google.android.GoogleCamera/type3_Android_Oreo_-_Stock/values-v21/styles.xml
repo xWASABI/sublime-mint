@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="Theme.Camera" parent="@android:style/Theme.Material">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowTitleSize">0.0dip</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowActionBarOverlay">true</item>
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+	</style>
+	
+	<style name="Theme.CameraSettings" parent="@android:style/Theme.Material">
+		<!--
+		<item name="android:preferenceCategoryStyle">@style/PreferenceCategoryStyle</item>
+		-->
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:colorForeground">#00000000</item>
+        <item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:statusBarColor">@*android:color/Indigo_800</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+        <item name="android:colorAccent">@*android:color/Teal_700</item>
+	</style>
+	
+</resources>

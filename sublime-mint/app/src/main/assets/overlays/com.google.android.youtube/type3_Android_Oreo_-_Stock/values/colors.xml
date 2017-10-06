@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="video_item_dark_font">#f1f</color>
+	<color name="video_item_description_font">#ef1</color>
+	<color name="custom_text_color">#f22f</color>
+	<color name="dark_grey">#f2f</color>
+	
+	<color name="primary_text_default_material_dark">#ffffffff</color>
+	<color name="primary_text_default_material_light">#ffffff</color>
+	<color name="primary_text_disabled_material_dark">#4dffffff</color>
+	<color name="primary_text_disabled_material_light">#4dffffff</color>
+	
+	<color name="secondary_text_default_material_dark">#b3ffffff</color>
+	<color name="secondary_text_default_material_light">#b3ffffff</color>
+	<color name="secondary_text_disabled_material_dark">#36ffffff</color>
+	<color name="secondary_text_disabled_material_light">#36ffffff</color>
+	
+	<!-- ACTIONBAR -->
+	<color name="theme_main_color_primary">@*android:color/Pink_700</color>
+	<color name="theme_search_color_primary">@*android:color/Pink_700</color>
+	<color name="theme_native_color_primary">@*android:color/Pink_700</color>
+	<color name="color_primary">@*android:color/Pink_700</color>
+
+	<!-- STATUSBAR -->
+	<color name="theme_main_color_primary_dark">@*android:color/Indigo_800</color>
+	<color name="theme_search_color_primary_dark">@*android:color/Indigo_800</color>
+
+	<!-- ACCENT -->
+	<color name="comment_author_text_default_color">@*android:color/Teal_700</color>
+	<color name="theme_main_color_accent">@*android:color/Teal_700</color>
+	<color name="theme_main_tab_text_color_activated">@*android:color/Teal_700</color>
+	<color name="youtube_red">@*android:color/Teal_700</color>
+	<color name="youtube_blue">@*android:color/Teal_700</color>
+	<color name="quantum_googblue500">@*android:color/Teal_700</color>
+	
+	<!-- WHITE/TEXT -->
+	<color name="simplebox_text_color">#fff</color>
+	<color name="theme_main_tab_text_color_normal">@android:color/white</color>
+	<color name="theme_search_actionbar_controls_color">@android:color/white</color>
+	<color name="theme_search_actionbar_text_color_primary">@android:color/white</color>
+	<color name="secondary_dark">@android:color/white</color>
+	<color name="conversation_primary_text_color">@android:color/white</color>
+	<color name="conversation_tertiary_text_color">@android:color/white</color>
+	<color name="text_color_tertiary_default_light">@android:color/white</color>
+	<color name="black">@android:color/white</color>
+	<color name="text_color_primary_default_light">@android:color/white</color>
+	<color name="video_item_title_font">@android:color/white</color>
+	<color name="slim_metadata_main_color">@android:color/white</color>
+	
+	<color name="conversation_secondary_text_color">@*android:color/Blue_700</color>
+	<color name="text_color_primary_default_dark">@android:color/white</color>
+	<color name="text_color_secondary_default_dark">@*android:color/Blue_700</color>
+	<color name="text_color_secondary_default_light">@*android:color/Blue_700</color>
+	
+	<!-- BACKGROUND -->
+	<color name="theme_main_window_background">@*android:color/Indigo_700</color>
+	<color name="background_material_light">@*android:color/Indigo_700</color>
+	<color name="line_separator_color">@*android:color/Indigo_700</color>
+	<color name="separator_color">@*android:color/Indigo_700</color>
+	<color name="primary_background">@*android:color/Indigo_700</color>
+	
+	<color name="comment_divider_color">@*android:color/Indigo_800</color>
+	
+	<!-- TEXT COLOR - DIALOG SEARCH FILTER -->
+	<color name="quantum_black_secondary_text">#fff</color>
+	<color name="quantum_black_text">#fff</color>
+
+</resources>

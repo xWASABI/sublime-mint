@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="start_page_title">H O M E</string>
+	<string name="browse_title">B R O W S E</string>
+	<string name="search_tab_title">S E A R C H</string>
+	<string name="radio_title">R A D I O</string>
+	<string name="collection_title_your_library">L I B R A R Y</string>
+
+</resources>

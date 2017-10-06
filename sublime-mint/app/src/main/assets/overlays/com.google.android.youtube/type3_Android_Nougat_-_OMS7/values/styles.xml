@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="Theme.YouTube.Settings" parent="@*com.google.android.youtube:style/Theme.YouTube.Light.NoActionBar">
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Indigo_800</item>
+		<item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:colorControlActivated">@*android:color/Teal_700</item>
+	</style>
+
+	<style
+		name="SpinnerItem"
+		parent="@*com.google.android.youtube:style/Widget.YouTube.TextView">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textColor">#EEEEEE</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:paddingLeft">12.0dip</item>
+		<item name="android:minHeight">48.0dip</item>
+		<item name="android:maxLines">1</item>
+	</style>
+	<style name="SpinnerItem.Dropdown"
+		parent="@*com.google.android.youtube:style/SpinnerItem">
+		<item name="android:background">@*android:color/Indigo_700</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+	<style 
+		name="Widget.YouTube.Spinner" 
+		parent="@android:style/Widget.Material.Spinner"/>
+	<style 
+		name="DropdownSpinner" 
+		parent="@*com.google.android.youtube:style/Widget.YouTube.Spinner">
+		<item name="android:background">@*android:color/Indigo_700</item>
+		<item name="android:paddingLeft">4.0dip</item>
+		<item name="android:paddingRight">4.0dip</item>
+		<item name="android:popupBackground">@*com.google.android.youtube:drawable/abc_popup_background_mtrl_mult</item>
+		<item name="android:spinnerMode">dropdown</item>
+	</style>
+	
+</resources>

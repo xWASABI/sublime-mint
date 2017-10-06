@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.keep.ui.SquareFrameLayout 
+  android:background="@*com.google.android.keep:color/default_background_color"
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView
+  android:alpha="1"
+  android:tint="@*android:color/Teal_700"
+  android:layout_gravity="center"
+  android:id="@*com.google.android.keep:id/zero_search_icon_view"
+  android:layout_width="@*com.google.android.keep:dimen/zero_search_icon_size" 
+  android:layout_height="wrap_content" 
+  android:src="@*com.google.android.keep:drawable/ic_label_black" 
+  android:adjustViewBounds="true" />
+<TextView 
+  android:layout_gravity="bottom|center"
+  android:id="@*com.google.android.keep:id/zero_search_text_view"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:layout_marginBottom="@*com.google.android.keep:dimen/zero_search_text_margin"
+  android:textAlignment="center" 
+  style="@*com.google.android.keep:style/ZeroSearchPaddedLabelTextStyle" />
+</com.google.android.keep.ui.SquareFrameLayout>

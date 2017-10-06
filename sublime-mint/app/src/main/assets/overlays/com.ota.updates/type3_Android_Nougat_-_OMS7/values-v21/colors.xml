@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">@*android:color/Pink_700</color>
+    <!-- Palette colors for Material UI -->
+    <color name="material_primary">@*android:color/Pink_700</color>
+    <color name="material_primary_dark">@*android:color/Red_800</color>
+    <color name="accent_material_light">@*android:color/Teal_700</color>
+    <color name="accent_material_dark">@*android:color/Teal_700</color>
+    <color name="card_background_material_dark">@*android:color/Pink_700</color>
+    <color name="card_background_material_light">@*android:color/Pink_700</color>
+    <color name="primary_text_material_light">@android:color/white</color>
+    <color name="secondary_text_material_light">@android:color/white</color>
+    <color name="primary_text_material_dark">@android:color/white</color>
+    <color name="secondary_text_material_dark">@android:color/white</color>
+    <color name="ripple_material_dark">#40ffffff</color>
+    <color name="ripple_material_light">#40000000</color>
+	
+</resources>

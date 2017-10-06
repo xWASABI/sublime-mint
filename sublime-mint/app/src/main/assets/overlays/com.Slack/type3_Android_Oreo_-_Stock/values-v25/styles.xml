@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="windowActionModeOverlay" format="boolean"/>
+	<attr name="actionOverflowButtonStyle" format="reference"/>
+	<attr name="actionModeStyle" format="reference"/>
+	<attr name="actionModeBackground" format="reference"/>
+	<attr name="actionModeCloseDrawable" format="reference"/>
+	<attr name="panelBackground" format="reference"/>
+	
+	<style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+	
+	<style name="NoActionBarActivityTheme" parent="@*com.Slack:style/Theme.AppCompat.NoActionBar">
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:alertDialogTheme">@*com.Slack:style/AlertDialogTheme</item>
+		<item name="*com.Slack:windowActionModeOverlay">true</item>
+		<item name="*com.Slack:actionOverflowButtonStyle">@*com.Slack:style/Widget.ActionButton.Overflow</item>
+		<item name="*com.Slack:actionModeStyle">@*com.Slack:style/ActionModeTheme</item>
+		<item name="*com.Slack:actionModeBackground">@*com.Slack:color/off_white_background</item>
+		<item name="*com.Slack:actionModeCloseDrawable">@*com.Slack:drawable/ic_back_grey_24dp</item>
+		<item name="*com.Slack:panelBackground">@*com.Slack:color/background_material_light</item>
+	</style>
+
+	<style name="DrawerActivityTheme" parent="@*com.Slack:style/NoActionBarActivityTheme">
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		<item name="android:statusBarColor">@*android:color/Indigo_700</item>
+	</style>
+	
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material">
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:itemBackground">@*android:color/Indigo_700</item>
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+		<item name="android:colorBackground">@*android:color/Indigo_700</item>
+	    <item name="android:colorAccent">@*android:color/Teal_700</item>
+	    <item name="android:listDivider">@*android:color/transparent</item>
+	    <item name="android:colorSecondary">@*android:color/holo_green_light</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+        <item name="android:colorPrimaryDark">@*android:color/Red_800</item>
+        <item name="android:colorControlActivated">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+        <item name="android:statusBarColor">@*android:color/Red_800</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+	</style>
+	
+	<style name="FindYourTeamsContainer.EmailEntry" parent="@*com.Slack:style/FindYourTeamsContainer">
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:paddingLeft">@*com.Slack:dimen/join_team_screen_margins</item>
+        <item name="android:paddingRight">@*com.Slack:dimen/join_team_screen_margins</item>
+        <item name="android:paddingBottom">@*com.Slack:dimen/join_team_screen_margins</item>
+    </style>
+
+    <style name="FindYourTeamsContainer.Welcome" parent="@*com.Slack:style/FindYourTeamsContainer">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+	
+</resources>

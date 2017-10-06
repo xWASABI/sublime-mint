@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="black_6_transparent">#00000000</color>
+	<color name="status_bar_background_light_semitransparent">#00000000</color>
+	<color name="status_bar_background">#00000000</color>
+    <color name="transparent">#b3000000</color>
+	
+	
+	<!-- TEXT -->
+    <color name="black">@*android:color/white</color>
+	<color name="grey_medium">@*android:color/white</color>
+    <color name="grey_7">@*android:color/white</color>
+    <color name="grey_7_whiteout">@*android:color/white</color>
+    <color name="grey_8_whiteout">@*android:color/white</color>
+	
+	<!-- ACCENT - TEAL_700 -->
+	<color name="grey_3">@*android:color/Teal_700</color>
+	<color name="grey_2">@*android:color/Teal_700</color>
+	<color name="grey_5">@*android:color/Teal_700</color>
+	<color name="blue_2">@*android:color/Teal_700</color>
+	<color name="blue_9">@*android:color/Teal_700</color>
+	<color name="blue_8">@*android:color/Teal_700</color>
+	<color name="blue_5">@*android:color/Teal_700</color>
+    <color name="blue_6">@*android:color/Teal_700</color>
+    <color name="blue_7">@*android:color/Teal_700</color>
+	<color name="green_5">@*android:color/Teal_700</color>
+    <color name="green_6">@*android:color/Teal_700</color>
+    <color name="green_7">@*android:color/Teal_700</color>
+    <color name="green_8">@*android:color/Teal_700</color>
+    <color name="green_9">@*android:color/Teal_700</color>
+	<color name="grey_3_whiteout">@*android:color/Teal_700</color>
+    <color name="grey_4">@*android:color/Teal_700</color>
+	<color name="grey_6">@*android:color/Teal_700</color>
+    <color name="grey_6_whiteout">@*android:color/Teal_700</color>
+	<color name="grey_9">@*android:color/Teal_700</color>
+	<color name="blue_9_whiteout">@*android:color/Teal_700</color>
+	<color name="blue_8_whiteout">@*android:color/Teal_700</color>
+    <color name="blue_7_whiteout">@*android:color/Teal_700</color>
+	<color name="tabbar_black">@*android:color/Teal_700</color>
+		
+	<!-- MAIN BACKGROUND - INDIGO_800 - #131313 -->
+	<color name="white">#fff</color>
+	<color name="grey_0">@*android:color/Indigo_800</color>
+	
+</resources>

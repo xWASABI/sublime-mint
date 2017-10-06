@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="off_white">#fff</color>
+	<color name="dark_grey">#fff</color>
+	<color name="sidebar_text_color">#fff</color>
+
+	<color name="sidebar_bg">@*android:color/Pink_700</color>
+	
+	<color name="gray_bg">@*android:color/Indigo_800</color>
+	<color name="off_white_background">@*android:color/Indigo_800</color>
+	<color name="white">@*android:color/Indigo_700</color>
+	
+	<color name="cool_grey">@*android:color/Teal_700</color>
+	<color name="grey_divider_color">@*android:color/Teal_700</color>
+	
+	<color name="sidebar_active_item_text">#fff</color>
+	<color name="sidebar_hover_item">#f1f</color>
+	
+	<color name="light_divider_color">@*android:color/Indigo_800</color>
+	<color name="light_grey_background">@*android:color/Indigo_800</color>
+	<color name="lighter_grey">@*android:color/Indigo_800</color>
+	
+	<color name="black">@*android:color/white</color>
+    <color name="black_15p_alpha">#ffffffff</color>
+    <color name="black_25p_alpha">#ff555555</color>
+    <color name="black_40p_alpha">#ffffffff</color>
+
+</resources>

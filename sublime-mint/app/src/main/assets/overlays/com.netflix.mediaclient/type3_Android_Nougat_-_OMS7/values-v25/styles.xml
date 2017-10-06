@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<!-- STYLES -->
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material">
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:itemBackground">@*android:color/Indigo_700</item>
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+		<item name="android:colorBackground">@*android:color/Indigo_700</item>
+	    <item name="android:colorAccent">@*android:color/Teal_700</item>
+	    <item name="android:listDivider">@*android:color/transparent</item>
+	    <item name="android:colorSecondary">@*android:color/holo_green_light</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+        <item name="android:colorPrimaryDark">@*android:color/Red_800</item>
+        <item name="android:colorControlActivated">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+        <item name="android:statusBarColor">@*android:color/Red_800</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+	</style>
+
+	<!--
+	<style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.Wallpaper">
+		<item name="android:windowBackground">@*android:color/transparent</item>
+		<item name="android:backgroundTint">@null</item>
+		<item name="android:itemBackground">@*android:color/Indigo_700</item>
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+		<item name="android:colorBackground">@*android:color/Indigo_700</item>
+	    <item name="android:colorAccent">@*android:color/Teal_700</item>
+	    <item name="android:listDivider">@*android:color/transparent</item>
+	    <item name="android:colorSecondary">@*android:color/holo_green_light</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+        <item name="android:colorPrimaryDark">@*android:color/Red_800</item>
+        <item name="android:colorControlActivated">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+        <item name="android:statusBarColor">@*android:color/Red_800</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+	</style>
+	
+	<attr name="dpHeroGradient" format="reference"/>
+	<attr name="toolbarBackground" format="reference"/>
+	<attr name="colorPrimary" format="color"/>
+	<attr name="colorPrimaryDark" format="color"/>
+	<attr name="colorAccent" format="color"/>
+	
+		
+	<style name="Theme.NetflixDefault" parent="@*com.netflix.mediaclient:style/Theme.AppCompat.NoActionBar">	
+		<item name="android:windowShowWallpaper">true</item>
+		<item name="android:textColorPrimary">@*com.netflix.mediaclient:color/primary_text_color</item>
+		<item name="android:windowBackground">@*com.netflix.mediaclient:drawable/bg_img</item>
+		<item name="android:progressBarStyle">@*com.netflix.mediaclient:style/Netflix.ProgressBar</item>
+		<item name="android:actionBarStyle">@*com.netflix.mediaclient:style/Widget.Styled.ActionBar</item>
+		<item name="android:splitMotionEvents">false</item>
+		<item name="android:windowEnableSplitTouch">false</item>
+		<item name="android:colorEdgeEffect">@*com.netflix.mediaclient:color/grey70</item>
+		<item name="*com.netflix.mediaclient:dpHeroGradient">@*com.netflix.mediaclient:drawable/dp_hero_gradient</item>
+		<item name="*com.netflix.mediaclient:toolbarBackground">@*com.netflix.mediaclient:drawable/action_bar_bg</item>
+		<item name="*com.netflix.mediaclient:colorPrimary">@*com.netflix.mediaclient:color/app_color_primary</item>
+		<item name="*com.netflix.mediaclient:colorPrimaryDark">@*com.netflix.mediaclient:color/app_color_primary_dark</item>
+		<item name="*com.netflix.mediaclient:colorAccent">@*com.netflix.mediaclient:color/app_color_accent</item>
+	</style>
+	-->
+</resources>

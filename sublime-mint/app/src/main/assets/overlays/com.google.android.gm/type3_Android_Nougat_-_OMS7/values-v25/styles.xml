@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- STYLES -->
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material">
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:itemBackground">@*android:color/Indigo_700</item>
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+		<item name="android:colorBackground">@*android:color/Indigo_700</item>
+	    <item name="android:colorAccent">@*android:color/Teal_700</item>
+	    <item name="android:listDivider">@*android:color/transparent</item>
+	    <item name="android:colorSecondary">@*android:color/holo_green_light</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+        <item name="android:colorPrimaryDark">@*android:color/Red_800</item>
+        <item name="android:colorControlActivated">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+        <item name="android:statusBarColor">@*android:color/Red_800</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+	</style>
+	<!--
+    <style name="Platform.AppCompat" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar" />
+	-->
+</resources>

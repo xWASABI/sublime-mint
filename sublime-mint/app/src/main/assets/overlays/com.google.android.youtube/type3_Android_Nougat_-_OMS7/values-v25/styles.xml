@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<attr name="colorPrimary" format="color"/>
+	<attr name="colorPrimaryDark" format="color"/>
+	<attr name="colorAccent" format="color"/>
+	<attr name="colorControlHighlight" format="color"/>
+	<attr name="colorControlNormal" format="color"/>
+	<attr name="backgroundPrimary" format="reference"/>
+	<attr name="backgroundPrimaryInverse" format="reference"/>
+	<attr name="backgroundSecondary" format="reference"/>
+	<attr name="backgroundSecondaryInverse" format="reference"/>
+	<attr name="backgroundTertiary" format="reference"/>
+	<attr name="backgroundTertiaryInverse" format="reference"/>
+	<attr name="colorControlSelected" format="color"/>
+	<attr name="colorPrimaryAlternate" format="reference"/>
+	<attr name="defaultItemSelector" format="reference"/>
+	<attr name="textAppearanceBody1" format="reference"/>
+	<attr name="textAppearanceBody1Inverse" format="reference"/>
+	<attr name="textAppearanceBody2" format="reference"/>
+	<attr name="textAppearanceBody2Inverse" format="reference"/>
+	<attr name="textAppearanceButton" format="reference"/>
+	<attr name="textAppearanceCaption" format="reference"/>
+	<attr name="textAppearanceCaptionInverse" format="reference"/>
+	<attr name="textAppearanceHeadline" format="reference"/>
+	<attr name="textAppearanceMenu" format="reference"/>
+	<attr name="textAppearanceSubhead" format="reference"/>
+	<attr name="textAppearanceSubheadInverse" format="reference"/>
+	<attr name="textAppearanceTitle" format="reference"/>
+	<attr name="textAppearanceTitleInverse" format="reference"/>
+	<attr name="actionBarStyle" format="reference"/>
+	<attr name="borderlessButtonStyle" format="reference"/>
+	<attr name="listPopupWindowStyle" format="reference"/>	
+    <attr name="selectableItemBackground" format="reference" />
+	<attr name="loadingFrameErrorDrawable" format="reference"/>	
+    <attr name="loadingFrameTextColor" format="reference" />
+	<attr name="overlapAnchor" format="boolean" />
+
+	<style name="Base.Theme.YouTube.Light" 	parent="@*com.google.android.youtube:style/Theme.AppCompat">	
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item> 
+		<item name="android:textColor">#fff</item>
+		<item name="android:textColorSecondary">#fff</item>
+		<item name="android:windowBackground">@*com.google.android.youtube:color/theme_main_window_background</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:spinnerDropDownItemStyle">@*com.google.android.youtube:style/SpinnerItem.Dropdown</item>
+		<item name="android:spinnerItemStyle">@*com.google.android.youtube:style/SpinnerItem</item>
+		<item name="*com.google.android.youtube:backgroundPrimary">@*com.google.android.youtube:color/background_primary_light</item>
+		<item name="*com.google.android.youtube:backgroundPrimaryInverse">@*com.google.android.youtube:color/background_primary_dark</item>
+		<item name="*com.google.android.youtube:backgroundSecondary">@*com.google.android.youtube:color/background_secondary_light</item>
+		<item name="*com.google.android.youtube:backgroundSecondaryInverse">@*com.google.android.youtube:color/background_secondary_dark</item>
+		<item name="*com.google.android.youtube:backgroundTertiary">@*com.google.android.youtube:color/background_tertiary_light</item>
+		<item name="*com.google.android.youtube:backgroundTertiaryInverse">@*com.google.android.youtube:color/background_tertiary_dark</item>
+		<item name="*com.google.android.youtube:colorPrimaryAlternate">@*com.google.android.youtube:color/color_brand_primary_alternate</item>
+		<item name="*com.google.android.youtube:defaultItemSelector">?*com.google.android.youtube:attr/selectableItemBackground</item>
+		<item name="*com.google.android.youtube:textAppearanceBody1">@*com.google.android.youtube:style/TextAppearance.YouTube.Body1</item>
+		<item name="*com.google.android.youtube:textAppearanceBody1Inverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Body1.Inverse</item>
+		<item name="*com.google.android.youtube:textAppearanceBody2">@*com.google.android.youtube:style/TextAppearance.YouTube.Body2</item>
+		<item name="*com.google.android.youtube:textAppearanceBody2Inverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Body2.Inverse</item>
+		<item name="*com.google.android.youtube:textAppearanceButton">@*com.google.android.youtube:style/TextAppearance.YouTube.Button</item>
+		<item name="*com.google.android.youtube:textAppearanceCaption">@*com.google.android.youtube:style/TextAppearance.YouTube.Caption</item>
+		<item name="*com.google.android.youtube:textAppearanceCaptionInverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Caption.Inverse</item>
+		<item name="*com.google.android.youtube:textAppearanceHeadline">@*com.google.android.youtube:style/TextAppearance.YouTube.Headline</item>
+		<item name="*com.google.android.youtube:textAppearanceMenu">@*com.google.android.youtube:style/TextAppearance.YouTube.Menu</item>
+		<item name="*com.google.android.youtube:textAppearanceSubhead">@*com.google.android.youtube:style/TextAppearance.YouTube.Subhead</item>
+		<item name="*com.google.android.youtube:textAppearanceSubheadInverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Subhead.Inverse</item>
+		<item name="*com.google.android.youtube:textAppearanceTitle">@*com.google.android.youtube:style/TextAppearance.YouTube.Title</item>
+		<item name="*com.google.android.youtube:textAppearanceTitleInverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Title.Inverse</item>
+		<item name="*com.google.android.youtube:actionBarStyle">@*com.google.android.youtube:style/Widget.YouTube.Light.ActionBar</item>
+		<item name="*com.google.android.youtube:borderlessButtonStyle">?*com.google.android.youtube:attr/selectableItemBackgroundBorderless</item>
+		<item name="*com.google.android.youtube:listPopupWindowStyle">@*com.google.android.youtube:style/Widget.YouTube.Light.ListPopupWindow</item>
+		<item name="*com.google.android.youtube:colorPrimary">@*android:color/Pink_700</item>
+		<item name="*com.google.android.youtube:colorPrimaryDark">@*android:color/Red_700</item>
+		<item name="*com.google.android.youtube:colorAccent">@*android:color/Teal_700</item>
+	</style>
+
+	<style name="Theme.YouTube.Home" parent="@*com.google.android.youtube:style/Theme.YouTube.Light.NoActionBar">
+		<item name="*com.google.android.youtube:loadingFrameErrorDrawable">@*com.google.android.youtube:drawable/quantum_ic_error_outline_black_36</item>
+		<item name="*com.google.android.youtube:loadingFrameTextColor">@*com.google.android.youtube:color/grey</item>
+	</style>
+	
+    <style name="Theme.YouTube.Light.Dialog" parent="@*com.google.android.youtube:style/Theme.AppCompat.Dialog">
+		<item name="android:colorPrimary">@*com.google.android.youtube:color/theme_main_color_accent</item>
+        <item name="android:colorAccent">@*com.google.android.youtube:color/theme_main_color_accent</item>
+    </style>
+
+</resources>

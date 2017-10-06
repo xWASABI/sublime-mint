@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@*android:color/Teal_700"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_checked="true">
+				<shape>
+					<stroke android:width="1.0dip" android:color="@*android:color/Teal_700" />
+					<solid android:color="@*android:color/Indigo_800" />
+				</shape>
+			</item>
+			
+            <item android:state_activated="true">
+				<shape>
+					<stroke android:width="1.0dip" android:color="@*android:color/Teal_700" />
+					<solid android:color="@*android:color/Indigo_800" />
+				</shape>
+			</item>
+            <item android:drawable="@*android:color/Indigo_700" />
+        </selector>
+    </item>
+</ripple>

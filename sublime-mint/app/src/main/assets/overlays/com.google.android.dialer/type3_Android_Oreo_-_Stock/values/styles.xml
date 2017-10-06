@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="Widget.Design.FloatingActionButton" parent="@*android:style/Widget">
+        <item name="android:background">@*com.google.android.dialer:drawable/design_fab_background</item>
+        <item name="*com.google.android.dialer:elevation">@*com.google.android.dialer:dimen/design_fab_elevation</item>
+        <item name="*com.google.android.dialer:rippleColor">@*android:color/holo_button_pressed</item>
+        <item name="*com.google.android.dialer:fabSize">auto</item>
+        <item name="*com.google.android.dialer:pressedTranslationZ">@*com.google.android.dialer:dimen/design_fab_translation_z_pressed</item>
+        <item name="*com.google.android.dialer:borderWidth">@*com.google.android.dialer:dimen/design_fab_border_width</item>
+        <item name="*com.google.android.dialer:backgroundTint">@null</item>
+    </style>
+	
+	<style name="DialpadKeyNumberStyle">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@*android:color/Teal_700</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginBottom">2dp</item>
+		<item name="android:fontFamily">sans-serif-light</item>
+	</style>
+	
+</resources>

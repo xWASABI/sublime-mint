@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_bg">@*android:color/Indigo_700</color>
+    <color name="splash_bg">@*android:color/Indigo_700</color>
+    
+	<color name="app_color_primary">@*android:color/Pink_700</color>
+	<color name="black">@*android:color/Pink_700</color>
+    <color name="app_color_primary_dark">@*android:color/Red_700</color>
+    <color name="home_sliding_menu_profiles_group_bg">@*android:color/Red_700</color>
+    <color name="home_sliding_menu_bg">@*android:color/Indigo_700</color>
+	
+	<color name="base_red">@*android:color/Teal_700</color>
+	<color name="brand_red">@*android:color/Teal_700</color>
+	
+</resources>

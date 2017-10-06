@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	<attr name="actionModeBackground" format="color"/>
+	<attr name="colorPrimary" format="color"/>
+	<attr name="colorPrimaryDark" format="color"/>
+	<attr name="colorAccent" format="color"/>
+	<attr name="colorControlNormal" format="color"/>	
+	<attr name="popupTheme" format="reference"/>
+	<attr name="popupMenuStyle" format="reference"/>
+	<attr name="homeAsUpIndicator" format="reference"/>
+	<attr name="actionBarPopupTheme" format="reference"/>
+	<attr name="actionBarTheme" format="reference"/>
+	<attr name="windowActionBar" format="reference"/>
+	<attr name="windowActionModeOverlay" format="reference"/>
+
+</resources>

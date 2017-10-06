@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ContextualActionBarTheme" parent="@*com.google.android.keep:style/ThemeOverlay.AppCompat.ActionBar">
+		<item name="android:textColorPrimary">#FFFFFF</item>
+		<item name="*com.google.android.keep:actionModeBackground">@*com.google.android.keep:color/action_mode_background_color</item>
+		<item name="*com.google.android.keep:colorControlNormal">#ffffff</item>
+	</style>
+	
+	<style name="EditorToolbarTheme" parent="@*com.google.android.keep:style/ThemeOverlay.AppCompat.ActionBar">
+		<item name="*com.google.android.keep:colorControlNormal">#ffffff</item>
+	</style>
+	
+	<style name="KeepAppTheme" parent="@*com.google.android.keep:style/Theme.AppCompat.NoActionBar">
+		<item name="android:windowBackground">@*com.google.android.keep:color/default_background_color</item>
+		<item name="android:backgroundTint">@null</item>
+		<item name="android:textColor">#DEDEDE</item>	
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:textColorHint">#FFFFFF</item>
+		<item name="android:textCursorDrawable">@*com.google.android.keep:drawable/cursor</item>
+		<item name="*com.google.android.keep:drawerArrowStyle">@*com.google.android.keep:style/DrawerArrowStyle</item>
+		<item name="*com.google.android.keep:popupTheme">@*com.google.android.keep:style/ThemeOverlay.AppCompat</item>
+		<item name="*com.google.android.keep:windowActionBar">false</item>
+		<item name="*com.google.android.keep:windowActionModeOverlay">true</item>
+		<item name="*com.google.android.keep:actionBarPopupTheme">@*com.google.android.keep:style/ThemeOverlay.AppCompat</item>
+		<item name="*com.google.android.keep:actionBarTheme">@*com.google.android.keep:style/ContextualActionBarTheme</item>
+		<item name="*com.google.android.keep:homeAsUpIndicator">@*com.google.android.keep:drawable/ic_material_arrow_left_dark</item>
+		<item name="*com.google.android.keep:popupMenuStyle">@*com.google.android.keep:style/PopupMenu</item>
+		<item name="*com.google.android.keep:colorPrimary">@*com.google.android.keep:color/primary_color</item>
+		<item name="*com.google.android.keep:colorPrimaryDark">@*com.google.android.keep:color/primary_color_dark</item>
+		<item name="*com.google.android.keep:colorAccent">@*com.google.android.keep:color/accent_color</item>
+	</style>	
+	
+	<style name="IndexNoteTitleStyle">
+		<item name="android:textSize">18.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#de000000</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:background">@null</item>
+		<item name="android:paddingLeft">@*com.google.android.keep:dimen/browse_index_note_padding</item>
+		<item name="android:paddingTop">@*com.google.android.keep:dimen/browse_index_note_padding</item>
+		<item name="android:paddingRight">@*com.google.android.keep:dimen/browse_index_note_padding</item>
+		<item name="android:maxLines">2</item>
+		<item name="android:fontFamily">sans-serif-condensed</item>
+	</style>
+	
+	<style name="DrawerLandingPageItemTextActiveStyle">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@*android:color/Teal_700</item>
+	</style>
+	
+	<style name="DrawerLandingPageItemTextInactiveStyle">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	
+	<style name="DrawerItemIconStyle">
+		<item name="android:tint">@*android:color/Teal_700</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_width">@*com.google.android.keep:dimen/drawer_item_icon_size</item>
+		<item name="android:layout_height">@*com.google.android.keep:dimen/drawer_item_icon_size</item>
+		<item name="android:scaleType">center</item>
+		<item name="android:alpha">1</item>
+	</style>
+	
+	<style name="DrawerLandingPageItemTextStyle" parent="@*com.google.android.keep:style/DrawerTextStyle">
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:layout_width">0.0dip</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">@*com.google.android.keep:dimen/drawer_item_text_margin</item>
+		<item name="android:layout_marginRight">@*com.google.android.keep:dimen/drawer_item_text_margin</item>
+		<item name="android:layout_weight">1.0</item>
+	</style>
+	
+	<style name="DrawerLabelHeaderTextStyle" parent="@*com.google.android.keep:style/DrawerTextStyle">
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:layout_gravity">center|left</item>
+		<item name="android:paddingTop">12.0dip</item>
+		<item name="android:paddingBottom">12.0dip</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+	</style>
+	
+	<style name="LabelFragmentEntryText">
+		<item name="android:textSize">16.0sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:background">@null</item>
+		<item name="android:paddingLeft">12.0dip</item>
+		<item name="android:paddingTop">2.0dip</item>
+		<item name="android:paddingBottom">2.0dip</item>
+		<item name="android:layout_marginLeft">60.0dip</item>
+		<item name="android:layout_marginRight">60.0dip</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	
+	<style name="LabelEditorEntryIcon" parent="@*com.google.android.keep:style/LabelEditorEntryOpaqueIcon">
+		<item name="android:alpha">1</item>
+		<item name="android:tint">#FFF</item>
+	</style>
+	
+	<style name="SearchBarBackButton">
+		<item name="android:alpha">1</item>	
+		<item name="android:tint">#FFF</item>
+		<item name="android:background">#00000000</item>
+		<item name="android:src">@*com.google.android.keep:drawable/ic_material_arrow_left_dark</item>
+		<item name="android:scaleType">center</item>
+		<item name="android:contentDescription">@*com.google.android.keep:string/editor_navigate_up_content_description</item>
+	</style>
+	
+	<style name="SearchBarClearButton">
+		<item name="android:alpha">1</item>
+		<item name="android:tint">#FFF</item>
+		<item name="android:background">#00000000</item>
+		<item name="android:paddingLeft">7.0dip</item>
+		<item name="android:paddingRight">7.0dip</item>
+		<item name="android:src">@*com.google.android.keep:drawable/ic_cancel_dark</item>
+		<item name="android:scaleType">center</item>
+		<item name="android:contentDescription">@*com.google.android.keep:string/clear_button_content_description</item>
+	</style>
+	
+	<style name="ZeroSearchTextStyle">
+		<item name="android:textSize">12.0sp</item>
+		<item name="android:textColor">@*android:color/Teal_700</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:layout_gravity">center_vertical</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:fontFamily">sans-serif</item>
+	</style>
+	
+	<style name="QebButtonStyle">
+		<item name="android:layout_gravity">top</item>
+		<item name="android:background">#00000000</item>
+		<item name="android:layout_width">48.0dip</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:scaleType">center</item>
+		<item name="android:alpha">1</item>
+	</style>
+	
+</resources>

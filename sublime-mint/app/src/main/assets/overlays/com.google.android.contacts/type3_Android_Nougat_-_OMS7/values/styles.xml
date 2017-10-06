@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="actionModeBackground" format="reference" />
+	<attr name="titleTextAppearance" format="reference"/>
+	<attr name="windowActionBar" format="boolean"/>
+	<attr name="windowNoTitle" format="boolean"/>
+	<attr name="colorControlNormal" format="color"/>	
+		
+	<style name="PeopleTheme" parent="@android:style/Theme.Material"/>
+    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.AppCompat.Light.Dialog.Alert" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.AppCompat.Light.Dialog.MinWidth" parent="@android:style/Theme.Material.Dialog" />
+		
+	<style name="ContactsToolbarStyle"
+		parent="@*com.google.android.contacts:style/Widget.AppCompat.Toolbar">
+		<item name="*com.google.android.contacts:actionModeBackground">@*android:color/Teal_700</item>
+		<item name="android:background">@*android:color/Pink_700</item>
+		<item name="android:titleTextAppearance">@*com.google.android.contacts:style/ContactsActionBarTitleTextAppCompat</item>
+		<item name="*com.google.android.contacts:titleTextAppearance">@*com.google.android.contacts:style/ContactsActionBarTitleTextAppCompat</item>
+	</style>
+	
+	<style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">	 
+		<item name="*com.google.android.contacts:actionModeBackground">@*android:color/Teal_700</item>	
+		<item name="android:windowNoTitle">true</item>
+    </style>
+	
+    <style name="EmptyStateTextStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@*android:color/Teal_700</item>
+    </style>
+	
+	<style name="LaunchScreenTheme" parent="@*com.google.android.contacts:style/Theme.AppCompat">
+		<item name="android:windowBackground">@*com.google.android.contacts:drawable/quantum_launchscreen_contacts</item>
+		<item name="android:colorPrimaryDark">@*android:color/Indigo_700</item>
+	</style>
+	
+    <style name="ListViewStyle" parent="@*android:style/Widget.Material.ListView">    
+		<item name="android:overScrollMode">always</item>
+    </style>
+
+	<style name="Theme.QuickContact" parent="@*com.google.android.contacts:style/ContactsColorTheme">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>
+		<item name="android:tint">#fff</item>
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:listViewStyle">@*com.google.android.contacts:style/ListViewStyle</item>
+		<item name="android:windowAnimationStyle">@null</item>
+		<item name="android:colorBackgroundCacheHint">@null</item>
+		<item name="android:actionBarItemBackground">@*com.google.android.contacts:drawable/item_background_material_borderless_dark</item>
+		<item name="*com.google.android.contacts:windowActionBar">false</item>
+		<item name="*com.google.android.contacts:windowNoTitle">true</item>
+		<item name="*com.google.android.contacts:colorControlNormal">@*android:color/Teal_700</item>
+	</style>
+		
+	<style name="ContactsColorTheme" parent="@*com.google.android.contacts:style/Theme.AppCompat">
+		<item name="android:listDivider">@null</item>
+	</style>
+	
+</resources>

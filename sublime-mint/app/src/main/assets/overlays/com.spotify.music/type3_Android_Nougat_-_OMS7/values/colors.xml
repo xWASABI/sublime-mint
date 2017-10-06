@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ACCENTS -->
+	<color name="cat_light_green">@*android:color/Teal_700</color>
+	<color name="cat_light_green_20">@*android:color/Teal_700</color>
+	<color name="cat_light_green_40">@*android:color/Teal_700</color>
+	<color name="cat_light_green_5">@*android:color/Teal_700</color>
+	<color name="cat_medium_green">@*android:color/Teal_700</color>
+	<color name="glue_green">@*android:color/Teal_700</color>
+	<color name="glue_gray_inactive">@*android:color/Teal_700</color>
+	<color name="cat_grayscale_55">@*android:color/Teal_700</color>
+	<color name="cat_white">@*android:color/Teal_700</color>
+	<!-- ALPHA ACCENTS -->
+	<color name="cat_medium_green_40">@*android:color/Purple_700</color>
+	<color name="cat_white_10">@*android:color/Purple_700</color>
+	<!-- TOP LEVEL COLOR -->
+	<color name="cat_button_primary_background_default">@*android:color/Pink_700</color>
+	<color name="glue_black">@*android:color/Red_700</color>
+	<!-- BACKGROUND -->
+	<color name="cat_grayscale_8">@*android:color/Indigo_800</color>
+	<color name="cat_grayscale_15">@*android:color/Indigo_700</color>
+	
+	<!--
+	<color name="cat_grayscale_90">#f22f</color>
+	<color name="cat_grayscale_90_40">#f22f</color>
+	<color name="cat_grayscale_95">#f22f</color>
+	<color name="cat_grayscale_15_40">#ef1</color>
+	<color name="cat_grayscale_12">#ef1</color>
+	<color name="cat_grayscale_20">#ef1</color>
+	<color name="cat_grayscale_20_90">#ef1</color>
+	<color name="cat_grayscale_25">#ef1</color>
+	<color name="cat_grayscale_25_40">#f1f</color>
+	<color name="cat_grayscale_25_90">#ef1</color>
+	<color name="cat_grayscale_55_40">#f1f</color>
+	<color name="cat_grayscale_70">#f44</color>
+	<color name="cat_white_12_5">#f1f</color>
+	<color name="cat_white_20">#f1f</color>
+	<color name="cat_white_40">#f1f</color>
+	<color name="cat_white_5">#ef1</color>
+	<color name="cat_white_70">#f22f</color>
+	-->
+	
+</resources>

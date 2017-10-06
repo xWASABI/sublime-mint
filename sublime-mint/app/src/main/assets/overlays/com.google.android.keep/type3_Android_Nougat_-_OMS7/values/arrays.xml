@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="note_color_palette">
+        <!-- DEFAULT -->
+		<item>#B39DD8</item>
+		<!-- RED -->
+        <item>#FE1546</item>
+		<!-- ORANGE -->
+        <item>#ed8850</item>
+		<!-- YELLOW -->
+        <item>#ffd64d</item>
+		<!-- GREEN -->
+        <item>#68DDA6</item>
+		<!-- TEAL -->
+        <item>#ff4285f4</item>
+		<!-- BLUE -->
+        <item>#D67EB7</item>
+		<!-- GRAY -->
+        <item>#ad5277</item>
+    </array>
+    <array name="welcome_page_color_palette">
+        <item>#ffffffff</item>
+        <item>#00ffffff</item>
+    </array>
+</resources>

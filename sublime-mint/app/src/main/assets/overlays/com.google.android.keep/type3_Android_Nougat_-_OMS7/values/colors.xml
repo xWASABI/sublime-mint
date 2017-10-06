@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+	<color name="hint_text_color">#f22f</color>
+	<color name="default_divider_color">#f44</color>
+	<color name="default_keep_divider">#f22f</color>
+	-->
+	
+	<!-- NOTE DEFAULT -->
+	<color name="keep_default_color">#B39DD8</color>
+	<color name="note_default_color">#B39DD8</color>
+	<color name="secondary_default_color">#B39DD8</color>
+	
+	<!-- NOTE RED -->
+	<color name="keep_red">#FE1546</color>
+	<color name="secondary_red">#FE1546</color>
+
+	<!-- NOTE ORANGE -->
+	<color name="keep_orange">#ed8850</color>
+	<color name="secondary_orange">#ed8850</color>
+	
+	<!-- NOTE YELLOW -->
+	<color name="keep_yellow">#ffd64d</color>
+	<color name="secondary_yellow">#ffd64d</color>
+	
+	<!-- NOTE GREEN -->
+	<color name="keep_green">#68DDA6</color>
+	<color name="secondary_green">#68DDA6</color>
+	
+	<!-- NOTE TEAL -->
+	<color name="keep_teal">#ff4285f4</color>
+	<color name="secondary_teal">#ff4285f4</color>
+
+	<!-- NOTE BLUE -->
+	<color name="keep_blue">#D67EB7</color>
+	<color name="secondary_blue">#D67EB7</color>
+
+	<!-- NOTE GRAY -->
+	<color name="keep_gray">#ad5277</color>
+	<color name="secondary_gray">#ad5277</color>
+
+	<!-- BACKGROUND - INDIGO_700 -->
+	<color name="default_fragment_background_color">@*android:color/Indigo_700</color>
+	<color name="default_background_color">@*android:color/Indigo_700</color>
+	<color name="zero_search_light_background_color">@*android:color/Indigo_700</color>
+
+	<!-- BACKGROUND - INDIGO_800 -->
+	<color name="drawer_selected_color">@*android:color/Indigo_800</color>	
+    <color name="label_editor_rename_mode_color">@*android:color/Indigo_800</color>
+	<color name="zero_search_background_color">@*android:color/Indigo_800</color>
+	
+	<!-- ACTION BAR - PINK_700 -->
+	<color name="primary_color">@*android:color/Pink_700</color>
+	<color name="action_bar_background_color">@*android:color/Pink_700</color>
+	<color name="filter_background_color">@*android:color/Pink_700</color>
+	<color name="snack_bar_background_color">@*android:color/Pink_700</color>
+	<color name="action_mode_background_color">@*android:color/Pink_700</color>
+	
+	<!-- STATUS BAR - RED_800 -->
+	<color name="primary_color_dark">@*android:color/Red_800</color>
+	<color name="browse_secondary_status_bar_color">@*android:color/Red_800</color>
+	<color name="actionMode_status_bar_color">@*android:color/Red_800</color>
+	
+	<!-- PRIMARY TEXT -->
+	<color name="drawer_label_edit_text_color">#FFFFFF</color>
+	<color name="account_text_color">#FFFFFF</color>
+	<color name="add_accounts_text_color">#FFFFFF</color>
+	<color name="default_account_details_color">#FFFFFF</color>
+	<color name="manage_accounts_text_color">#FFFFFF</color>
+	<color name="zero_search_light_text_color">#ffffffff</color>	
+	
+	<!-- ACCENT - TEAL_700 -->
+	<color name="zero_search_dark_background_color">@*android:color/Teal_700</color>
+	<color name="quantum_googblue">@*android:color/Teal_700</color>
+	<color name="zero_search_more_toggle_button_color">@*android:color/Teal_700</color>
+	<color name="zero_search_header_text_color">@*android:color/Teal_700</color>
+	
+</resources>

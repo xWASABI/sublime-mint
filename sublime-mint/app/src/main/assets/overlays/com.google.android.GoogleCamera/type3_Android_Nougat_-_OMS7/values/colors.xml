@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="camera_mode_idle_color">@*android:color/Pink_700</color>
+	<color name="camera_mode_color">@*android:color/Indigo_800</color>
+	<color name="camera_button_background">@*android:color/Indigo_700</color>
+	
+	<color name="mode_selector_icon_background">@*android:color/Indigo_700</color>
+	
+	<color name="settings_actionbar_color">@*android:color/Pink_700</color>
+	<color name="settings_accent_color">@*android:color/Teal_700</color>
+	
+</resources>

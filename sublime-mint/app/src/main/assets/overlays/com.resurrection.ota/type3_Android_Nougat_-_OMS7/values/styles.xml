@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Main" parent="@android:style/Theme.Material">
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Red_800</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:colorForeground">@*android:color/transparent</item>
+		<item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>	
+    </style>
+	
+</resources>

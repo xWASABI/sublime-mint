@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2016 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+	android:width="24.0dp"
+	android:height="24.0dp"
+	android:viewportWidth="24.0"
+	android:viewportHeight="24.0"
+	android:tint="?*android:attr/colorAccent">
+ 	<group
+		android:translateX="4.25" >
+		<path
+			android:strokeWidth=".75"
+			android:strokeColor="@android:color/white"
+			android:fillColor="#30FFFFFF" 
+			android:pathData="M9.964 4.085c0-0.71-0.067-1.326-0.924-1.326-0.362 0-0.723 0.121-1.045
+			0.308-2.022 1.112-2.853 3.991-2.853 6.161 0 1.446 0.496 3.375 2.263 3.375 0.402
+			0 0.911 0.107 1.018-0.362 0.429-2.063 0.857-4.138 1.286-6.201 0.134-0.643
+			0.254-1.299 0.254-1.955zM20.063 12.871c0 0.134-0.174 0.268-0.308
+			0.268l-0.080-0.013c-0.911-0.134-1.714-0.375-2.638-0.375-1.674 0-3.214
+			0.496-4.701 1.246-0.188 0.094-0.228 0.174-0.281 0.362-0.241 0.911-0.402
+			1.848-0.629 2.759-0.804 3.121-3.415 6.884-6.991 6.884-2.437
+			0-3.937-1.661-3.937-4.058 0-1.299 0.844-3.83 2.411-3.83 0.549 0 2.705 0.71 2.719
+			1.272-0.027 0.107-2.103 1.179-2.103 2.987 0 0.549 0.268 0.978 0.871 0.978 2.129
+			0 3.107-3.884 3.321-5.518v-0.121c0-0.107-0.429-0.054-0.509-0.054-4.031
+			0-6.388-2.25-6.388-6.308 0-3.83 2.491-8.504 6.576-9.214 0.469-0.080 0.937-0.121
+			1.42-0.121 3.241 0 5.009 1.513 5.009 4.821 0 2.237-0.763 4.299-1.085 6.482l0.040
+			0.040c1.446-0.817 2.973-1.594 4.688-1.594 0.174 0 0.549 0.107 0.71 0.174 0.348
+			0.134 1.888 2.558 1.888 2.933z" />
+	</group>
+</vector>

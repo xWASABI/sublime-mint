@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!--
+	<attr name="windowActionBar" format="boolean" />
+    <attr name="windowNoTitle" format="boolean" />
+	
+	<style name="Theme.Glue.NoActionBar" parent="@*com.spotify.music:style/Theme.Glue">
+		<item name="*com.spotify.music:windowActionBar">false</item>
+		<item name="*com.spotify.music:windowNoTitle">true</item>
+		<item name="android:windowBackground">@*com.spotify.music:color/cat_grayscale_8</item>
+		<item name="android:windowShowWallpaper">true</item>
+		<item name="android:backgroundTint">@null</item>
+	</style>
+	-->
+	
+	
+</resources>

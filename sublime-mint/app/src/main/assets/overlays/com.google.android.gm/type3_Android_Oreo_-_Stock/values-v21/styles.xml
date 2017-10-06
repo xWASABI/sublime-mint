@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="NotificationPrimaryText">
+		<item name="android:textColor">#fff</item>
+	</style>
+	<style name="NotificationSecondaryText">
+		<item name="android:textColor">@*android:color/Blue_700</item>
+	</style>
+	
+	<style name="GmailTheme.NoActionBar" parent="@android:style/Theme.Material.NoActionBar">
+		<item name="android:backgroundTint">#f1f</item>	
+		<item name="android:colorPrimary">@*android:color/Indigo_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Red_700</item>
+		<item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>	
+	</style>
+	<style name="GmailTheme.NoActionBar.Fullscreen" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>	
+		<item name="android:colorPrimary">@*android:color/Indigo_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Red_700</item>
+		<item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>
+	</style>
+	<style name="GmailTheme.NoActionBar.SetupAddresses" parent="@style/GmailTheme.NoActionBar">	
+		<item name="android:textColorLink">@*android:color/Teal_700</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>	
+		<item name="android:colorPrimary">@*android:color/Indigo_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Red_700</item>
+		</style>
+	<style name="GmailTheme.NoActionBar.WelcomeTour" parent="@style/GmailTheme.NoActionBar">
+		<item name="android:windowBackground">@android:color/black</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>	
+		<item name="android:colorPrimaryDark">@*android:color/Red_700</item>
+	</style>
+	
+	<attr name="drawerArrowStyle" format="reference"/>
+	<attr name="windowActionModeOverlay" format="boolean"/>
+	<attr name="actionBarPopupTheme" format="reference"/>
+	<attr name="actionModeBackground" format="reference"/>
+	<attr name="popupMenuStyle" format="reference"/>
+	<attr name="colorPrimary" format="color"/>
+	<attr name="colorPrimaryDark" format="color"/>
+	<attr name="colorAccent" format="color"/>
+	<attr name="alertDialogTheme" format="reference"/>
+		
+	<style name="MailActivityTheme" parent="@*com.google.android.gm:style/Theme.AppCompat.NoActionBar">
+		<item name="android:windowBackground">@*android:color/Indigo_800</item>
+		<item name="android:windowShowWallpaper">false</item>
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		<item name="android:statusBarColor">@*com.google.android.gm:color/mail_activity_status_bar_color</item>
+		<item name="android:colorEdgeEffect">@*com.google.android.gm:color/edge_effect_color</item>
+		<item name="*com.google.android.gm:drawerArrowStyle">@*com.google.android.gm:style/ActionBarDrawerArrowDrawableStyle</item>
+		<item name="*com.google.android.gm:windowActionModeOverlay">true</item>
+		<item name="*com.google.android.gm:actionBarPopupTheme">@*com.google.android.gm:style/ThemeOverlay.AppCompat.Light</item>
+		<item name="*com.google.android.gm:actionModeBackground">@*com.google.android.gm:color/action_mode_background</item>
+		<item name="*com.google.android.gm:popupMenuStyle">@*com.google.android.gm:style/MessageHeaderPopupStyle</item>
+		<item name="*com.google.android.gm:colorPrimary">@*com.google.android.gm:color/primary_color</item>
+		<item name="*com.google.android.gm:colorPrimaryDark">@*com.google.android.gm:color/primary_dark_color</item>
+		<item name="*com.google.android.gm:colorAccent">@*com.google.android.gm:color/accent_blue</item>
+		<item name="*com.google.android.gm:alertDialogTheme">@*com.google.android.gm:style/AlertDialogTheme</item>
+	</style>
+	
+	
+</resources>

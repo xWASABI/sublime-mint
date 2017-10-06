@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Theme.RagnarLight" parent="@*android:style/Theme.Material">
+
+	<item name="*com.ota.updates:noUpdateAvailable">@*com.ota.updates:color/material_red_500</item>
+	<item name="*com.ota.updates:updateAvailable">@*com.ota.updates:color/material_light_green_500</item>
+	<item name="*com.ota.updates:helpIcon">@*com.ota.updates:drawable/ic_about_dark</item>
+	<item name="*com.ota.updates:settingsIcon">@*com.ota.updates:drawable/ic_settings_dark</item>
+	<item name="*com.ota.updates:changelogIcon">@*com.ota.updates:drawable/ic_changelog</item>
+	<item name="*com.ota.updates:downloadIcon">@*com.ota.updates:drawable/drawable_download</item>
+	<item name="*com.ota.updates:browserIcon">@*com.ota.updates:drawable/drawable_website</item>
+	<item name="*com.ota.updates:donateIcon">@*com.ota.updates:drawable/drawable_donate</item>
+	<item name="*com.ota.updates:checkIcon">@*com.ota.updates:drawable/drawable_check</item>
+	<item name="*com.ota.updates:addonsIcon">@*com.ota.updates:drawable/drawable_addon</item>
+	<item name="*com.ota.updates:separator">@*com.ota.updates:color/separator_light</item>
+	<item name="*com.ota.updates:backgroundRippleSelector">@*com.ota.updates:drawable/ripple_selector_light</item>
+
+	<item name="android:colorPrimary">@*android:color/Pink_700</item>
+	<item name="android:colorPrimaryDark">@*android:color/Red_800</item>
+	<item name="android:statusBarColor">@*android:color/Red_800</item>
+	<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+	<item name="android:colorForeground">@*android:color/transparent</item>
+	<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+	<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>	
+	<item name="*com.ota.updates:cardBackground">@*android:color/Pink_700</item>
+	<item name="*com.ota.updates:cardStyle">@*com.ota.updates:style/CardStyle.Light</item>
+	<item name="android:windowNoTitle">true</item>
+	<item name="android:windowActionBar">false</item>
+	<item name="*com.ota.updates:textColorPrimary">@*com.ota.updates:color/primary_text_material_light</item>
+	<item name="*com.ota.updates:textColorSecondary">@*com.ota.updates:color/secondary_text_material_light</item>
+	<item name="*com.ota.updates:materialAccent">@*com.ota.updates:color/accent_material_light</item>
+	
+</style>
+
+<style name="Theme.RagnarLight.Settings" parent="@*android:style/Theme.Material">
+	<item name="android:windowNoTitle">false</item>
+	<item name="android:windowActionBar">true</item>
+</style>
+
+
+<!--
+	<style name="Theme.RagnarLight" parent="@*android:style/Theme.Material.Wallpaper">
+
+		<item name="*com.ota.updates:noUpdateAvailable">@*com.ota.updates:color/material_red_500</item>
+		<item name="*com.ota.updates:updateAvailable">@*com.ota.updates:color/material_light_green_500</item>
+		<item name="*com.ota.updates:helpIcon">@*com.ota.updates:drawable/ic_about_dark</item>
+		<item name="*com.ota.updates:settingsIcon">@*com.ota.updates:drawable/ic_settings_dark</item>
+		<item name="*com.ota.updates:changelogIcon">@*com.ota.updates:drawable/ic_changelog</item>
+		<item name="*com.ota.updates:downloadIcon">@*com.ota.updates:drawable/drawable_download</item>
+		<item name="*com.ota.updates:browserIcon">@*com.ota.updates:drawable/drawable_website</item>
+		<item name="*com.ota.updates:donateIcon">@*com.ota.updates:drawable/drawable_donate</item>
+		<item name="*com.ota.updates:checkIcon">@*com.ota.updates:drawable/drawable_check</item>
+		<item name="*com.ota.updates:addonsIcon">@*com.ota.updates:drawable/drawable_addon</item>
+		<item name="*com.ota.updates:separator">@*com.ota.updates:color/separator_light</item>
+		<item name="*com.ota.updates:backgroundRippleSelector">@*com.ota.updates:drawable/ripple_selector_light</item>
+
+		
+		<item name="android:windowBackground">@*android:color/user_icon_3</item>
+		<item name="android:backgroundTint">@null</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Red_800</item>
+		<item name="android:statusBarColor">@*android:color/Red_800</item>
+		<item name="android:navigationBarColor">@*android:color/user_icon_3</item>
+		<item name="android:colorForeground">@*android:color/transparent</item>
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>	
+		<item name="*com.ota.updates:cardBackground">@*android:color/Pink_700</item>
+		<item name="*com.ota.updates:cardStyle">@*com.ota.updates:style/CardStyle.Light</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowActionBar">false</item>
+		<item name="*com.ota.updates:textColorPrimary">@*com.ota.updates:color/primary_text_material_light</item>
+		<item name="*com.ota.updates:textColorSecondary">@*com.ota.updates:color/secondary_text_material_light</item>
+		<item name="*com.ota.updates:materialAccent">@*com.ota.updates:color/accent_material_light</item>
+
+	</style>
+
+	<style name="Theme.RagnarLight.Settings" parent="@*android:style/Theme.Material">
+		<item name="android:windowNoTitle">false</item>
+		<item name="android:windowActionBar">true</item>
+	</style>
+	-->
+
+
+</resources>
