@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <color name="system_notification_accent_color">#FFF</color>
+	
+	<color name="notification_primary_text_color_light">#bbfff1</color>
+	<color name="notification_secondary_text_color_light">#fff</color>
+	
+	
+</resources>
