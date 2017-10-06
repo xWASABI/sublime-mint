@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- ARRAYS -->
+	<array name="letter_tile_colors">
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+    </array>
+   <array name="letter_tile_colors_dark">
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+	   <item>#606060</item>
+   </array>
+	<array name="customized_letter_tile_colors">
+		<item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+		<item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+	</array>
+	<array name="customized_letter_tile_colors_dark">
+		<item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+		<item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+        <item>#606060</item>
+	</array>
+
+	<!-- DRAWABLES -->
+	<item type="drawable" name="contact_popup_background">@*android:color/Indigo_700</item>
+
+</resources>

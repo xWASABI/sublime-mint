@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="message_text_color_outgoing">#DE000000</color>
+	<color name="chips_background_color">#606060</color>
+	<!-- ACCENT - TEAL_700 -->
+	<color name="compose_message_top_border_color">@*android:color/Teal_700</color>
+	<color name="message_bubble_color_outgoing">@*android:color/Teal_700</color>	
+	<color name="google_blue_800">@*android:color/Teal_700</color>
+	<color name="google_blue_grey_200">@*android:color/Teal_700</color>
+    <color name="google_blue_grey_400">@*android:color/Teal_700</color>
+    <color name="google_blue_grey_600">@*android:color/Teal_700</color>
+    <color name="google_blue_grey_900">@*android:color/Teal_700</color>
+	<color name="notification_accent_color">@*android:color/Teal_700</color>	
+	<color name="message_text_color_incoming_download_failed">@*android:color/Teal_700</color>    
+    <color name="message_text_counter_color">@*android:color/Teal_700</color>
+	<color name="conversation_list_item_unread">@*android:color/Teal_700</color>	
+    <color name="accent_material_dark">@*android:color/Teal_700</color>
+    <color name="accent_material_light">@*android:color/Teal_700</color>
+	<color name="contact_picker_tab_underline">@*android:color/Teal_700</color>
+	<color name="contact_list_alphabet_header">@*android:color/Teal_700</color>
+	<color name="conversation_list_timestamp">@*android:color/Teal_700</color>
+	<color name="background_item_selected">@*android:color/Teal_700</color>
+	
+	<!-- ACTION BAR - PINK_700 -->
+	<color name="letter_tile_default_primary_color">@*android:color/Pink_700</color>
+	<color name="archived_conversation_action_bar_background_color">@*android:color/Pink_700</color>
+    <color name="action_bar_background_color">@*android:color/Pink_700</color>
+	<color name="contact_picker_search_background">@*android:color/Pink_700</color>
+	<color name="contextual_action_bar_background_color">@*android:color/Pink_700</color>
+	<color name="compose_notification_bar_background">@*android:color/Pink_700</color>
+	<color name="background_item_activated">@*android:color/Pink_700</color>
+    <color name="background_item_pressed">@*android:color/Pink_700</color>
+	
+	<!-- STATUS BAR - RED_800 -->
+	<color name="letter_tile_default_secondary_color">@*android:color/Red_800</color>
+    <color name="action_bar_background_color_dark">@*android:color/Red_800</color> 
+    <color name="archived_conversation_action_bar_background_color_dark">@*android:color/Red_800</color>
+	
+	<!-- PRIMARY TEXT -->
+	<color name="top_contact_list_text_primary">#ffffff</color>	
+	<color name="google_blue_grey_800">#ffffff</color>
+	<color name="people_and_options_header_text">#Ffffff</color>
+	<color name="participant_list_text_primary">#ffffff</color>
+	<color name="message_text_color_incoming">#ffffff</color>
+	<color name="action_bar_title_text_color">#ffffff</color>
+	<color name="compose_send_text_color">#ffffff</color>
+    <color name="contact_list_text_primary">#ffffff</color>
+	<color name="compose_message_send_color">#ffffff</color>
+	
+	<!-- TEXT - BLUE_700 -->
+	<color name="contact_list_text_secondary">@*android:color/Blue_700</color>
+    <color name="conversation_list_item_read">#FFFFFF</color>
+	
+	<!-- TEXT - BLUE_800 -->
+	<color name="participant_list_text_secondary">@*android:color/Blue_800</color>
+	<color name="participant_list_add_people">@*android:color/Blue_800</color>
+	
+	<!-- BACKGROUND - INDIGO_700 -->
+	<color name="contact_picker_background">@*android:color/Indigo_700</color>
+    <color name="conversation_background">@*android:color/Indigo_700</color>
+	<color name="background_material_light">@*android:color/Indigo_700</color>	
+    <color name="background_floating_material_light">@*android:color/Indigo_700</color>
+	
+	<!-- BACKGROUND - INDIGO_800 -->
+	<color name="message_bubble_color_selected">@*android:color/Indigo_800</color>
+	
+	<!-- DRAWABLES -->
+	<color name="compose_message_background_color">@*android:color/Indigo_700</color>  
+	
+	<!-- MISC COLORS -->
+	<color name="message_image_selected_tint">#60000000</color>
+	<color name="conversation_compose_divider_start">@*android:color/Teal_700</color>
+	<color name="people_and_options_list_divider">#de000000</color>
+	
+</resources>

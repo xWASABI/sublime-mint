@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextStyle.PlusOne.BodyText.Grey" parent="@*com.google.android.apps.plus:style/TextStyle.PlusOne.BodyText">
+        <item name="android:textColor">@*android:color/Blue_800</item>
+		<item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextStyle.PlusOne.HeadlineText.Grey" parent="@*com.google.android.apps.plus:style/TextStyle.PlusOne.HeadlineText">
+        <item name="android:textColor">@*android:color/Blue_800</item>
+		<item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextStyle.PlusOne.SecondaryText.Grey" parent="@*com.google.android.apps.plus:style/TextStyle.PlusOne.SecondaryText">
+        <item name="android:textColor">@*android:color/Blue_800</item>
+		<item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextStyle.PlusOne.SubHeadText.Grey" parent="@*com.google.android.apps.plus:style/TextStyle.PlusOne.SubHeadText">
+        <item name="android:textColor">@*android:color/Blue_800</item>
+		<item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextStyle.PlusOne.TitleText.Light.Grey" parent="@*com.google.android.apps.plus:style/TextStyle.PlusOne.TitleText.Light">
+        <item name="android:textColor">@*android:color/Blue_800</item>
+		<item name="android:textStyle">bold</item>
+    </style>
+	    <style name="TextStyle.PlusOne.TitleText.Normal.Grey" parent="@*com.google.android.apps.plus:style/TextStyle.PlusOne.TitleText.Normal">
+			<item name="android:textColor">@*android:color/Blue_800</item>
+		<item name="android:textStyle">bold</item>
+    </style>
+	
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+  <!-- Update: 07.03.2017 -->
+  <color name="review_question_bg">@*android:color/Indigo_700</color>
+  <color name="highlight_banner_card_index_bg">@*android:color/Pink_700</color>
+  <color name="highlight_banner_card_text">@*android:color/Teal_700</color>
+  <color name="highlight_banner_overlay_title_shadow">@*android:color/Blue_700</color>
+	
+  <!-- Update: 04.26.2017 -->
+  <color name="flat_card_cluster_header_title_text_color">#FFFFFF</color>
+  <color name="flat_card_cluster_header_title_text_color_black">#FFFFFF</color>
+  <color name="flat_card_cluster_header_title_text_color_dark_theme">#FFFFFF</color>
+  <color name="flat_overflow_menu_fill_color">@*android:color/Teal_700</color>
+  <color name="flat_overflow_menu_fill_color_dark">@*android:color/Teal_700</color>
+  <color name="flat_overflow_menu_fill_color_dark_theme">@*android:color/Teal_700</color>
+  <color name="flat_card_stroke_color">@*android:color/Teal_700</color>
+  <color name="flat_card_subtitle_text_color">@*android:color/Teal_700</color>
+  <color name="flat_card_subtitle_text_color_dark_theme">@*android:color/Teal_700</color>
+  <color name="flat_card_title_text_color">@*android:color/Teal_700</color>
+  <color name="flat_card_title_text_color_dark_theme">#ffffffff</color>
+  
+  <!-- TESTING -->
+  <color name="play_header_list_banner_background_color">#ff000000</color>
+  <color name="play_header_list_tab_text_color">@*android:color/Indigo_800</color>
+  <color name="play_header_list_tab_pressed_bg_color">#40cccccc</color>
+  <color name="play_header_list_tab_ripple_color">@*android:color/Red_700</color>
+  <color name="play_header_list_tab_underline_color">@*android:color/Red_700</color>
+
+  <!-- PLAY MAIN COLORS -->
+  <color name="play_apps_primary_v2">@*android:color/Teal_700</color>
+  <color name="status_bar_apps_v2">@*android:color/Red_700</color>
+  <color name="play_apps_secondary_v2">@*android:color/Teal_700</color>
+  <color name="whatsnew_apps">@*android:color/Indigo_700</color>
+  <color name="whatsnew_apps_v2">@*android:color/Indigo_700</color>
+
+  <color name="play_movies_primary_v2">@*android:color/Teal_700</color>
+  <color name="status_bar_movies_v2">@*android:color/Red_700</color>
+  <color name="play_movies_secondary_v2">@*android:color/Teal_700</color>
+  <color name="whatsnew_movies">@*android:color/Indigo_700</color>
+  <color name="whatsnew_movies_v2">@*android:color/Indigo_700</color>
+
+  <color name="play_music_primary_v2">@*android:color/Teal_700</color>
+  <color name="status_bar_music_v2">@*android:color/Red_700</color>
+  <color name="play_music_secondary_v2">@*android:color/Teal_700</color>
+  <color name="whatsnew_music">@*android:color/Indigo_700</color>
+  <color name="whatsnew_music_v2">@*android:color/Indigo_700</color>
+
+  <color name="play_books_primary_v2">@*android:color/Teal_700</color>
+  <color name="status_bar_books_v2">@*android:color/Red_700</color>
+  <color name="play_books_secondary_v2">@*android:color/Teal_700</color>
+  <color name="whatsnew_books">@*android:color/Indigo_700</color>
+  <color name="whatsnew_books_v2">@*android:color/Indigo_700</color>
+
+  <color name="play_newsstand_primary_v2">@*android:color/Teal_700</color>
+  <color name="status_bar_newsstand_v2">@*android:color/Red_700</color>
+  <color name="play_newsstand_secondary_v2">@*android:color/Teal_700</color>
+  <color name="whatsnew_newsstand">@*android:color/Indigo_700</color>
+  <color name="whatsnew_newsstand_v2">@*android:color/Indigo_700</color>
+
+  <!-- ACCENT -->
+  <color name="play_icon_default">@*android:color/Teal_700</color>
+  <color name="play_icon_selected">@*android:color/Purple_700</color>
+  <color name="play_drawer_separator">@*android:color/Teal_700</color>
+  <color name="material_blue_grey_800">@*android:color/Teal_700</color>
+  <color name="material_deep_teal_200">@*android:color/Teal_700</color>
+  <color name="material_deep_teal_500">@*android:color/Teal_700</color>
+  <color name="play_highlight_blue_outline">@*android:color/Teal_700</color>
+  <color name="play_search_plate_navigation_button_color">@*android:color/Teal_700</color>
+  <color name="play_search_suggestion_divider_background">@*android:color/Teal_700</color>
+  <color name="detailed_permissions_footer_text">@*android:color/Teal_700</color>
+  <color name="details_review_source_text">@*android:color/Teal_700</color>
+  <color name="play_secondary_text_pressed">@*android:color/Teal_700</color>
+  <color name="play_translucent_separator_line">@*android:color/Teal_700</color>
+  <color name="purchase_button_icon_background">@*android:color/Teal_700</color>
+  <color name="purchase_flow_permission_learn_more_link">@*android:color/Teal_700</color>
+  <color name="play_search_plate_hint_text_color">@*android:color/Teal_700</color>
+  <color name="play_fg_tertiary">@*android:color/Teal_700</color>
+  <color name="play_fg_primary">@*android:color/Teal_700</color>
+  <color name="play_fg_secondary">@*android:color/Teal_700</color>
+  <color name="primary_text_default_material_light">@*android:color/Teal_700</color>
+  <color name="setup_wizard_navbar_text_dark">@*android:color/Teal_700</color>
+  <color name="primary_material_light">@*android:color/Teal_700</color>
+
+  <!-- STATUSBAR COLOR -->
+  <color name="play_search_overlay_color">@*android:color/Red_700</color>
+  <color name="status_bar_overlay">@*android:color/Red_700</color>
+  <color name="status_bar_apps">@*android:color/Red_800</color>
+  <color name="status_bar_books">@*android:color/Red_800</color>
+  <color name="status_bar_movies">@*android:color/Red_800</color>
+  <color name="status_bar_multi">@*android:color/Red_800</color>
+  <color name="status_bar_newsstand">@*android:color/Red_800</color>
+  <color name="status_bar_music">@*android:color/Red_800</color>
+  <color name="primary_dark_material_dark">@*android:color/Red_800</color>
+  <color name="primary_dark_material_light">@*android:color/Red_800</color>
+  <color name="primary_material_dark">@*android:color/Red_800</color>
+
+  <!-- ACTIONBAR COLOR -->
+  <color name="action_bar_overlay_start">@*android:color/Pink_700</color>
+  <color name="material_blue_grey_900">@*android:color/Pink_700</color>
+  <color name="material_blue_grey_950">@*android:color/Pink_700</color>
+
+  <!-- LIGHTER BACKGROUND COLOR  -->
+  <color name="flat_card_cluster_light_background">@*android:color/Indigo_700</color>
+  <color name="material_grey_50">@*android:color/Indigo_700</color>
+  <color name="white">@*android:color/Indigo_700</color>
+  <color name="action_bar_menu_color">@*android:color/Indigo_700</color>
+  <color name="play_card_light_background">@*android:color/Indigo_700</color>
+
+  <!-- DARKER BACKGROUND COLOR  -->
+  <color name="play_main_background">@*android:color/Indigo_800</color>
+  <color name="background_floating_material_light">@*android:color/Indigo_800</color>
+  <color name="play_white">@*android:color/Indigo_800</color>
+  <color name="bind__default_background">@*android:color/Indigo_800</color>
+  <color name="play_white_half_transparent">@*android:color/Indigo_800</color>
+
+  <!-- MISC COLORS -->
+	<color name="play_apps_secondary">@*android:color/Teal_700</color>
+    <color name="play_drawer_profile_overlay_shade">#37000000</color>
+	<color name="play_apps_primary">@*android:color/Teal_700</color>
+	<color name="play_apps_recents">@*android:color/Teal_700</color>
+	<color name="play_movies_primary">@*android:color/Teal_700</color>
+	<color name="play_movies_recents">@*android:color/Teal_700</color>
+	<color name="play_movies_secondary">@*android:color/Teal_700</color>
+	<color name="play_books_primary">@*android:color/Teal_700</color>
+	<color name="play_books_recents">@*android:color/Teal_700</color>
+	<color name="play_books_secondary">@*android:color/Teal_700</color>
+	<color name="play_newsstand_primary">@*android:color/Teal_700</color>
+	<color name="play_newsstand_recents">@*android:color/Teal_700</color>
+	<color name="play_newsstand_secondary">@*android:color/Teal_700</color>
+	<color name="play_music_primary">@*android:color/Teal_700</color>
+	<color name="play_music_recents">@*android:color/Teal_700</color>
+	<color name="play_music_secondary">@*android:color/Teal_700</color>
+	<color name="play_multi_primary">@*android:color/Teal_700</color>
+	<color name="play_multi_recents">@*android:color/Teal_700</color>
+	<color name="play_multi_secondary">@*android:color/Teal_700</color>
+  
+  <color name="secondary_text_default_material_light">#ffcdcdcd</color>
+	<color name="primary_text_default_material_dark">@*android:color/Indigo_800</color>
+  <color name="secondary_text_default_material_dark">#ffcdcdcd</color>
+  <color name="primary_text_disabled_material_light">#90cdcdcd</color>
+  <color name="secondary_text_disabled_material_light">#ffcdcdcd</color>
+  <color name="primary_text_disabled_material_dark">#90cdcdcd</color>
+  <color name="secondary_text_disabled_material_dark">#ffcdcdcd</color>
+  <color name="background_floating_material_dark">#ff424242</color>
+  <color name="red">#ffff4444</color>
+  <color name="your_review_label_bg_color">#80707070</color>
+  <!-- BUTTON BG -->
+  <color name="play_transparent">@android:color/transparent</color>
+
+</resources>

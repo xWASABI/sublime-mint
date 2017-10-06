@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsTheme" parent="@*com.android.vending:style/Theme.AppCompat">
+        <item name="android:windowBackground">@*android:color/Indigo_700</item>
+        <item name="*com.android.vending:colorPrimary">@*android:color/Pink_700</item>
+        <item name="*com.android.vending:colorPrimaryDark">@*android:color/Red_800</item>
+		<item name="android:statusBarColor">@*android:color/Red_800</item>
+	</style>
+	
+	<style name="PlaySearchBoxIdleText">
+		<item name="android:tint">@*android:color/Teal_700</item>
+		<item name="android:textColor">@*android:color/Teal_700</item>
+		<item name="android:paddingTop">@*com.android.vending:dimen/play_search_plate_idle_text_top_padding</item>
+		<item name="android:paddingBottom">@*com.android.vending:dimen/play_search_plate_idle_text_bottom_padding</item>
+		<item name="android:scaleType">fitCenter</item>
+	</style>
+	<style name="PlaySearchPlate">
+		<item name="android:background">@*android:color/Indigo_800</item>
+		<item name="android:paddingLeft">@*com.android.vending:dimen/play_search_plate_padding_side</item>
+		<item name="android:paddingRight">@*com.android.vending:dimen/play_search_plate_padding_side</item>
+	</style>
+	
+	<style name="PlayDrawerSelectedText" parent="@*com.android.vending:style/PlayDrawerBaseText">
+		<item name="android:textStyle">bold</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>
+	</style>
+	
+	<style name="PlayDrawerList">
+		<item name="android:background">@*android:color/Indigo_700</item>
+		<item name="android:fadingEdgeLength">0.0dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">0.0dip</item>
+		<item name="android:cacheColorHint">@*android:color/Indigo_700</item>
+		<item name="android:divider">@null</item>
+		<item name="android:choiceMode">none</item>
+		<item name="android:layout_weight">1.0</item>
+	</style>
+	
+	<style name="PlayMediumPlainText" parent="@*com.android.vending:style/PlayPlainText"/>
+	
+
+</resources>

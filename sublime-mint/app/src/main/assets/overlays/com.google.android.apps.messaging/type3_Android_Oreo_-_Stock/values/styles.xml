@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+
+	<style name="ConversationMessageText">
+		<item name="android:background">#f44</item>
+	</style>
+	<style name="ConversationMessageViewStyle">
+		<item name="android:backgroundTint">#ef1</item>
+		<item name="android:paddingStart">8.0dip</item>
+		<item name="android:paddingEnd">8.0dip</item>
+	</style>
+	
+</resources>

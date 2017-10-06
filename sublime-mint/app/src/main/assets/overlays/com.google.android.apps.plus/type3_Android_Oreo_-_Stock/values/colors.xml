@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	<color name="quantum_lightblue800">#ef1</color>
+	
+	<!-- MISC COLORS -->
+	<color name="acl_picker_selection_list_blue">#FFFFFF</color>
+	<color name="overlay_tint_dark">#ffffff</color>
+	<color name="tb_item_title_normal">#ffffffff</color>
+	<color name="text_white">#ffffffff</color>
+	<color name="text_red">#fffe1e03</color>
+	<color name="card_commenter_indicator">#ff4285f4</color>
+	<color name="card_event_divider">#ffeeeeee</color>
+	<color name="card_event_going">#ff99cc00</color>
+	<color name="card_event_maybe">#ff33b5e5</color>
+
+	<!-- BACKGROUND - INDIGO_800 -->
+	<color name="host_background">@*android:color/Indigo_800</color>
+	<color name="quantum_grey100">@*android:color/Indigo_800</color>
+	<color name="quantum_grey200">#202020</color>
+	
+	<!-- BACKGROUND - INDIGO_700 -->
+	<color name="quantum_grey50">@*android:color/Indigo_700</color>
+	<color name="one_up_divider">@*android:color/Indigo_700</color>
+	<color name="background_material_light">@*android:color/Indigo_700</color>
+	<color name="background_floating_material_light">@*android:color/Indigo_700</color>
+	
+	<!-- BACKGROUND CARDS -->
+	<color name="quantum_white_100">@*android:color/Indigo_700</color>
+	<color name="compose_empty_fg">@*android:color/Indigo_700</color>
+	<color name="compose_item_bg">@*android:color/Indigo_700</color>
+	<color name="default_bg">@*android:color/Indigo_700</color>
+	
+	<!-- ACTIONBAR - PINK_700 -->
+	<color name="quantum_lightblue500">@*android:color/Pink_700</color>
+	<color name="quantum_googred500">@*android:color/Pink_700</color>
+	<color name="quantum_googgreen500">@*android:color/Pink_700</color>
+	
+	<!-- STATUSBAR - RED_700 -->
+	<color name="quantum_lightblue700">@*android:color/Red_800</color>
+	<color name="status_bar_color">@*android:color/Red_800</color>
+	<color name="status_bar_background">@*android:color/Red_800</color>	
+	<color name="quantum_grey">@*android:color/Red_800</color>	
+	<color name="quantum_googgreen700">@*android:color/Red_800</color>
+	<color name="quantum_googred700">@*android:color/Red_800</color>
+	
+	<!-- PRIMARY TEXT -->
+	<color name="primary_text_default_material_light">@*android:color/Blue_700</color>
+	<color name="primary_text_default_material_dark">@*android:color/Blue_700</color>
+	<color name="primary_text_disabled_material_light">@*android:color/Blue_700</color>
+	<color name="primary_text_disabled_material_dark">@*android:color/Blue_700</color>
+	<color name="quantum_googgreen300">@*android:color/Blue_700</color>	
+	<color name="quantum_googgreen">@*android:color/Blue_700</color>
+	<color name="quantum_white_secondary_text">@*android:color/Blue_700</color>
+	<color name="quantum_white_text">@*android:color/Blue_700</color>
+	<color name="text_gray">@*android:color/Blue_700</color>
+	<color name="quantum_black_text">@*android:color/Blue_700</color>
+	<color name="text_normal">@*android:color/Blue_700</color>
+	<color name="text_hint">@*android:color/Blue_700</color>
+	<color name="quantum_googblue">@*android:color/Blue_700</color>
+	<color name="text_black_26_percent">@*android:color/Blue_700</color>
+	<color name="text_black_54_percent">@*android:color/Blue_700</color>
+	<color name="text_black_87_percent">@*android:color/Blue_700</color>
+	<color name="text_white_26_percent">@*android:color/Blue_700</color>
+	<color name="text_white_40_percent">@*android:color/Blue_700</color>
+	<color name="black_12">@*android:color/Blue_700</color>
+	<color name="black_alpha54">@*android:color/Blue_700</color>
+	<color name="black_alpha80">@*android:color/Blue_700</color>
+	<color name="quantum_black_100">@*android:color/Blue_700</color>
+	<color name="quantum_black_hint_text">@*android:color/Blue_700</color>
+	<color name="quantum_black_secondary_text">@*android:color/Blue_700</color>	
+	<color name="tb_item_title_disabled">@*android:color/Blue_700</color>
+	<color name="text_gray_accessible_on_grey200">@*android:color/Blue_700</color>
+	<color name="text_grey_accessible_on_grey200">@*android:color/Blue_700</color>
+	
+	<!-- SECONDARY TEXT -->
+	<color name="text_blue">@*android:color/Blue_800</color>
+	
+	<!-- MISC. TEXT -->
+	<color name="quantum_grey900">#999999</color>
+	<color name="quantum_black_divider">@*android:color/Teal_700</color>
+	<color name="tb_item_title_active">@*android:color/Teal_700</color>
+	<color name="solid_white">@*android:color/Teal_700</color>
+	<color name="quantum_grey400">@*android:color/Teal_700</color>
+	<color name="material_deep_teal_500">@*android:color/Teal_700</color>
+	<color name="quantum_googblue100">@*android:color/Teal_700</color>
+	<color name="quantum_googblue200">@*android:color/Teal_700</color>
+	<color name="quantum_googblue300">@*android:color/Teal_700</color>
+	<color name="quantum_googblue400">@*android:color/Teal_700</color>
+	<color name="quantum_googblue50">@*android:color/Teal_700</color>
+	<color name="quantum_googblue600">@*android:color/Teal_700</color>
+	<color name="quantum_googblue700">@*android:color/Teal_700</color>
+	<color name="quantum_googblue800">@*android:color/Teal_700</color>
+	<color name="quantum_googblue900">@*android:color/Teal_700</color>
+	<color name="quantum_googblueA100">@*android:color/Teal_700</color>
+	<color name="quantum_googblueA200">@*android:color/Teal_700</color>
+	<color name="quantum_googblueA400">@*android:color/Teal_700</color>
+	<color name="quantum_googblueA700">@*android:color/Teal_700</color>
+	<color name="quantum_googblue500">@*android:color/Teal_700</color>
+	<color name="acl_picker_section_divider">@*android:color/Teal_700</color>
+	<color name="common_action_bar_splitter">@*android:color/Teal_700</color>
+	
+	<!--
+	<color name="text_blue">#BBFFF1</color>
+	<color name="text_gray">#BBFFF1</color>
+	<color name="quantum_googgreen500">#BBFFF1</color>
+	<color name="solid_white">#BBFFF1</color>
+	<color name="quantum_grey400">#BBFFF1</color>
+	<color name="quantum_grey200">#BBFFF1</color>
+	<color name="quantum_googred500">#BBFFF1</color>
+	<color name="material_deep_teal_500">#BBFFF1</color>
+	<color name="quantum_googblue100">#BBFFF1</color>
+	<color name="quantum_googblue200">#BBFFF1</color>
+	<color name="quantum_googblue300">#BBFFF1</color>
+	<color name="quantum_googblue400">#BBFFF1</color>
+	<color name="quantum_googblue50">#BBFFF1</color>
+	<color name="quantum_googblue600">#BBFFF1</color>
+	<color name="quantum_googblue700">#BBFFF1</color>
+	<color name="quantum_googblue800">#BBFFF1</color>
+	<color name="quantum_googblue900">#BBFFF1</color>
+	<color name="quantum_googblueA100">#BBFFF1</color>
+	<color name="quantum_googblueA200">#BBFFF1</color>
+	<color name="quantum_googblueA400">#BBFFF1</color>
+	<color name="quantum_googblueA700">#BBFFF1</color>
+	<color name="quantum_googblue500">#BBFFF1</color>
+	<color name="quantum_grey900">#BBFFF1</color>
+	<color name="acl_picker_section_divider">#ffbbfff1</color>
+	<color name="common_action_bar_splitter">#ffbbfff1</color>
+	<color name="acl_picker_checkmark_color">#ffbbfff1</color>
+	<color name="acl_picker_search_text">#ffbbfff1</color>
+	<color name="acl_person_color">#ffbbfff1</color>
+	<color name="square_green_dark">#989898</color>
+	<color name="square_green_light">#989898</color>
+	<color name="quantum_white_100">#ffd3d3d3</color>
+	<color name="quantum_grey">#ffd3d3d3</color>
+	<color name="theme_primary">#ff212121</color>
+	<color name="action_bar_background">#ff212121</color>
+	<color name="quantum_lightblue500">#ff212121</color>
+	<color name="quantum_lightblue700">#ff212121</color>
+	<color name="quantum_grey500">#ff212121</color>
+	<color name="overlay_tint_dark">#ff212121</color>
+	<color name="square_moderator_badge_color">#ff212121</color>
+	<color name="material_grey_100">#ff131313</color>
+	<color name="host_background">#ff131313</color>
+	<color name="dim_overlay_color">#ff131313</color>
+	<color name="tile_background">#ff212121</color>
+	<color name="cardview_light_background">#ff181818</color>
+	<color name="quantum_grey50">#ff181818</color>
+	<color name="default_bg">#ff181818</color>
+	<color name="navigation_background">#ff181818</color>
+	<color name="navigation_selected_background">#ff212121</color>
+	<color name="no_notifications_view_background">#ff131313</color>
+	<color name="notification_item_background_unseen">#ff212121</color>
+	<color name="notification_bar_background">#ff131313</color>
+	<color name="notification_item_background_unread">#ff212121</color>
+	<color name="notification_item_background_read">#ff131313</color>
+	<color name="notification_divider">#ffbbfff1</color>
+	<color name="quantum_grey100">#ff181818</color>
+	<color name="poll_option_percent_bar_background_color">#ff181818</color>
+	<color name="poll_option_title_blue_background_color">#ff6bd2bf</color>
+	<color name="poll_option_title_black_background_color">#ff212121</color>
+	<color name="poll_option_image_separator_background_color">#ffbbfff1</color>
+	<color name="poll_divider">#ffbbfff1</color>
+	<color name="primary_text_default_material_light">#ffd3d3d3</color>
+	<color name="primary_text_default_material_dark">#ffd3d3d3</color>
+	<color name="primary_text_disabled_material_light">#ffd3d3d3</color>
+	<color name="primary_text_disabled_material_dark">#ffd3d3d3</color>
+	<color name="quantum_black_divider">#ffbbfff1</color>
+	<color name="quantum_white_text">#ffffffff</color>
+	<color name="tb_item_title_normal">#ffffffff</color>
+	<color name="quantum_black_text">#ff989898</color>
+	<color name="text_normal">#ffffffff</color>
+	<color name="text_white">#ffffffff</color>
+	<color name="quantum_white_secondary_text">#90ffffff</color>
+	<color name="tb_item_title_active">#ffbbfff1</color>
+	<color name="tb_item_title_disabled">#90ffffff</color>
+	<color name="text_black_26_percent">#90ffffff</color>
+	<color name="text_black_54_percent">#90ffffff</color>
+	<color name="text_black_87_percent">#90ffffff</color>
+	<color name="text_gray_accessible_on_grey200">#90ffffff</color>
+	<color name="text_grey_accessible_on_grey200">#90ffffff</color>
+	<color name="text_hint">#90ffffff</color>
+	<color name="text_red">#fffe1e03</color>
+	<color name="text_white_26_percent">#90ffffff</color>
+	<color name="text_white_40_percent">#90ffffff</color>
+	<color name="black_12">#90ffffff</color>
+	<color name="black_alpha54">#90ffffff</color>
+	<color name="black_alpha80">#90ffffff</color>
+	<color name="quantum_black_100">#90ffffff</color>
+	<color name="quantum_black_hint_text">#90ffffff</color>
+	<color name="quantum_black_secondary_text">#90ffffff</color>
+	<color name="card_commenter_indicator">#ff4285f4</color>
+	<color name="card_event_divider">#ffeeeeee</color>
+	<color name="card_event_going">#ff99cc00</color>
+	<color name="card_event_maybe">#ff33b5e5</color>
+	<color name="card_gray_spam_background">#ff404040</color>
+	<color name="card_links_image_border">#ffbf0c01</color>
+	<color name="card_separator">#ffe0e0e0</color>
+	<color name="cardview_shadow_end_color">#03000000</color>
+	<color name="cardview_shadow_start_color">#37000000</color>
+	<color name="compose_panel_bg">#ff131313</color>
+	<color name="compose_empty_fg">#ff131313</color>
+	<color name="compose_item_bg">#ff131313</color>
+	<color name="composebar_background_color">#ff212121</color>
+	<color name="container_header_background_color">#ff212121</color>
+	<color name="compose_location_list_item_bg">#ff131313</color>
+	<color name="compose_shadow">#ffd5d5d5</color>
+	<color name="composebar_background_alpha">#ffffffff</color>
+	<color name="contacts_sync_background_color">#ff131313</color>
+	<color name="contacts_sync_button_background_color">#ff131313</color>
+	<color name="contacts_sync_button_pressed_color">#ff212121</color>
+	<color name="contacts_sync_button_stroke">#ffeeeeee</color>
+	<color name="controls_pressed_bg">#44f1f1f1</color>
+	<color name="current_account_banner_bg">#ff4285f4</color>
+	-->
+</resources>

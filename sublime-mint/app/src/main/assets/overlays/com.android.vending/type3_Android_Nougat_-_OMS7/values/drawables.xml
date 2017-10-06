@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="action_bar_bg_home">@*android:color/Teal_700</item>
+    <item type="drawable" name="action_bar_bg_apps">@*android:color/Teal_700</item>
+    <item type="drawable" name="action_bar_bg_books">@*android:color/Teal_700</item>
+    <item type="drawable" name="action_bar_bg_movies">@*android:color/Teal_700</item>
+    <item type="drawable" name="action_bar_bg_music">@*android:color/Teal_700</item>
+    <item type="drawable" name="action_bar_bg_newsstand">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_newsstand_start">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_apps_start">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_books_start">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_movies_start">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_multi_start">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_music_start">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_newsstand">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_apps">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_books">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_movies">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_multi">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_music">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_newsstand_base">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_apps_base">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_books_base">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_movies_base">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_multi_base">@*android:color/Teal_700</item>
+    <item type="drawable" name="play_action_button_music_base">@*android:color/Teal_700</item>
+</resources>

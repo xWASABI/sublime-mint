@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="all_apps_container_color">@*android:color/Indigo_700</color>
+	<color name="all_apps_divider_color">@*android:color/Teal_700</color>
+	<color name="all_apps_caret_color">@*android:color/Teal_700</color>
+	<color name="all_apps_navbar_color">@*android:color/Indigo_700</color>
+	<color name="all_apps_caret_shadow_color">@*android:color/Teal_700</color>
+	<color name="quantum_panel_text_color">@*android:color/Teal_700</color>
+	<color name="quantum_panel_bg_color">@*android:color/Indigo_700</color>
+	<color name="page_indicator_dot_color">@*android:color/Teal_700</color>
+	<color name="outline_color">@*android:color/Teal_700</color>
+	<color name="qsb_background">@*android:color/Indigo_700</color>
+	
+	<color name="place_autocomplete_prediction_primary_text">@android:color/white</color>
+	<color name="place_autocomplete_prediction_primary_text_highlight">@*android:color/Purple_800</color>
+	<color name="place_autocomplete_prediction_secondary_text">@android:color/white</color>
+	<color name="place_autocomplete_search_hint">@*android:color/Teal_700</color>
+	<color name="place_autocomplete_search_text">@android:color/white</color>
+	<color name="place_autocomplete_separator">@*android:color/Teal_700</color>
+	
+    <color name="folder_edge_effect_color">@*android:color/Teal_700</color>
+	
+	<color name="widgets_view_section_text_color">#ffffffff</color>
+    <color name="widgets_view_item_text_color">#ffffff</color>
+</resources>

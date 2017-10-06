@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.plus.sharebox.MiniShareboxView 
+	android:orientation="horizontal"
+	android:background="#00000000"
+	android:id="@*com.google.android.apps.plus:id/mini_sharebox" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+	android:gravity="center_vertical" 
+	android:layout_margin="10dp"
+	android:orientation="horizontal"
+	android:id="@*com.google.android.apps.plus:id/mini_sharebox_container"
+	android:background="@*com.google.android.apps.plus:drawable/bg_mini_sharebox_ripple" 
+	android:padding="@*com.google.android.apps.plus:dimen/mini_sharebox_card_padding"
+	android:clickable="true" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="@*com.google.android.apps.plus:dimen/mini_sharebox_elevation_2">
+<com.google.android.libraries.social.avatars.ui.AvatarView 
+	android:id="@*com.google.android.apps.plus:id/avatar"
+	android:focusable="false" 
+	android:layout_width="@*com.google.android.apps.plus:dimen/mini_sharebox_avatar_size" 
+	android:layout_height="@*com.google.android.apps.plus:dimen/mini_sharebox_avatar_size" 
+	size="small"
+	shape="round" />
+<TextView 
+	android:textSize="@*com.google.android.apps.plus:dimen/text_size_14" 
+	android:padding="@*com.google.android.apps.plus:dimen/mini_sharebox_content_padding"
+	android:focusable="false"
+	android:layout_width="0.0dip"
+	android:layout_height="wrap_content" 
+	android:text="@*com.google.android.apps.plus:string/mini_sharebox_hint"
+	android:layout_weight="1.0"
+	style="@*com.google.android.apps.plus:style/TextRegular.Gray.16" />
+<LinearLayout
+	android:id="@*com.google.android.apps.plus:id/mini_sharebox_camera_container" 
+	android:padding="@*com.google.android.apps.plus:dimen/mini_sharebox_padding_4" 
+	android:focusable="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:contentDescription="@*com.google.android.apps.plus:string/mini_sharebox_photo_content_desc">
+ <ImageButton 
+	 android:id="@*com.google.android.apps.plus:id/mini_sharebox_camera"  
+	 android:background="@*com.google.android.apps.plus:drawable/grey_round_button"
+	 android:padding="@*com.google.android.apps.plus:dimen/mini_sharebox_content_padding" 
+	 android:layout_width="wrap_content" 
+	 android:layout_height="wrap_content" 
+	 android:src="@*com.google.android.apps.plus:drawable/quantum_ic_camera_alt_grey600_24" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.apps.plus.sharebox.MiniShareboxView>

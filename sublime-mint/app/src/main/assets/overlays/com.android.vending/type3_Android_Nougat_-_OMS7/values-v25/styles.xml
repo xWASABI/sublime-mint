@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
+        <item name="android:colorBackground">@*android:color/Indigo_800</item>
+		<!-- POPUP OVERFLOW MENU -->	
+		<item name="android:itemBackground">@*android:color/Indigo_800</item>
+    </style>
+</resources>

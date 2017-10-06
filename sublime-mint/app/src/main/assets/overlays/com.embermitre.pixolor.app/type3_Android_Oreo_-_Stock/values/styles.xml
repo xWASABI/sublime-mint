@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="colorAccent" format="color"/>
+	<attr name="colorPrimary" format="color"/>
+	<attr name="colorPrimaryDark" format="color"/>
+	
+	<!-- STYLES -->
+	<style name="AppTheme" parent="@*com.embermitre.pixolor.app:style/Theme.AppCompat">
+		<item name="colorAccent">@*android:color/Teal_700</item>
+		<item name="colorPrimary">@*android:color/Pink_700</item>
+		<item name="colorPrimaryDark">@*android:color/Red_700</item>
+		<item name="android:statusBarColor">@*android:color/Red_700</item>
+		<item name="android:listDivider">@null</item>
+	</style>	
+	
+</resources>
