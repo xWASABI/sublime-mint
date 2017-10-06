@@ -1,0 +1,11 @@
+<resources>
+    <string name="ThemeName"><b>Sublime Mint</b></string>
+    <string name="ThemeAuthor">by Branden M</string>
+    <string-array name="ThemeChangelog">
+        <item>Updated AOSP Dialer Oreo Varient</item>
+        <item>Updated AOSP Messaging Oreo Varient</item>
+        <item>Updated SystemUI/Settings Oreo Varient</item>
+        <item>Updated Substratum Oreo Varient</item>
+        <item>Rework theme options</item>
+    </string-array>
+</resources>
