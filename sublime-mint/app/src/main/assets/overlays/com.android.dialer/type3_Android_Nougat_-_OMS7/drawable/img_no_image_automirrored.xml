@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+  
+	<!-- TOP GRADIENT -->
+	<item
+		android:bottom="-310dp"
+		android:top="0dp"
+		android:left="0dp"
+		android:right="0dp">
+		<shape android:shape="rectangle">
+			<corners android:radius="0.0dip" />
+            <gradient 
+				android:startColor="@*android:color/Teal_700" 
+				android:endColor="@*android:color/Indigo_800"
+				android:angle="90.0" 
+				android:type="linear" 
+				android:centerY="0.5"
+				android:centerColor="@*android:color/Indigo_800" />
+
+		</shape>
+    </item>
+	<item>
+		<vector
+			android:width="62dp"
+			android:height="62dp"
+			android:viewportWidth="102"
+			android:viewportHeight="102">
+
+			<group
+				android:translateX="19.5"
+				android:translateY="16">
+			
+			<path
+				android:strokeColor="@*android:color/Teal_700"
+				android:strokeWidth=".25"
+				android:fillColor="@*android:color/Purple_700"
+				android:pathData="M19.375 11.625c0-6.42 5.205-11.625 11.625-11.625s11.625 5.205 11.625 11.625c0
+				6.42-5.205 11.625-11.625 11.625s-11.625-5.205-11.625-11.625zM46.505
+				27.125h-2.145l-12.055 24.476 4.508-22.538-5.813-5.813-5.813 5.813 4.508
+				22.538-12.055-24.476h-2.145c-7.745 0-7.745 5.206-7.745
+				11.625v19.375h46.5v-19.375c0-6.419 0-11.625-7.745-11.625z" />
+			
+			</group>
+		</vector>
+	</item>
+	
+	
+	
+</layer-list>

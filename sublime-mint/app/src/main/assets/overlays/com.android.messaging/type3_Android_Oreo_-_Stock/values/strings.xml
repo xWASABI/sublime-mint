@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+
+    <!-- Preference category: MMS messaging -->
+    <string name="mms_messaging_category_pref_title"><font color="#ffffff">MMS</font></string>
+    <!-- Preference category: Advanced -->
+    <string name="advanced_category_pref_title"><font color="#ffffff">ADVANCED</font></string>
+	
+</resources>

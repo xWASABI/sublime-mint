@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+    <style name="Platform.AppCompat" parent="@style/Platform.V25.AppCompat" />
+    <style name="Platform.AppCompat.Light" parent="@style/Platform.V25.AppCompat.Light" />
+    <style name="LauncherTheme" parent="@android:style/Theme.NoDisplay" />
+	-->
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.NoActionBar">
+    
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textColorPrimary">@android:color/white</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+	
+	</style>
+	
+	<style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
+		
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textColorPrimary">@android:color/white</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>
+
+	</style>
+		
+</resources>

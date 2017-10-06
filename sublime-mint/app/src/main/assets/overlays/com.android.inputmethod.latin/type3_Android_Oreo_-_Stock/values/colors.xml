@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <!-- // MISC. COLORS // -->
+    <color name="key_text_color_lxx_light">#ffffffff</color>
+    <color name="suggested_word_color_lxx_light">#ffcdcdcd</color>
+    <color name="auto_correct_color_lxx_light">#ffffffff</color>
+    <color name="sliding_key_input_preview_color_lxx_light">#b380cbc4</color>
+    <color name="key_text_inactive_color_lxx_light">#ffcdcdcd</color>
+    <color name="gesture_floating_preview_color_lxx_light">#992f2f2f</color>
+	<color name="setup_background">#ffebebeb</color>
+    <color name="setup_text_dark">#ff707070</color>
+    <color name="setup_text_action">@android:color/holo_blue_light</color>
+    <color name="setup_step_background">@android:color/background_light</color>
+    <color name="setup_welcome_video_margin_color">#ffcccccc</color>
+    <color name="notification_accent_color">#ff607d8b</color>
+    <color name="highlight_color_ics">#ff33b5e5</color>
+    <color name="typed_word_color_ics">#d833b5e5</color>
+    <color name="suggested_word_color_ics">#b233b5e5</color>
+    <color name="highlight_translucent_color_ics">#9933b5e5</color>
+    <color name="key_text_color_holo">@android:color/white</color>
+    <color name="key_text_inactivated_color_holo">#66e0e4e5</color>
+    <color name="key_hint_letter_color_holo">#80000000</color>
+    <color name="key_hint_label_color_holo">#a0ffffff</color>
+    <color name="key_shifted_letter_hint_inactivated_color_holo">#66e0e4e5</color>
+    <color name="key_shifted_letter_hint_activated_color_holo">@android:color/white</color>
+    <color name="spacebar_text_color_holo">#ffc0c0c0</color>
+    <color name="spacebar_text_shadow_color_holo">#80000000</color>
+    <color name="gesture_floating_preview_color_holo">#c0000000</color>
+    <color name="emoji_tab_page_indicator_background_holo">#ff111111</color>
+    <color name="highlight_color_klp">#fff0f0f0</color>
+    <color name="typed_word_color_klp">#d8f0f0f0</color>
+    <color name="suggested_word_color_klp">#b2f0f0f0</color>
+    <color name="highlight_translucent_color_klp">#99e0e0e0</color>
+    <color name="key_text_color_lxx_dark">#ffffffff</color>
+    <color name="suggested_word_color_lxx_dark">#ffcdcdcd</color>
+    <color name="auto_correct_color_lxx_dark">#ffffffff</color>
+    <color name="key_text_inactive_color_lxx_dark">#ffcdcdcd</color>
+    <color name="sliding_key_input_preview_color_lxx_dark">#b380cbc4</color>
+    <color name="gesture_floating_preview_color_lxx_dark">#992f2f2f</color>
+    <!-- // TRANSPARENT // -->
+    <color name="highlight_color_lxx_light">#00000000</color>
+    <color name="key_background_lxx_light">#00000000</color>
+	<color name="emoji_tab_page_indicator_background_lxx_dark">#00000000</color>
+	<color name="emoji_tab_page_indicator_background_lxx_light">#00000000</color>
+	<color name="key_background_lxx_dark">#00000000</color>
+	<color name="highlight_color_lxx_dark">#00000000</color>
+	<!-- // ACCENT COLOR// -->
+	<color name="typed_word_color_lxx_light">@*android:color/Teal_700</color>
+	<color name="key_hint_letter_color_lxx_light">@*android:color/Teal_700</color>
+	<color name="key_functional_text_color_lxx_light">@*android:color/Teal_700</color>
+	<color name="language_on_spacebar_text_color_lxx_light">@*android:color/Teal_700</color>
+	<color name="gesture_trail_color_lxx_light">@*android:color/Teal_700</color>
+	<color name="language_on_spacebar_text_color_lxx_dark">#ffbbfff1</color>
+    <color name="gesture_trail_color_lxx_dark">@*android:color/Teal_700</color>
+	<color name="key_functional_text_color_lxx_dark">@*android:color/Teal_700</color>
+	<color name="key_hint_letter_color_lxx_dark">@*android:color/Teal_700</color>
+    <color name="typed_word_color_lxx_dark">@*android:color/Teal_700</color>
+	<!-- // ACTIONBAR/STATUSBAR COLOR // -->
+	<color name="suggested_word_background_selected_lxx_light">@*android:color/Pink_700</color>
+    <color name="key_background_pressed_lxx_light">@*android:color/Pink_700</color>
+	<color name="key_background_pressed_lxx_dark">@*android:color/Pink_700</color>
+	<color name="suggested_word_background_selected_lxx_dark">@*android:color/Pink_700</color>
+	
+</resources>

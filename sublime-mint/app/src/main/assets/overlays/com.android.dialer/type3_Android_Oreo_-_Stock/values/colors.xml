@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- In-call UI background color. -->
+    <color name="incall_background_color">#FFFFFF</color>
+    <color name="incall_accent_color">#ffffff</color>
+
+    <!-- Background color of main banner. -->
+    <color name="incall_call_banner_background_color">@*android:color/Pink_700</color>
+    <color name="incall_call_banner_text_color">#ffffff</color>
+    <!-- 100% opacity, white -->
+    <color name="incall_call_banner_subtext_color">#ffffff</color>
+    <color name="incall_banner_secondary_background_color">#f5f5f5</color>
+    <color name="incall_banner_secondary_text_color">#333333</color>
+    <color name="incall_photo_background_color">#545454</color>
+	
+	
+	<color name="undo_dialogue_text_color">#F44</color>
+    <color name="exposed_dialpad_fragment">#EF1</color>
+	<color name="dialer_theme_color_dark">@*android:color/Pink_700</color>
+	<color name="actionbar_background_color_dark">@*android:color/Red_700</color>
+	<!-- TEXT WHITE -->
+	<color name="call_log_detail_color">@android:color/white</color>
+	<color name="call_log_action_color">@android:color/white</color>
+	<color name="incall_action_bar_background_color">@android:color/white</color>
+    <color name="incall_action_bar_text_color">@android:color/white</color>
+	<color name="nofavorite_text_color">@android:color/white</color>
+    <color name="setting_primary_color">@android:color/white</color>
+    <color name="dialpad_digits_text_color">@android:color/white</color>
+    <color name="empty_list_text_color">@android:color/white</color>
+    <color name="dialtacts_primary_text_color">@android:color/white</color>
+    <color name="call_log_extras_text_color">@android:color/white</color>
+	<color name="exposed_primary_text_dark">@android:color/white</color>
+    <color name="remove_text_color">@android:color/white</color>
+	
+	<!-- MISC COLORS -->	
+	<color name="call_log_primary_color">#FFFFFF</color>
+    <color name="incall_dialpad_background">@*android:color/Indigo_700</color>
+	
+    <color name="dialtacts_theme_color">@*android:color/Teal_700</color>
+	<color name="selectable_icon_tint">#F44</color>
+	<color name="searchbox_icon_tint">@*android:color/Teal_700</color>
+    <color name="actionbar_icon_color">#ffffffff</color>
+    <color name="missed_call">#ffee0b20</color>
+    <color name="call_log_action_text">#ffffffff</color>
+    <color name="recent_call_log_item_phone_icon_tint">#ffffffff</color>
+    <color name="dialpad_voicemail_tint">#ffffffff</color>
+    <color name="call_log_primary_text_color">#ff64fc00</color>
+    <color name="call_log_secondary_text_color">#ff0ffef3</color>
+    <color name="dialpad_secondary_text_color">#70ffffff</color>
+	<color name="setting_secondary_color">#70ffffff</color>
+	
+	<!-- BACKGROUND - INDIGO_800; #131313; #000000 -->
+    <color name="background_white">@*android:color/Indigo_800</color>
+    <color name="setting_background_color">@*android:color/Indigo_800</color>
+    <color name="background_dialer_light">@*android:color/Indigo_700</color>
+	
+	<color name="searchbox_background_color">@*android:color/Indigo_800</color>
+	<color name="background_dialer_results">@*android:color/Indigo_800</color>
+	<color name="background_dialer_list_items">@*android:color/Indigo_800</color>
+    <color name="background_dialer_details_list_items">@*android:color/Indigo_800</color>
+	<!-- BACKGROUND - INDIGO_800; #131313; #000000 -->
+	<color name="background_dialpad">@*android:color/Indigo_700</color>
+	<!-- ACCENT - TEAL_700 -->
+ 	<color name="call_log_day_group_heading_color">@*android:color/Teal_700</color>
+	<color name="letter_tile_font_color">@*android:color/Teal_700</color>
+	<color name="dialer_green_highlight_color">@*android:color/Teal_700</color>
+    <color name="glowpad_end_call_widget_normal_tint">@*android:color/Teal_700</color>
+    <color name="glowpad_text_widget_normal_tint">@*android:color/Teal_700</color>
+    <color name="glowpad_call_widget_normal_tint">@*android:color/Teal_700</color>
+	<color name="favorite_contacts_separator_color">@*android:color/Teal_700</color>
+	<color name="dialtacts_secondary_text_color">@*android:color/Teal_700</color>
+    <color name="incall_dialpad_touch_tint">@*android:color/Teal_700</color>
+    <color name="dialer_dialpad_touch_tint">@*android:color/Teal_700</color>
+    <color name="searchbox_hint_text_color">@*android:color/Teal_700</color>
+    <color name="search_shortcut_icon_color">@*android:color/Teal_700</color>
+	<color name="contact_list_name_text_color">#FFFFFF</color>
+    <color name="contact_tile_name_color">#A8A8A8</color>
+    <color name="dialpad_icon_tint">@*android:color/Teal_700</color>
+	<color name="dialpad_primary_text_color">@*android:color/Teal_700</color>
+	<color name="tab_selected_underline_color">@*android:color/Teal_700</color>
+    <color name="answered_call">@*android:color/Teal_700</color>
+	<color name="button_selected_color">@*android:color/Teal_700</color>
+	
+    <!-- ACTIONBAR -->
+	<color name="dialer_theme_color">@*android:color/Blue_700</color>
+    <color name="actionbar_background_color">@*android:color/Pink_700</color>
+    <color name="letter_tile_default_color">@*android:color/Pink_700</color>
+	<color name="call_log_expanded_background_color">@*android:color/Pink_700</color>
+    <color name="searchbox_text_color">@*android:color/Pink_700</color>
+    <color name="exposed_secondary_bg_color">@*android:color/Pink_700</color>
+    <color name="search_shortcut_background_color">@*android:color/Pink_700</color>
+	<color name="background_dialer_white">@*android:color/Pink_700</color>
+	
+ 
+	
+</resources>

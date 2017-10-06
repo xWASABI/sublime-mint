@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	
+	<color name="group_list_background_color">@*android:color/Indigo_700</color>
+	
+	
+	<color name="expanding_entry_card_item_separator_color">#F44</color>
+    <color name="expanding_entry_card_button_text_color">#EF1</color>
+    <color name="expanding_entry_card_background_color">#F1F</color>
+	<color name="quickcontact_entry_sub_header_text_color">#CDCDCD</color>
+    <color name="quickcontact_entry_header_text_color">#FFFFFF</color>
+	
+	<color name="list_item_pinned_header_color">@*android:color/Indigo_700</color>
+	
+	<color name="divider_line_color_light">#00000000</color>
+    <!-- BACKGROUND; INDIGO_700; #131313; #000000 -->
+    <color name="holo_list_background_color">@*android:color/Indigo_700</color>
+    <color name="background_dialpad">@*android:color/Indigo_700</color>
+    <color name="background_primary">@*android:color/Indigo_700</color>
+    <color name="contact_all_list_background_color">@*android:color/Indigo_700</color>
+    <color name="exposed_bg_dark">@*android:color/Indigo_700</color>
+	<color name="card_margin_color">@*android:color/Indigo_700</color>
+    <!-- BACKGROUND; INDIGO_800; #181818; #000000 -->
+	<!-- ACTION BAR - PINK_700; -->
+    <color name="cardview_light_background">@*android:color/Pink_700</color>
+    <color name="cardview_dark_background">@*android:color/Pink_700</color>
+    <color name="dialer_theme_color">@*android:color/Pink_700</color>
+	<color name="primary_color">@*android:color/Pink_700</color>
+	<color name="actionbar_background_color">@*android:color/Pink_700</color>
+	<color name="searchbox_background_color">@*android:color/Pink_700</color>
+	<color name="people_app_theme_color">@*android:color/Pink_700</color>
+	<color name="action_bar_background">@*android:color/Pink_700</color>
+	<color name="search_shortcut_background_color">@*android:color/Pink_700</color>
+	
+	<!-- STATUS BAR - RED_800; -->
+    <color name="dialer_theme_color_dark">@*android:color/Red_800</color>
+	<color name="primary_color_dark">@*android:color/Red_800</color>
+    <color name="actionbar_background_color_dark">@*android:color/Red_800</color>
+	<!-- ACCENT COLOR - TEAL_700; -->
+	<color name="dialtacts_theme_color">@*android:color/Teal_700</color>
+	<color name="section_header_text_color">@*android:color/Teal_700</color>
+	<color name="text_highlight_color">@*android:color/Purple_700</color>
+	
+	<color name="quickcontact_default_photo_tint_color">@*android:color/Indigo_800</color>
+    <color name="quickcontact_default_photo_tint_color_dark">@*android:color/Indigo_800</color>
+    <color name="letter_tile_default_color">@*android:color/Indigo_800</color>
+    <color name="letter_tile_font_color">#ffffffff</color>
+	
+	<!-- TEXT COLOR -->
+	<color name="searchbox_text_color">#ffffffff</color>
+    <color name="searchbox_hint_text_color">#9F9F9F</color>
+    <color name="searchbox_icon_tint">#ffffffff</color>
+    <color name="search_shortcut_icon_color">#ffffffff</color>
+    <color name="background_dialpad_pressed">#ff777777</color>
+    <color name="dialpad_primary_text_color">#ffffffff</color>
+    <color name="dialpad_secondary_text_color">#ffdddddd</color>
+    <color name="dialpad_digits_text_color">#ffffffff</color>
+    <color name="dialpad_separator_line_color">#ffaaaaaa</color>
+    <color name="dialpad_icon_tint">#ffdddddd</color>
+    <color name="dialpad_voicemail_tint">#ffdddddd</color>
+    <color name="primary_text_color">#ffffffff</color>
+    <color name="secondary_text_color">#ffdddddd</color>
+    <color name="secondary_header_separator_color">#ffaaaaaa</color>
+    <color name="image_placeholder">#ff333333</color>
+    <color name="dialtacts_secondary_text_color">#ffdddddd</color>
+    <color name="people_contact_tile_status_color">#ffffffff</color>
+    <color name="contact_tile_text_color">#ffffffff</color>
+    <color name="starred_quick_contact_name_text_color">#ffffffff</color>
+    <color name="frequent_contact_text_color">#ffffffff</color>
+    <color name="exposed_primary_text_light">#ffffffff</color>
+    <color name="exposed_primary_text_dark">#ffffffff</color>
+   
+    <color name="background_social_updates">#ff111111</color>
+    <color name="action_bar_background_highlight">#ff555555</color>
+    <color name="contextual_selection_bar_color">#ff111111</color>
+    <color name="contextual_selection_bar_status_bar_color">#ff000000</color>
+    
+    <color name="call_arrow_green">#ff388e3c</color>
+    <color name="call_arrow_red">#ffd32f2f</color>
+    
+    <color name="editor_icon_color">#ffffffff</color>
+    <color name="editor_disabled_text_color">#40ffffff</color>
+    <color name="text_color_white">#ffffffff</color>
+    <color name="editor_account_header_bg">#ff111111</color>
+    <color name="list_item_name_text_color">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="contacts_action_bar_text_hint">#ffdddddd</color>
+    <color name="contacts_action_bar_text_color">#ffffffff</color>
+    <color name="section_divider_bg">#ffaaaaaa</color>
+    <color name="edit_kind_text_appearance_text_color">#ffffffff</color>
+    <color name="exposed_account_header_bg">#ff111111</color>
+    <color name="exposed_contact_list_name_text_color">#ffffffff</color>
+    <color name="exposed_ContactsActionBarTheme_hint">#ffdddddd</color>
+    <color name="exposed_ContactsActionBarTheme_text">#ffffffff</color>
+    <color name="exposed_SectionDivider">#ffaaaaaa</color>
+    <color name="exposed_EditKindTextAppearanceStyle">#ffffffff</color>
+    <color name="call_log_primary_color">#ffffffff</color>
+    <color name="call_log_detail_color">#ffffffff</color>
+    <color name="account_type_name_text_color">#ffffffff</color>
+    <color name="shortcut_overlay_text_background">#7fffffff</color>
+    <color name="contact_list_name_text_color">#ffffffff</color>
+    <color name="dialtacts_primary_text_color">#ffffffff</color>
+    <color name="frequently_contacted_title_color">#ffffffff</color>
+	
+</resources>

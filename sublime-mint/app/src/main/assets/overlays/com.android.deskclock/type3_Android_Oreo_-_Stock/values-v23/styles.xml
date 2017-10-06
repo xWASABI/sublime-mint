@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<attr name="colorAccent" format="color" />
+	<attr name="colorBackgroundFloating" format="color" />
+	<attr name="colorControlActivated" format="color" />
+	<attr name="colorControlNormal" format="color" />
+	<attr name="colorPrimaryDark" format="color" />
+	<attr name="popupTheme" format="reference" />
+	<attr name="imageButtonStyle" format="reference" />
+		
+	<style name="Theme.DeskClock" parent="*com.android.deskclock:style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColor">#fff</item>
+		<item name="android:textColorPrimary">@*android:color/Teal_700</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:windowShowWallpaper">@*android:bool/config_windowIsRound</item>
+		
+		<item name="android:colorBackgroundFloating">?*android:attr/colorBackgroundFloating</item>
+        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+        <item name="android:popupTheme">?*android:attr/popupTheme</item>
+        <item name="android:timePickerStyle">@*com.android.deskclock:style/Widget.TimePicker</item>
+         <item name="android:windowContentOverlay">@null</item>
+
+        <item name="*com.android.deskclock:colorAccent">@*android:color/Teal_700</item>
+        <item name="*com.android.deskclock:colorBackgroundFloating">#303030</item>
+        <item name="*com.android.deskclock:colorControlActivated">@android:color/white</item>
+        <item name="*com.android.deskclock:colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="*com.android.deskclock:colorPrimaryDark">#66000000</item>
+        <item name="*com.android.deskclock:imageButtonStyle">@*com.android.deskclock:style/Widget.ImageButton</item>
+        <item name="*com.android.deskclock:popupTheme">@*com.android.deskclock:style/ThemeOverlay.Popup</item>
+    </style>
+	
+	<style name="PopupMenu" parent="@android:style/Theme.Material" />
+	<style name="DeskClockDropDownListView" parent="@android:style/Widget.Material.ListView.DropDown">
+		<item name="android:background">@*android:color/Indigo_800</item>
+	</style>
+	<style name="TimePickerTheme" parent="@android:style/Theme.Material.Dialog">
+		<item name="android:colorAccent">#00000000</item>
+		<item name="android:textColor">#ffffff</item>
+    </style>
+	
+</resources>

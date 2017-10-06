@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <style name="Theme.Settings" parent="@*android:style/Theme.Material.DialogWhenLarge">   
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+		<item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+        <item name="android:colorAccent">@*android:color/Teal_700</item>
+    </style>
+    <style name="SettingsLight" parent="@*android:style/Theme.Material">
+       	<item name="android:textColor">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+		<item name="android:actionMenuTextColor">#ffffffff</item>
+		<item name="android:colorForeground">#00000000</item>
+        <item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:statusBarColor">@*android:color/Indigo_800</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+        <item name="android:colorAccent">@*android:color/Teal_700</item>
+    </style>
+    <style name="DialerAlertDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:colorAccent">@*android:color/Teal_700</item>
+    </style>
+    <style name="NetworkOperatorsSettingsTheme" parent="@*android:style/Theme.Material">
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+		<item name="android:colorForeground">#00000000</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+        <item name="android:colorPrimaryDark">@*android:color/Indigo_800</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+        <item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+    </style>
+    <style name="EmergencyDialerTheme" parent="@*android:style/Theme.Material">
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+		<item name="android:colorForeground">#00000000</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+        <item name="android:colorPrimaryDark">@*android:color/Indigo_800</item>
+        <item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+    </style>
+    <style name="SimImportTheme" parent="@*android:style/Theme.Material">
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+		<item name="android:colorForeground">#00000000</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+        <item name="android:colorPrimaryDark">@*android:color/Indigo_800</item>
+        <item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+    </style>
+    <style name="Theme.Material.Settings" parent="@*android:style/Theme.Material">
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+	</style>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CHROME 60 
+<android.support.v4.widget.DrawerLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent">
+	<org.chromium.chrome.browser.widget.selection.SelectableListLayout
+		android:id="@*com.android.chrome:id/selectable_list" 
+		android:background="@*android:color/Indigo_700"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent" />
+    <LinearLayout
+		android:layout_gravity="start" 
+		android:orientation="vertical" 
+		android:id="@*com.android.chrome:id/drawer_layout" 
+		android:background="@*android:color/Indigo_700" 
+		android:paddingTop="@*com.android.chrome:dimen/drawer_margin_large"
+		android:layout_width="@*com.android.chrome:dimen/drawer_width" 
+		android:layout_height="match_parent">
+    <include layout="@*com.android.chrome:layout/download_manager_ui_space_widget" />
+    <ListView
+		android:id="@*com.android.chrome:id/section_list" 
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:divider="#f44"
+		android:dividerHeight="0dp" 
+		android:layout_weight="1" />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
+-->
+<!-- CHROME 61 -->
+<org.chromium.chrome.browser.widget.selection.SelectableListLayout 
+	android:id="@*com.android.chrome:id/selectable_list"
+	android:background="@*android:color/Pink_700" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" />

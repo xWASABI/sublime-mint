@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.DialogWhenLarge"
+		parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar">	
+		<item name="android:windowBackground">@*android:color/Indigo_800</item>
+		<item name="android:statusBarColor">@*android:color/Red_800</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_800</item>	
+		<item name="android:textAppearanceMedium">@*android:style/TextAppearance.Material.Title</item>
+		<item name="android:textAppearanceSmall">@*android:style/TextAppearance.Material.Title</item>
+		<item name="android:titleTextStyle">@*android:style/TextAppearance.Material.Title</item>
+	</style>
+</resources>

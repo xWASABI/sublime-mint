@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.omnibox.UrlBar 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:textSize="14sp"
+	android:gravity="center"
+	android:layout_gravity="start"
+	android:id="@*com.android.chrome:id/url_bar" 
+	android:background="@android:color/transparent" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:hint="@*com.android.chrome:string/search_or_type_url" 
+	android:singleLine="true" 
+	android:inputType="text" 
+	android:imeOptions="actionSend" />

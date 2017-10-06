@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<attr name="windowActionBar" format="boolean" />
+    <attr name="windowNoTitle" format="boolean" />
+
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+
+	<attr name="behavior_peekHeight" format="dimension"/>
+	<attr name="behavior_hideable" format="boolean"/>
+	<attr name="behavior_skipCollapsed" format="boolean"/>
+
+</resources>

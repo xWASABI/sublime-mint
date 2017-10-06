@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="delete_target_hover_tint">#FFC1C1C1</color>
+    <color name="uninstall_target_hover_tint">#FFF0592B</color>
+
+    <color name="focused_background">#80c6c5c5</color>
+
+    <color name="workspace_icon_text_color">#FFF</color>
+
+    <color name="workspace_edge_effect_color">#FFFFFFFF</color>
+    <color name="folder_edge_effect_color">#FF757575</color>
+    <color name="page_indicator_dot_color">#FFDDDDDD</color>
+
+    <color name="quantum_panel_text_color">#FFFFFF</color>
+    <color name="quantum_panel_bg_color">#212121</color>
+
+    <color name="outline_color">#FFFFFFFF</color>
+    <color name="all_apps_divider_color">@*android:color/Teal_700</color>
+    <color name="all_apps_caret_color">#FFFFFFFF</color>
+    <color name="all_apps_caret_shadow_color">#22000000</color>
+    <color name="all_apps_container_color">@*android:color/Red_700</color>
+    <color name="all_apps_navbar_color">#28000000</color>
+
+    <color name="spring_loaded_panel_color">#40FFFFFF</color>
+    <color name="spring_loaded_highlighted_panel_border_color">#FFF</color>
+
+    <color name="widgets_view_section_text_color">#FFFFFF</color>
+    <color name="widgets_view_item_text_color">#C4C4C4</color>
+
+    <color name="fallback_secondary_color">#FF37474F</color>
+
+    <color name="accent">@*android:color/Teal_700</color>
+    <color name="primary_color">@*android:color/Pink_700</color>
+    <color name="primary_dark_color">@*android:color/Red_700</color>
+	
+</resources>

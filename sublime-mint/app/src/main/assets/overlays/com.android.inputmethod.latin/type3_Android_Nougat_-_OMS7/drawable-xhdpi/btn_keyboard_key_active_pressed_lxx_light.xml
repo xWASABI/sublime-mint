@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="22.0dip">
+            <gradient android:startColor="#ff000000" android:endColor="@*android:color/Purple_700" android:type="radial" android:gradientRadius="200.0" android:centerColor="@*android:color/Purple_700" />
+            <size android:height="22.0dip" android:width="22.0dip" />
+            <stroke android:width="2.0dip" android:color="@*android:color/Teal_700" android:dashWidth="1.0dip" android:dashGap="2.0dip" />
+        </shape>
+    </item>
+</layer-list>

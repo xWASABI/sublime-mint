@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="actionBarWidgetTheme" format="reference" />
+	<attr name="actionBarTheme" format="reference" />
+	<attr name="actionBarPopupTheme" format="reference" />
+	
+	<style name="DocumentsTheme" parent="@*com.android.documentsui:style/Theme.AppCompat">
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarTheme">@*com.android.documentsui:style/ActionBarTheme</item>
+        <item name="actionBarPopupTheme">@*com.android.documentsui:style/ActionBarPopupTheme</item>
+        <item name="android:windowBackground">@*com.android.documentsui:color/window_background</item>
+        <item name="android:colorPrimaryDark">@*com.android.documentsui:color/primary_dark</item>
+        <item name="android:colorPrimary">@*com.android.documentsui:color/primary</item>
+        <item name="android:colorAccent">@*com.android.documentsui:color/accent</item>
+        <item name="android:colorControlActivated">?*android:attr/colorAccent</item>
+        <item name="android:queryBackground">@*com.android.documentsui:color/menu_search_background</item>
+		<item name="android:navigationBarColor">@*com.android.documentsui:color/window_background</item>
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+    </style>	
+	
+</resources>

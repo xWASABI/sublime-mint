@@ -1,0 +1,35 @@
+<view
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ex="http://schemas.android.com/apk/res-auto"
+    class="com.android.contacts.common.list.ContactTileStarredView"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="@*com.android.contacts:dimen/contact_browser_list_item_padding_top_or_bottom"
+        android:paddingBottom="@*com.android.contacts:dimen/contact_browser_list_item_padding_top_or_bottom">
+
+        <com.android.contacts.common.widget.LayoutSuppressingImageView
+            android:id="@*com.android.contacts:id/contact_tile_image"
+            android:layout_width="@*com.android.contacts:dimen/contact_browser_list_item_photo_size"
+            android:layout_height="@*com.android.contacts:dimen/contact_browser_list_item_photo_size"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="@*com.android.contacts:dimen/contact_browser_list_item_gap_between_image_and_text"/>
+
+        <TextView
+            android:id="@*com.android.contacts:id/contact_tile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@*com.android.contacts:dimen/contact_browser_list_item_text_size"
+            android:singleLine="true"
+            android:fadingEdge="horizontal"
+            android:fadingEdgeLength="3dip"
+            android:ellipsize="marquee"
+            android:textAlignment="viewStart"/>
+    </LinearLayout>
+</view>

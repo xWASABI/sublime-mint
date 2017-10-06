@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="DirectoryHeader">
+		<item name="android:background">#f1f</item>
+	</style>
+	<style name="DirectoryHeaderStyle" parent="@android:style/TextAppearance.Small">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">#ef1</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+	</style>
+	<style name="SectionHeaderStyle" parent="@android:style/TextAppearance.Large">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textColor">@*android:color/Teal_700</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+    <!-- Style applied to the "Settings" screen.  Keep in sync with SettingsLight in Telephony. -->
+    <style name="SettingsStyle" parent="@*com.android.dialer:style/DialtactsThemeWithoutActionBarOverlay">
+		<item name="android:itemBackground">@*android:color/Indigo_800</item>
+		<item name="android:colorForeground">#00000000</item>
+		<item name="android:textColor">#fff</item>
+		<item name="android:textColorPrimary">#fff</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+	</style>
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
+		<item name="android:itemBackground">@*android:color/Indigo_800</item>
+		<item name="android:overScrollMode">always</item>
+		<item name="android:colorForeground">#00000000</item>
+    	<item name="android:background">@*android:color/Indigo_700</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+	</style>	
+	<style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+		<item name="android:textColor">#fff</item>
+		<item name="android:textColorPrimary">#fff</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		<item name="android:colorAccent">@*android:color/Teal_700</item>
+    </style>
+	
+	<style name="InCallActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+	
+	<style name="DialerThemeBase" parent="@*com.android.dialer:style/Theme.AppCompat">
+		<!--
+		<item name="android:textColorPrimary">@color/dialer_primary_text_color</item>
+		<item name="android:textColorSecondary">@color/dialer_secondary_text_color</item>
+		<item name="android:colorPrimary">@color/titlebar_in_recents_background_color</item>
+		<item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
+		<item name="android:colorControlActivated">@color/dialer_theme_color</item>
+		<item name="android:colorButtonNormal">@color/dialer_theme_color</item>
+		<item name="android:colorAccent">@color/dialtacts_theme_color</item>
+		<item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+		<item name="android:textAppearanceButton">@style/DialerButtonTextStyle</item>
+		<item name="android:actionBarStyle">@style/DialerActionBarBaseStyle</item>
+		<item name="actionBarStyle">@style/DialerActionBarBaseStyle</item>
+		<item name="android:actionBarSize">@dimen/action_bar_height</item>
+		<item name="actionBarSize">@dimen/action_bar_height</item>
+		-->
+	</style>
+
+</resources>

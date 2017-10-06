@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ampm_off">#ff404040</color>
+    <color name="ampm_on">#ffffffff</color>
+    <color name="time_text_color">#E6FFFFFF</color>
+    <color name="ampm_text_color">#99FFFFFF</color>
+    <color name="screen_saver_color">#FF006688</color>
+    <color name="screen_saver_dim_color">#FF001634</color>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="dialog_gray">#28ffffff</color>
+    <color name="pressed_state_color">#ef1</color>
+
+    <color name="black">#ffffffff</color>
+    <color name="black_87p">#FFFFFF</color>
+    <color name="black_54p">#999999</color>
+    <color name="black_16p">#00000000</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_69p">#B1FFFFFF</color>
+    <color name="white_54p">#8aFFFFFF</color>
+
+    <color name="blackish_selected">#B1FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="hot_pink">@*android:color/Teal_700</color>
+    <color name="hot_blue">@*android:color/Teal_700</color>
+    <color name="hot_blue_dark">@*android:color/Red_700</color>
+    <color name="hairline">#80000000</color>
+    <color name="bright_foreground_light_disabled">#f44</color>
+
+	<!--
+    <color name="alarm_activated">@color/hot_blue</color>
+    <color name="alarm_alert_color">@color/hot_blue</color>
+    <color name="alarm_time_collapse_expand">@color/hot_blue</color>
+    <color name="circle_timer_accent">@color/hot_blue</color>
+    <color name="counting_timer_view_pressed">@color/hot_blue</color>
+    <color name="counting_timer_view_accent">@color/hot_blue</color>
+    <color name="delete_button_and_divider">@color/hot_blue</color>
+    <color name="folder_dialog_text_color">@color/hot_blue</color>
+    <color name="pressed_color">@color/hot_blue</color>
+    <color name="user_defined_city_fg_color">@color/hot_blue</color>
+    -->
+	
+	<color name="main_clock_frame_bg">@*android:color/transparent</color>
+	<color name="sliding_tab_bg">@*android:color/transparent</color>
+	
+    <color name="clock_gray">@*android:color/Teal_700</color>
+
+    <color name="default_background">@*android:color/Indigo_700</color>
+    <color name="status_bar">@*android:color/Red_700</color>
+
+    <color name="text_color_light">@android:color/white</color>
+    <color name="window_background">@*android:color/Indigo_700</color>
+    <color name="view_background">@*android:color/Indigo_700</color>
+    <color name="icon_color_light">@*android:color/Teal_700</color>
+    <color name="analog_color_light">@*android:color/Teal_700</color>
+    <color name="tab_indicator">@*android:color/Teal_700</color>
+    <color name="no_alarms_text_color">@*android:color/Purple_700</color>
+	
+</resources>

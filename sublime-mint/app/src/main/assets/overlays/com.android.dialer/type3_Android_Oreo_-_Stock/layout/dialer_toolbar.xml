@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+		android:layout_gravity="center_vertical"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+    <TextView 
+		android:textSize="@*com.android.dialer:dimen/toolbar_title_text_size"
+		android:textColor="#f44" 
+		android:gravity="top" 
+		android:id="@*com.android.dialer:id/title"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:fontFamily="sans-serif-medium" />
+    <TextView 
+		android:textSize="@*com.android.dialer:dimen/toolbar_subtitle_text_size" 
+		android:textColor="#ef1"
+		android:id="@*com.android.dialer:id/subtitle"
+		android:visibility="gone" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="TimePickerTheme" parent="@android:style/Theme.Material.Dialog">
+		<item name="android:timePickerStyle">@*com.android.deskclock:style/TimePickerStyle</item>
+		<item name="android:colorAccent">#00000000</item>
+		<item name="android:textColor">#ffffff</item>
+    </style>
+
+	<style name="PopupMenu" parent="@android:style/Theme.Material">
+	</style>
+	<style name="DeskClockDropDownListView"
+			parent="@android:style/Widget.Material.ListView.DropDown">
+		<item name="android:background">@*android:color/Indigo_800</item>
+	</style>
+</resources>

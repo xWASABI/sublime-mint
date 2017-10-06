@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Preferable keyboard height in absolute scale: 1.285in -->
+    <!-- This config_default_keyboard_height value should match with keyboard-heights.xml -->
+    <dimen name="config_default_keyboard_height">205.6dp</dimen>
+    <fraction name="config_max_keyboard_height">46%p</fraction>
+    <fraction name="config_min_keyboard_height">-61.8%p</fraction>
+	
+	<fraction name="config_language_on_spacebar_text_ratio">20%</fraction>
+	<fraction name="config_key_letter_ratio_lxx">38%</fraction>
+</resources>

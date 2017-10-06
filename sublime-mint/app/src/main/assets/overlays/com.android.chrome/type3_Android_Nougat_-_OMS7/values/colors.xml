@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="google_grey_600">#Ef1</color>
+	<color name="black_alpha_87">#fff</color>
+	<color name="black_alpha_54">#fff</color>
+	<color name="suggestion_url">@*android:color/Teal_700</color>
+	
+	
+	<color name="bookmark_detail_section">@*android:color/Indigo_700</color>
+    <color name="bookmark_drawer_selected_background_color">#ff555555</color>
+    <color name="bookmark_list_item_highlight_color">#801976d2</color>
+	
+	<!-- MAIN CHROME COLORS -->
+	<color name="ntp_list_header_text">@android:color/white</color>
+	<color name="ntp_list_item_text">@android:color/white</color>
+	<color name="ntp_search_box_hint">@*android:color/Teal_700</color>
+	<color name="ntp_bg">@*android:color/Indigo_700</color>
+	<color name="ntp_material_design_bg">@*android:color/Indigo_700</color>
+    <color name="ntp_bg_incognito">@*android:color/Indigo_700</color>
+    <color name="ntp_list_header_subtext">#ff969696</color>
+    <color name="ntp_list_header_subtext_active">#ff7cadff</color>
+	
+	<!-- BACKGROUND #181818 -->
+	<color name="tab_switcher_background">@*android:color/Indigo_700</color>
+	<color name="light_background_color">@*android:color/Indigo_700</color>
+	<color name="signin_head_background">@*android:color/Indigo_800</color>
+	<color name="signin_body_background">@*android:color/Indigo_800</color>
+	
+	<!-- TOP LEVEL - ACTION BAR/STATUS BAR - PINK_700; RED_800 -->
+	<color name="appbar_background">@*android:color/Pink_700</color>
+	<color name="primary_dark_material_dark">@*android:color/Red_800</color>
+	<color name="primary_dark_material_light">@*android:color/Red_800</color>
+	<color name="primary_material_dark">@*android:color/Pink_700</color>
+	<color name="primary_material_light">@*android:color/Pink_700</color>
+	<color name="default_primary_color">@*android:color/Pink_700</color>
+	<color name="dark_action_bar_color">@*android:color/Pink_700</color>
+	<!-- ACCENT - TEAL_700 -->
+	<color name="toolbar_light_tint">#9F9F9F</color>
+	<color name="light_active_color">@*android:color/Teal_700</color>
+	<color name="light_normal_color">@*android:color/Teal_700</color>
+	<color name="snippets_publisher_name_color">@*android:color/Teal_700</color>
+	<color name="snippets_list_header_text_color">@*android:color/Teal_700</color>
+	<color name="most_visited_text">@*android:color/Teal_700</color>
+	<color name="most_visited_offline_badge_tint">@*android:color/Teal_700</color>
+	<color name="fre_title_color">@*android:color/Teal_700</color>
+	<!-- TEXT -->
+	<color name="default_text_color">@*android:color/Blue_700</color>
+	<color name="bookmark_detail_text">@android:color/white</color>
+	<color name="descriptive_text_color">@android:color/white</color>
+	<color name="snippets_headline_text_color">@android:color/white</color>
+	<color name="fre_text_color">@android:color/white</color>
+	<!-- TEXT MISC -->
+	<color name="snippets_text_color">#CDCDCD</color>
+	<!-- URL BOX - TEXT -->
+	<color name="url_emphasis_start_scheme_security_warning">#ffffb000</color>
+	<color name="url_emphasis_start_scheme_security_error">#ffdb4437</color>
+	<color name="url_emphasis_start_scheme_ev_secure">#ff1ac222</color>
+	<color name="url_emphasis_start_scheme_secure">#ff1ac222</color>
+	<color name="url_emphasis_non_emphasized_text">#ccffffff</color>
+	<color name="url_emphasis_light_non_emphasized_text">#80ffffff</color>
+	<color name="url_emphasis_domain_and_registry">@android:color/white</color>
+	<color name="url_emphasis_light_domain_and_registry">@android:color/white</color>
+	<color name="url_emphasis_default_text">@android:color/white</color>
+	<color name="url_emphasis_light_default_text">@android:color/white</color>
+	<!-- FIND RESULTS -->
+	<color name="find_result_bar_background_color">@*android:color/Red_700</color>
+	<color name="find_result_bar_background_border_color">@android:color/black</color>
+	<color name="find_result_bar_result_color">#ffffde43</color>
+	<color name="find_result_bar_result_border_color">#ffc9af35</color>
+	<color name="find_result_bar_active_color">#ffff9632</color>
+	<color name="find_result_bar_active_border_color">#ffc37e3b</color>
+	<color name="find_in_page_query_color">@android:color/white</color>
+	<color name="find_in_page_query_white_color">#FFFFFF</color>
+	<color name="find_in_page_results_status_color">@*android:color/Teal_700</color>
+	<color name="find_in_page_results_status_white_color">@android:color/white</color>
+	<color name="find_in_page_failed_results_status_color">#E9967A</color>
+	
+	
+</resources>

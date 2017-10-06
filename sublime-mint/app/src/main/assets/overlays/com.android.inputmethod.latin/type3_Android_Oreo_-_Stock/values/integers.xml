@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_gesture_floating_preview_text_linger_timeout">900</integer>
+    <integer name="config_gesture_trail_fadeout_start_delay">100</integer>
+    <integer name="config_gesture_trail_fadeout_duration">2000</integer><!-- 800 default -->
+</resources>

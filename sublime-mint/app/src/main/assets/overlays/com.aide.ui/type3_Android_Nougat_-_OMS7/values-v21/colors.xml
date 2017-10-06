@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- HIGHLIGHT COLORS MISC - Purple_700; #60BBFF1 -->
+	<color name="browser_label_gray">@*android:color/Purple_700</color>
+	<color name="editor_selection_material">@*android:color/Purple_700</color>
+	<color name="editor_selection_material_light">#30212121</color>
+	<!-- TEXT COLOR - #FFFFFF; #70FFFFFF -->
+	<color name="browser_label">@android:color/white</color>
+	<color name="browser_label_light">@android:color/white</color>
+	<color name="actionbar_label">@android:color/white</color>
+	<color name="quickkey">@android:color/white</color>
+	<color name="quickkey_light">@android:color/white</color>
+	<color name="selected_list_item_light">@android:color/white</color>
+	<color name="browser_label_gray_light">#70FFFFFF</color>
+	<!-- ACCENT - TEAL_700; #BBFFF1 -->
+	<color name="trainer_box">@*android:color/Teal_700</color>
+	<color name="page_separator">@*android:color/Teal_700</color>
+	<color name="accent_material">@*android:color/Teal_700</color>
+	<color name="accent_material_light">@*android:color/Teal_700</color>
+	<color name="selected_list_item">@*android:color/Teal_700</color>
+	<color name="header">@*android:color/Teal_700</color>
+	<color name="header_separator">@*android:color/Teal_700</color>
+	<color name="split_separator">@*android:color/Teal_700</color>
+	<color name="split_separator_light">@*android:color/Teal_700</color>
+	<color name="list_separator">@*android:color/Teal_700</color>
+	<color name="editor_separator">@*android:color/Teal_700</color>
+	<!-- ACTIONBAR - PINK_700; #212121 -->
+	<color name="actionbar">@*android:color/Pink_700</color>
+	<color name="actionbar_shadow">@*android:color/Pink_700</color>
+	<color name="primary_material">@*android:color/Pink_700</color>
+	<color name="primary_dark_material">@*android:color/Pink_700</color>
+	<color name="primary_material_light">@*android:color/Pink_700</color>
+	<color name="primary_dark_material_light">@*android:color/Pink_700</color>
+	<color name="header_separator_light">@*android:color/Pink_700</color>
+	<color name="popup_border_light">@*android:color/Pink_700</color>
+	<color name="toast_background_light">@*android:color/Pink_700</color>
+	<!-- BACKGROUND - INDIGO_700; #131313; #000000-->
+	<color name="app_background">#69181818</color>
+	<color name="app_background_light">#69181818</color>
+	<color name="popup_background">#69181818</color>
+	<color name="editor_background">#00000000</color>
+	<color name="editor_background_light">#69181818</color>
+	<!-- MISC COLORS -->
+	<color name="popup_border">#ffbbbbbb</color>
+	<color name="transparent">#00000000</color>
+	<!-- EDITOR COLORS -->
+	<color name="editor_caret_line">#69000000</color>
+	<color name="editor_stepping_bar">#ffb71c1c</color>
+	<color name="editor_line_number">#ffcfd8dc</color>
+	<color name="editor_caret">#ffffffff</color>
+	<color name="editor_selection">#ff8bc34a</color>
+	<color name="editor_diff_inserted">#ff314800</color>
+	<color name="editor_diff_deleted">#ffb71c1c</color>
+	<color name="editor_hyperlink">#ffffffff</color>
+	<color name="editor_syntax_plain">#ffb3e5fc</color>
+	<color name="editor_syntax_identifier">#ffce93d8</color>
+	<color name="editor_syntax_keyword">#fff9a825</color>
+	<color name="editor_syntax_package">#ff607d8b</color>
+	<color name="editor_syntax_type">#ff90caf9</color>
+	<color name="editor_syntax_operator">#ff1976d2</color>
+	<color name="editor_syntax_separator">#fff9a825</color>
+	<color name="editor_syntax_literal">#BBFFF1</color>
+	<color name="editor_syntax_comment">#BBFFF1</color>
+
+</resources>

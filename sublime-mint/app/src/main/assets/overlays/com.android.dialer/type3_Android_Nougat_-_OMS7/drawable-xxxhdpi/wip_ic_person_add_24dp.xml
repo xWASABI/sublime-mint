@@ -1,0 +1,28 @@
+<animation-list
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:oneshot="true">
+	<item android:duration="1000">
+		<vector
+			android:width="56dp"
+			android:height="56dp"
+			android:viewportWidth="56"
+			android:viewportHeight="56">
+
+			<path
+				android:fillColor="#00000000"
+				android:pathData="M28 4.703c12.906 0 23.297 10.391 23.297 23.297s-10.391 23.297-23.297
+				23.297-23.297-10.391-23.297-23.297 10.391-23.297 23.297-23.297z" />		
+			
+			<group
+				android:translateX="15.75"
+				android:translateY="15.75">
+				<path
+					android:fillColor="@android:color/white"
+					android:pathData="M15 14.016c2.672 0 8.016 1.313 8.016 3.984v2.016h-16.031v-2.016c0-2.672
+					5.344-3.984 8.016-3.984zM6
+					9.984h3v2.016h-3v3h-2.016v-3h-3v-2.016h3v-3h2.016v3zM15 12c-2.203
+					0-3.984-1.781-3.984-3.984s1.781-4.031 3.984-4.031 3.984 1.828 3.984 4.031-1.781
+					3.984-3.984 3.984z" />
+			</group>
+			
+</vector></item></animation-list>

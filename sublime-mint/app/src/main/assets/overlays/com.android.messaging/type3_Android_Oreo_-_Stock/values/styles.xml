@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+
+    <style name="BugleBaseTheme" parent="@*com.android.messaging:style/Theme.AppCompat">
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:statusBarColor">@*android:color/Red_800</item>
+    </style>
+	<style name="BugleTheme.SettingsActivity" parent="@*com.android.messaging:style/BugleTheme">
+  		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+		<item name="android:textSize">@*com.android.messaging:dimen/settings_list_text_size</item>
+		<item name="android:colorForeground">#00000000</item>
+    </style>
+	<style name="BugleTheme.ConversationListActivity" parent="@*com.android.messaging:style/BugleTheme">
+        <item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:textColor">#FFFFFF</item>
+    </style>
+	<style name="ConversationComposeSubjectText" parent="@*com.android.messaging:style/ConversationComposeSendText">
+        <item name="android:paddingLeft">18dp</item>
+		<item name="android:textColor">@*android:color/Teal_700</item>
+        <item name="android:layout_marginLeft">@*com.android.messaging:dimen/compose_message_subject_cancel_left_margin</item>
+    </style>
+	<style name="ContactListItem">
+        <item name="android:textSize">@*com.android.messaging:dimen/contact_list_text_size</item>
+        <item name="android:textColor">@*android:color/Teal_700</item>
+        <item name="android:background">@null</item>
+    </style>
+	<style name="DropDownListViewStyle" parent="@*com.android.messaging:style/Widget.AppCompat.ListView.DropDown">
+		<item name="android:dividerHeight">0dp</item>
+		<item name="android:background">@*android:color/Indigo_700</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+	
+</resources>

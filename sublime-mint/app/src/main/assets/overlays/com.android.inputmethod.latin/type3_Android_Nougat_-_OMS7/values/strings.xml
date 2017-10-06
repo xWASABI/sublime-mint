@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyboard_theme_material_dark">Mint Glow</string>
+    <string name="keyboard_theme_material_light">Mint Glass</string>
+</resources>

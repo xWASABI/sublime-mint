@@ -1,0 +1,7 @@
+<fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    class="com.android.messaging.ui.conversationlist.ConversationListFragment"
+    android:id="@*com.android.messaging:id/conversation_list_fragment"
+    android:theme="@*com.android.messaging:style/Theme.AppCompat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

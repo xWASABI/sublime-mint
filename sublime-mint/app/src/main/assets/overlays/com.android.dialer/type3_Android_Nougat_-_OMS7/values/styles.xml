@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- Style applied to the "Settings" screen.  Keep in sync with SettingsLight in Telephony. -->
+    <style name="SettingsStyle" parent="@*com.android.dialer:style/DialtactsThemeWithoutActionBarOverlay">
+		<item name="android:colorForeground">#00000000</item>
+		<item name="android:textColorSecondary">#9F9F9F</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+	</style>
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
+        <item name="android:overScrollMode">always</item>
+		<item name="android:colorForeground">#00000000</item>
+    	<item name="android:background">@*android:color/Indigo_700</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+	</style>	
+	<style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/Teal_700</item>
+		<!--<item name="android:background">#EF1</item>-->
+    </style>
+	
+	<style name="InCallActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+	
+	<!-- Circle Button - Icon color -->
+	<style name="InCallCompoundButton" parent="@*com.android.dialer:style/InCallButton">
+        <item name="android:backgroundTint">@*android:color/Teal_700</item>
+		<item name="android:textOn">@null</item>
+        <item name="android:textOff">@null</item>
+    </style>
+	
+	<!-- Circle Button - Icon color -->
+    <style name="InCallButton">
+		<item name="android:backgroundTint">#CDCDCD</item>
+        <item name="android:layout_width">48.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">15.0dip</item>
+    </style>
+	
+    <style name="Theme.InCallScreen" parent="@*com.android.dialer:style/Theme.AppCompat.NoActionBar">
+		<item name="android:itemBackground">@*android:color/Indigo_800</item>
+		<item name="android:textColor">#ffffffff</item>   
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+    </style>
+
+	<style name="DialpadKeyNumberStyle">
+        <item name="android:textColor">@*android:color/Teal_700</item>
+        <item name="android:textSize">@*com.android.dialer:dimen/dialpad_key_numbers_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@*com.android.dialer:dimen/dialpad_key_number_margin_bottom</item>
+        <item name="android:gravity">center</item>
+    </style>
+	
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:background="@*android:color/Indigo_700"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+<org.chromium.chrome.browser.download.ui.DownloadManagerToolbar 
+	android:id="@*com.android.chrome:id/action_bar" 
+	android:background="@*android:color/Pink_700"
+	android:layout_width="match_parent" 
+	android:layout_height="52dp" 
+	android:layout_alignParentTop="true">
+<include layout="@*com.android.chrome:layout/number_roll_view" />
+</org.chromium.chrome.browser.download.ui.DownloadManagerToolbar>
+<android.support.v7.widget.RecyclerView
+	android:id="@*com.android.chrome:id/recycler_view" 
+	android:background="@*android:color/Indigo_700"
+	android:visibility="gone" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@*com.android.chrome:id/action_bar"
+	android:layout_alignParentBottom="true" />
+<org.chromium.chrome.browser.widget.FadingShadowView 
+	android:id="@*com.android.chrome:id/shadow" 
+	android:layout_width="match_parent"
+	android:layout_height="10dp" 
+	android:layout_below="@*com.android.chrome:id/action_bar" />
+<TextView 
+	android:textSize="16sp"
+	android:textColor="#FFFFFF" 
+	android:gravity="center" 
+	android:id="@*com.android.chrome:id/empty_view" 
+	android:visibility="invisible" 
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:text="@*com.android.chrome:string/download_manager_ui_empty" 
+	android:drawablePadding="3dp" 
+	android:layout_centerInParent="false" />
+
+<org.chromium.chrome.browser.widget.LoadingView 
+	android:id="@*com.android.chrome:id/loading_view" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_centerInParent="true" />
+
+</RelativeLayout>

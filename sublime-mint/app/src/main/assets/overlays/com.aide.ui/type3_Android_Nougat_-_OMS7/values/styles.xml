@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style 
+		name="ActivityActionbarThemeDark"
+		parent="@*android:style/Theme.Material">
+		<item name="android:colorForeground">@android:color/transparent</item>
+		<item name="android:actionBarTabStyle">@style/TabViewStyle</item>
+		<item name="android:windowShowWallpaper">true</item>
+		<item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+		<item name="android:windowBackground">@*com.aide.ui:drawable/background_holo_dark</item>
+		<item name="android:statusBarColor">@*android:color/Pink_700</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Pink_700</item>
+		<item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+	<style 
+		name="TabViewStyle" 
+		parent="@*android:style/Widget.Material.ActionBar.TabView">
+		<item name="android:background">@*android:color/Pink_700</item>
+	</style>
+	
+	<style 
+		name="ActivityPreferencesThemeDark" 
+		parent="@*android:style/Theme.Material">
+		<item name="android:colorForeground">@android:color/transparent</item>
+		<item name="android:actionBarTabStyle">@style/TabViewStyle</item>
+		<item name="android:actionModeStyle">@*android:style/Widget.Material.ActionMode</item>
+		<item name="android:windowShowWallpaper">false</item>
+		<item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+		<item name="android:statusBarColor">@*android:color/Pink_700</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Pink_700</item>
+		<item name="android:colorAccent">@*android:color/Teal_700</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+	<style name="TrainerBoxInner">
+		<item name="android:windowShowWallpaper">true</item>
+		<item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+		<item name="android:windowBackground">@*android:drawable/menuitem_background</item>
+		<item name="android:statusBarColor">@*android:color/Pink_700</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+	<style name="TrainerHeaderOuter">
+		<item name="android:windowShowWallpaper">true</item>
+		<item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+		<item name="android:windowBackground">@*android:drawable/menuitem_background</item>
+		<item name="android:statusBarColor">@*android:color/Pink_700</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+	
+	
+</resources>
