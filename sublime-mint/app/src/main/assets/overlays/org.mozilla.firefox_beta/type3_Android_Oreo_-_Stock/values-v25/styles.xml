@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<dimen name="standard_corner_radius">0.0dip</dimen>
+	
+	<!-- COLORS -->
+	<!--
+	<color name="about_page_header_grey">#f1f</color>
+	<color name="firstrun_pager_header">#ef1</color>
+	<color name="toolbar_divider_grey">#f44</color>
+	-->
+	
+	<color name="textbox_background">@*android:color/Indigo_700</color>
+	<color name="textbox_background_disabled">@*android:color/Indigo_700</color>
+	<color name="textbox_stroke">@*android:color/Teal_700</color>
+	<color name="textbox_stroke_disabled">@*android:color/Indigo_700</color>
+	
+	<color name="placeholder_active_grey">#fff</color>
+	<color name="private_active_text">#fff</color>
+		
+	<color name="fennec_ui_orange">#69000000</color>
+		
+	<color name="url_bar_urltext">@*android:color/Teal_700</color>
+	<color name="url_bar_urltext_private">#fff</color>
+	<color name="url_bar_domaintext">#fff</color>
+	<color name="url_bar_domaintext_private">#fff</color>
+	<color name="url_bar_blockedtext">#ffb14646</color>	
+	<color name="url_bar_title_hint">#fff</color>
+	<color name="url_bar_default_text">#ef1</color>
+	
+	<color name="text_and_tabs_tray_grey">@*android:color/Teal_700</color>
+	<color name="toolbar_grey">#fff</color>
+	<color name="toolbar_icon_grey">#fff</color>
+	<color name="tabs_tray_icon_grey">#fff</color>
+	<color name="disabled_grey">#fff</color>
+	<color name="toolbar_grey_pressed">#ffd7d7dc</color>
+	<color name="toolbar_menu_dark_grey">#ffe1e1e6</color>
+	
+	<!-- STYLES -->
+	<attr name="windowActionBar" format="boolean" />
+    <attr name="windowNoTitle" format="boolean" />
+	<attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+		
+	<!-- SETTINGS -->
+	<style name="GeckoBase" parent="@*org.mozilla.firefox_beta:style/Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:alertDialogTheme">@*org.mozilla.firefox_beta:style/GeckoAlertDialog</item>
+		<item name="*org.mozilla.firefox_beta:windowActionBar">false</item>
+		<item name="*org.mozilla.firefox_beta:windowNoTitle">true</item>
+		<item name="*org.mozilla.firefox_beta:colorPrimary">@*android:color/Pink_700</item>
+		<item name="*org.mozilla.firefox_beta:colorPrimaryDark">@*android:color/Red_800</item>
+	</style>
+		
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+		<item name="android:textColor">#FFF</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_700</item>
+		<item name="android:itemBackground">@*android:color/Indigo_700</item>
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+		<item name="android:colorBackground">@*android:color/Indigo_700</item>
+	    <item name="android:colorAccent">@*android:color/Teal_700</item>
+	    <item name="android:listDivider">@*android:color/transparent</item>
+	    <item name="android:colorSecondary">@*android:color/holo_green_light</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+        <item name="android:colorPrimaryDark">@*android:color/Red_800</item>
+        <item name="android:colorControlActivated">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+        <item name="android:statusBarColor">@*android:color/Red_800</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+	</style>
+		
+</resources>

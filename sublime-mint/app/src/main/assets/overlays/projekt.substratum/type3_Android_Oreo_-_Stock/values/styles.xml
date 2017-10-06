@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@*projekt.substratum:style/Theme.AppCompat.NoActionBar">
+		
+		<item name="android:textColor">#fff</item>		
+		<item name="android:textColorPrimary">#fff</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+		
+		<item name="android:colorForeground">#00000000</item>		
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+		<item name="android:colorBackgroundFloating">@*android:color/Pink_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+        <item name="*projekt.substratum:colorPrimary">@*projekt.substratum:color/colorPrimary</item>
+        <item name="*projekt.substratum:colorPrimaryDark">@*projekt.substratum:color/colorPrimaryDark</item>
+        <item name="*projekt.substratum:colorAccent">@*projekt.substratum:color/colorAccent</item>
+        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+        <item name="*projekt.substratum:preferenceTheme">@*projekt.substratum:style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+	
+	<style name="AppTheme.Dialog" parent="@*projekt.substratum:style/Theme.AppCompat.Dialog">
+		<item name="android:colorBackgroundFloating">@*android:color/Pink_700</item>
+        <item name="*projekt.substratum:colorPrimary">@*projekt.substratum:color/colorPrimary</item>
+        <item name="*projekt.substratum:colorPrimaryDark">@*projekt.substratum:color/colorPrimaryDark</item>
+        <item name="*projekt.substratum:colorAccent">@*projekt.substratum:color/colorAccent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="primary">@*android:color/Teal_700</color>
+    <color name="primary_dark">@*android:color/Red_700</color>
+    <color name="primary_dark_material_dark">@*android:color/Red_700</color>
+    <color name="primary_dark_material_light">@*android:color/Red_700</color>
+    <color name="primary_material_dark">@*android:color/Pink_700</color>
+    <color name="primary_material_light">@*android:color/Pink_700</color>
+	
+	<color name="accent">@*android:color/Teal_700</color>
+	<color name="accentFallback">@*android:color/Teal_700</color>
+	<color name="accent_material_dark">@*android:color/Teal_700</color>
+	<color name="accent_material_light">@*android:color/Teal_700</color>
+	
+	<color name="green500">@*android:color/Teal_700</color>
+    <color name="grey500">@*android:color/Teal_700</color>
+    <color name="icon_grey">@*android:color/Teal_700</color>
+	
+	
+	
+</resources>

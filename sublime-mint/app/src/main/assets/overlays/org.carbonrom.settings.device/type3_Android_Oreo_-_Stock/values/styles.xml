@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Main" 
+		parent="@*android:style/Theme.Material.Settings">
+		<item name="android:windowBackground">@android:drawable/menuitem_background</item>
+		<item name="android:colorBackgroundFloating">@*android:drawable/dialog_background_material</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_800</item>
+		<item name="android:statusBarColor">@*android:color/Red_800</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_800</item>
+		<item name="android:colorForeground">@*android:color/transparent</item>
+		<item name="android:windowShowWallpaper">false</item>
+		
+    </style>
+
+    <style name="Theme.ActionBar.SubSettings" 
+		parent="@*android:style/Widget.Material.ActionBar">
+    </style>
+	
+</resources>
+	

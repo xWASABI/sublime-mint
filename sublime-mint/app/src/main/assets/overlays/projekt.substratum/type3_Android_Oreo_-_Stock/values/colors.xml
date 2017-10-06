@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="bottom_sheet_dialog_background">@*android:drawable/settings_header</color>
+
+    <color name="overlay_installed_list_entry">@*android:color/Teal_700</color>
+	<color name="overlay_not_enabled_list_entry">@*android:color/Purple_800</color>
+	<color name="overlay_not_installed_list_entry">#9F9F9F</color>
+	<color name="overlay_update_available">#d4b400</color>
+	<color name="overlay_update_not_needed">@*android:color/Teal_700</color>
+	<!--
+    <color name="overlay_not_approved_list_entry">#EF1</color>
+    <color name="overlay_not_enabled_list_entry">#F1F</color>
+    <color name="overlay_not_installed_list_entry">#F2F</color>
+    <color name="overlay_update_available">#d4b400</color>
+    <color name="overlay_update_not_needed">#008c3a</color>
+	-->
+	
+	<color name="colorPrimary">@*android:color/Pink_700</color>
+    <color name="colorPrimaryDark">@*android:color/Red_800</color>
+    <color name="colorAccent">@*android:color/Teal_700</color>
+    <color name="navigationBarColor">@*android:color/Indigo_700</color>
+
+    <color name="main_screen_card_background">@*android:color/Pink_700</color>
+    <color name="main_screen_card_theme_title">@*android:color/Teal_700</color>
+    <color name="main_screen_card_theme_author">@android:color/white</color>
+
+    <color name="logcat_dialog_background">@*android:color/Indigo_800</color>
+    <color name="logcat_dialog_buttons">@*android:color/Indigo_800</color>
+    <color name="logcat_dialog_icons">@*android:color/Teal_700</color>
+    <color name="logcat_dialog_text">@android:color/white</color>
+
+	<color name="theme_information_background">@*android:color/Indigo_700</color>
+    <color name="theme_information_card_background">@*android:color/Indigo_700</color>
+    <color name="theme_information_card_title">@*android:color/Teal_700</color>
+    <color name="theme_information_card_text">@android:color/white</color>
+    <color name="theme_information_card_divider">#69000000</color>
+    <color name="theme_information_card_subtext">#FFFFFF</color>
+	
+    <color name="settings_title_color">@*android:color/Teal_700</color>
+	
+    <color name="fab_menu_background_card">@*android:color/Indigo_800</color>
+    <color name="fab_menu_icon_color">@*android:color/Teal_700</color>
+    <color name="fab_menu_text_color">@android:color/white</color>
+    <color name="fab_menu_divider">#00000000</color>
+	
+    <color name="fab_background_color">@*android:color/Pink_700</color>
+
+	<!-- Material DEFAULT drawer colors -->
+	<!-- Material DEFAULT text / items colors -->
+	<color name="material_drawer_accent">@*android:color/Teal_700</color>
+    <color name="material_drawer_background">@*android:color/Indigo_700</color>
+    <color name="material_drawer_dark_selected">@*android:color/Indigo_800</color>
+    <color name="material_drawer_dark_selected_text">@*android:color/Teal_700</color>
+    <color name="material_drawer_header_background">@*android:color/Pink_700</color>
+    <color name="material_drawer_icon_color">@*android:color/Teal_700</color>
+    <color name="material_drawer_primary">@*android:color/Pink_700</color>
+    <color name="material_drawer_primary_dark">@*android:color/Pink_700</color>
+    <color name="material_drawer_selected">#69000000</color>
+    <color name="material_drawer_primary_text">#FFFFFF</color>
+    <color name="material_drawer_primary_icon">@*android:color/Teal_700</color>
+    <color name="material_drawer_secondary_text">#9F9F9F</color>
+    <color name="material_drawer_hint_text">#9F9F9F</color>
+    <color name="material_drawer_divider">@*android:color/Indigo_800</color>
+    
+    <color name="material_drawer_selected_text">@*android:color/Teal_700</color>
+    <color name="material_drawer_header_selection_text">#FFFFFF</color>
+
+	<!-- AboutLibraries DEFAULT colors -->
+    <color name="about_libraries_window_background">@*android:color/Indigo_800</color>
+    <color name="about_libraries_card">@*android:color/Pink_700</color>
+    <color name="about_libraries_title_openSource">@*android:color/Teal_700</color>
+    <color name="about_libraries_text_openSource">#FFFFFF</color>
+    <color name="about_libraries_special_button_openSource">@*android:color/Teal_700</color>
+    <color name="about_libraries_dividerDark_openSource">@*android:color/Teal_700</color>
+    <color name="about_libraries_dividerLight_openSource">@*android:color/Teal_700</color>
+
+    <!-- AboutLibraries SAMPLE DARK colors -->
+    <color name="about_libraries_window_background_dark">@*android:color/Indigo_800</color>
+    <color name="about_libraries_card_dark">@*android:color/Pink_700</color>
+    <color name="about_libraries_title_openSource_dark">@*android:color/Teal_700</color>
+    <color name="about_libraries_text_openSource_dark">#FFFFFF</color>
+    <color name="about_libraries_special_button_openSource_dark">@*android:color/Teal_700</color>
+    <color name="about_libraries_dividerDark_openSource_dark">@*android:color/Teal_700</color>
+    <color name="about_libraries_dividerLight_openSource_dark">@*android:color/Teal_700</color>
+	
+	<color name="font_window_background">@*android:color/Indigo_700</color>
+	<color name="sounds_window_background">@*android:color/Indigo_700</color>
+	
+	<color name="wallpaper_bg_background">@*android:color/Indigo_700</color>
+	<color name="bootanimation_window_background">@*android:color/Indigo_700</color>
+	
+	<color name="splashscreen_background">@*android:color/Indigo_700</color>
+	<color name="compile_dialog_wave_color">@*android:color/Teal_700</color>
+</resources>

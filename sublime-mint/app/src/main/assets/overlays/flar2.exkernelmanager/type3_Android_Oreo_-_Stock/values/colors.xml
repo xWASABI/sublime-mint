@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="blueapptheme_color">@*android:color/Teal_700</color>
+	<color name="blueapptheme_color_pressed">@*android:color/Teal_700</color>
+	<color name="actionbar">@*android:color/Pink_700</color>
+	<color name="card_background">@*android:color/Pink_700</color>
+	<color name="actionbar_dark">@*android:color/Indigo_700</color>
+	<color name="background">@*android:color/Indigo_700</color>
+	
+	<color name="advanced_radio">#f44</color>
+</resources>
