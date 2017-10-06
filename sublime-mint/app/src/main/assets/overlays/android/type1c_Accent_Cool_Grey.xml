@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ACCENT -->
+    <color name="Teal_700">#979aaa</color>
+	<color name="Purple_700">#60979aaa</color>
+	<color name="Purple_800">#90979aaa</color>
+</resources>

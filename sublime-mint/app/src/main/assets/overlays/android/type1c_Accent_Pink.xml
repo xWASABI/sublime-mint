@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ACCENT --><!-- 
+	RED AC080E 
+	GREEN 87864A 
+	DRK GREEN 325237 
+	BROWN BFA67B
+	PINK D67EB7
+	BG 2A2C3E
+	-->
+	<color name="Teal_700">#D67EB7</color>
+	<color name="Purple_700">#60D67EB7</color>
+	<color name="Purple_800">#90D67EB7</color>
+</resources>

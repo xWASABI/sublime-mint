@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:oneshot="false">
+	<!-- PHASE 1 -->
+    <item android:duration="200">
+		<vector android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+			<path
+				android:strokeWidth="1"
+				android:strokeColor="#FFFFFF"
+				android:fillColor="#90FFFFFF"
+				android:pathData="M2.016 12c0-5.531 4.453-9.984 9.984-9.984s9.984 4.453 9.984 9.984-4.453
+				9.984-9.984 9.984-9.984-4.453-9.984-9.984z" />
+		</vector>
+	</item>
+	<!-- PHASE 2 -->
+    <item android:duration="200">
+		<vector android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+			<path
+				android:strokeWidth="1"
+				android:strokeColor="#90FFFFFF"
+				android:fillColor="#80FFFFFF"
+				android:pathData="M2.016 12c0-5.531 4.453-9.984 9.984-9.984s9.984 4.453 9.984 9.984-4.453
+				9.984-9.984 9.984-9.984-4.453-9.984-9.984z" />
+		</vector>
+	</item>
+	<!-- PHASE 3 -->
+    <item android:duration="200">
+		<vector android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+			<path
+				android:strokeWidth="1"
+				android:strokeColor="#70FFFFFF"
+				android:fillColor="#60FFFFFF"
+				android:pathData="M2.016 12c0-5.531 4.453-9.984 9.984-9.984s9.984 4.453 9.984 9.984-4.453
+				9.984-9.984 9.984-9.984-4.453-9.984-9.984z" />
+		</vector>
+	</item>
+	<!-- PHASE 4 -->
+    <item android:duration="200">
+		<vector android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+			<path
+				android:strokeWidth="1"
+				android:strokeColor="#50FFFFFF"
+				android:fillColor="#40FFFFFF"
+				android:pathData="M2.016 12c0-5.531 4.453-9.984 9.984-9.984s9.984 4.453 9.984 9.984-4.453
+				9.984-9.984 9.984-9.984-4.453-9.984-9.984z" />
+		</vector>
+	</item>
+	<!-- PHASE 5 -->
+    <item android:duration="200">
+		<vector android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+			<path
+				android:strokeWidth="1"
+				android:strokeColor="#30FFFFFF"			
+				android:fillColor="#20FFFFFF"
+				android:pathData="M2.016 12c0-5.531 4.453-9.984 9.984-9.984s9.984 4.453 9.984 9.984-4.453			9.984-9.984 9.984-9.984-4.453-9.984-9.984z" />
+		</vector>
+	</item>
+	<!-- PHASE 6 -->
+    <item android:duration="200">
+		<vector android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24">
+			<path		
+				android:strokeWidth="1"
+				android:strokeColor="#10FFFFFF"	
+				android:fillColor="#00FFFFFF"
+				android:pathData="M2.016 12c0-5.531 4.453-9.984 9.984-9.984s9.984 4.453 9.984 9.984-4.453
+				9.984-9.984 9.984-9.984-4.453-9.984-9.984z" />
+		</vector>
+	</item>
+
+	<!--
+    <item android:drawable="@drawable/stat_sys_download_anim1" android:duration="200" />
+    <item android:drawable="@drawable/stat_sys_download_anim2" android:duration="200" />
+    <item android:drawable="@drawable/stat_sys_download_anim3" android:duration="200" />
+    <item android:drawable="@drawable/stat_sys_download_anim4" android:duration="200" />
+    <item android:drawable="@drawable/stat_sys_download_anim5" android:duration="200" />
+	-->
+</animation-list>

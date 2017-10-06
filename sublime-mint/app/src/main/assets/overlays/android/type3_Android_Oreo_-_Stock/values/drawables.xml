@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_template_icon_bg">@*android:color/Teal_700</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#00000000</item>
+    <item type="drawable" name="notification_template_divider">#00000000</item>
+    <item type="drawable" name="notification_template_divider_media">#00000000</item>
+</resources>

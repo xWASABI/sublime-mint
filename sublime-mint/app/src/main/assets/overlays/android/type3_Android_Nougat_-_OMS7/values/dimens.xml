@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<dimen name="progress_bar_height_material">1dip</dimen>
+	
+	
+	<!-- Toast vertical position -->
+	<dimen name="toast_y_offset">0dip</dimen>
+    <!-- Size of clock font in LockScreen on Unsecure unlock screen. -->
+    <dimen name="keyguard_lockscreen_clock_font_size">140dip</dimen>
+    <!-- Size of status line font on Unsecure unlock LockScreen. -->
+    <dimen name="keyguard_lockscreen_status_line_font_size">14dip</dimen>
+    <!-- Size of right margin on Unsecure unlock LockScreen -->
+    <dimen name="keyguard_lockscreen_status_line_font_right_margin">42dip</dimen>
+    <!-- Size of top margin on Clock font to edge on unlock LockScreen -->
+    <dimen name="keyguard_lockscreen_status_line_clockfont_top_margin">22dip</dimen>
+    <!-- Size of top margin on Clock font to edge on unlock LockScreen -->
+    <dimen name="keyguard_lockscreen_status_line_clockfont_bottom_margin">12dip</dimen>
+    <!-- Padding on left margin of PIN text entry field to center it when del button is showing -->
+    <dimen name="keyguard_lockscreen_pin_margin_left">40dip</dimen>
+	<!-- Dialog width -->
+	<dimen name="dialog_min_width_minor">220dp</dimen>
+	<!-- The margin on the start of the content view -->
+    <dimen name="notification_content_margin_start">16dp</dimen>
+
+
+    <!-- Elevation when button is pressed -->
+    <dimen name="button_elevation_material">2dp</dimen>
+    <!-- Z translation to apply when button is pressed -->
+    <dimen name="button_pressed_z_material">4dp</dimen>
+    <!-- Default insets (outer padding) around buttons -->
+    <dimen name="button_inset_vertical_material">6dp</dimen>
+    <dimen name="button_inset_horizontal_material">4dp</dimen>
+    <!-- Default inner padding within buttons -->
+    <dimen name="button_padding_vertical_material">4dp</dimen>
+    <dimen name="button_padding_horizontal_material">7dp</dimen>
+
+    <!-- Default insets (outer padding) around controls -->
+    <dimen name="control_inset_material">4dp</dimen>
+    <!-- Default inner padding within controls -->
+    <dimen name="control_padding_material">4dp</dimen>
+    <!-- Default rounded corner for controls -->
+    <dimen name="control_corner_material">20dp</dimen>
+	
+	
+</resources>

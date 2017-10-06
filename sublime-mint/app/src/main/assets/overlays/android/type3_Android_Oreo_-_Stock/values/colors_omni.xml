@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="global_actions_icon_color">@*android:color/Teal_700</color>
+</resources>

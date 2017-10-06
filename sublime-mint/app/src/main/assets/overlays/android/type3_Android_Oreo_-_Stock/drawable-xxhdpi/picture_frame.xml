@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--
+	<item 
+		android:left="0dp" android:right="0dp"
+		android:top="0dp" android:bottom="-400.0dp">
+        <shape android:shape="rectangle">
+			<solid
+				android:color="#f44" />
+        </shape>
+    </item>
+	-->
+	<!-- STATUSBAR 
+	<item 
+		android:left="0dp" android:right="0dp"
+		android:top="0.0dp" android:bottom="-600.0dp">
+        <shape android:shape="rectangle">
+			<gradient
+				android:startColor="@*android:color/Indigo_700" 
+				android:centerColor="@*android:color/Teal_700" 
+				android:endColor="#00000000" 
+				android:angle="90.0" 
+				android:type="linear" 
+				android:centerY="0.50"/>
+        </shape>
+    </item>
+	-->
+	<!-- TOP - FILL COLOR -
+	<item 
+		android:left="0dp" android:right="0dp"
+		android:top="-700.0dp" android:bottom="-63.0dp">
+        <shape android:shape="rectangle">
+			<gradient
+				android:startColor="#00000000" 
+				android:centerColor="#29bbfff1" 
+				android:endColor="#bbfff1" 
+				android:angle="90.0" 
+				android:type="linear" 
+				android:centerY="0.50"/>
+		</shape>
+    </item>
+	-->
+		<item
+			android:top="-4dp"
+			android:bottom="-4dp"	
+			android:left="-7.85dp"
+			android:right="-7.85dp">
+			<shape android:shape="rectangle">
+				<corners android:radius="20.0dip" />
+				<stroke android:width="8.0dip" android:color="@*android:color/black" />
+				<solid android:color="#00000000" />		
+			</shape>
+		</item>
+
+		<item
+			android:top="-4dp"
+			android:bottom="-4dp"
+			android:left="-7.85dp"
+			android:right="-7.85dp">
+			<shape android:shape="rectangle">
+				<corners android:radius="0.0dip" />
+				<stroke android:width="8.0dip" android:color="@*android:color/black" />
+				<solid android:color="#00000000" />		
+			</shape>
+		</item>
+	
+</layer-list>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item>
+        <ripple android:color="@*android:color/tab_highlight_material">
+            <item android:id="@*android:id/mask">
+                <color android:color="@android:color/white" />
+            </item>
+        </ripple>
+    </item>
+	
+	<item
+		android:left="20dp" android:right="20dp"
+		android:bottom="-10.0dp">
+		<shape android:shape="rectangle">
+			<gradient 
+				android:startColor="@*android:color/Teal_700" 
+				android:endColor="@*android:color/transparent"
+				android:angle="90.0" 
+				android:type="linear" 
+				android:centerY="0.5"
+				android:centerColor="@*android:color/transparent" />
+		</shape>
+	</item>
+	
+	<item android:bottom="2dp"
+		android:drawable="@*android:color/transparent" />
+	
+</layer-list>

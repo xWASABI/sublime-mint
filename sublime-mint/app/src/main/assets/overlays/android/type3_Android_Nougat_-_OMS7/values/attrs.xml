@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- The layout for the Preference Header. This should rarely need to be changed. -->
+	<attr name="layout" format="reference" />
+	<!-- The layout for the Preference Header. This should rarely need to be changed. -->
+    <attr name="headerLayout" format="reference" />
+    <!-- true if the Icon view will be removed when there is none and thus not showing
+	the fixed margins. -->
+    <attr name="headerRemoveIconIfEmpty" format="boolean" />
+
+</resources>

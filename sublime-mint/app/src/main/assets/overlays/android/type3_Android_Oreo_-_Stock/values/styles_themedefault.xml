@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<style name="Theme.DeviceDefault.Light" parent="@*android:style/Theme.Material" />
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@*android:style/Theme.Material" />
+	<style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
+	<style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material">	
+		<item name="android:windowShowWallpaper">@*android:bool/config_windowIsRound</item>
+		<item name="android:windowBackground">@*android:drawable/screen_background_dark</item>
+		<item name="android:listDivider">@android:color/transparent</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+	</style>
+	<style name="Theme.DeviceDefault.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
+		<item name="android:windowShowWallpaper">@*android:bool/config_windowIsRound</item>
+		<item name="android:windowBackground">@*android:drawable/screen_background_dark</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+	</style>
+</resources>

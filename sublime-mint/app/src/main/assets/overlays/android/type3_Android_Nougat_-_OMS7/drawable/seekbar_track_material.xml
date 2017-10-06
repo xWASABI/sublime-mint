@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background" android:left="-12.5dip" android:right="-12.5dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="20.0dip" />
+            <size android:height="20.5dip" />
+            <stroke android:width="1.0dip" android:color="@*android:color/Indigo_700" />
+          <gradient
+            android:startColor="@*android:color/Indigo_800"
+            android:endColor="@*android:color/Indigo_800" 
+            android:angle="90.0" 
+            android:type="linear"
+            android:centerY="0.9"
+            android:centerColor="@*android:color/Indigo_800" />
+        </shape>
+    </item>
+   <!--
+  <item android:gravity="fill_horizontal|center" android:id="@android:id/background" 
+    android:top="-2dip" android:bottom="-2dip"
+    android:left="-10.85dip" android:right="-10.85dip">
+    <shape android:shape="rectangle">
+      <corners android:radius="20.0dip" />
+      <size android:height="20.5dip" />
+      <stroke android:width="0.75dip" android:color="@*android:color/Red_700" />
+      <solid android:color="@android:color/transparent"/>
+    </shape>
+  </item>
+  -->
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="false" android:drawable="@android:color/transparent" />
+                <item>
+                    <shape android:tint="#ff2e36d4" android:shape="rectangle">
+                        <size android:height="1.0dip" />
+                        <solid android:color="@*android:color/primary_text_nodisable_holo_dark" />
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress" android:left="6.0dip" android:right="6.0dip">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="false" android:drawable="@android:color/transparent" />
+                <item>
+                    <shape android:shape="rectangle">
+                        <corners android:radius="10.0dip" />
+                        <size android:height="3.5dip" />
+                        <stroke android:width="2.0dip" android:color="@*android:color/Red_700" android:dashWidth="4.0dip" android:dashGap="2.0dip" />
+                        <solid android:color="@*android:color/Teal_700" />
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+</layer-list>

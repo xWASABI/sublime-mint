@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- BACKGROUND -->
+    <color name="Indigo_700">#2A2C3E</color><!-- LIGHTER -->
+	<color name="Indigo_800">#252631</color><!-- DARKER -->
+	<color name="Red_700">#692A2C3E</color>
+	<!-- GLASS SUPPORT -->
+	<color name="user_icon_3">#692A2C3E</color>
+</resources>

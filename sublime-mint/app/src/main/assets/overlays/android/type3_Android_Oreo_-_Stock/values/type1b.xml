@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ACTIONBAR/STATUSBAR -->
+	<color name="Pink_700">#212121</color>
+	<color name="Pink_800">#202020</color>
+	<color name="Red_800">#181818</color>
+</resources>

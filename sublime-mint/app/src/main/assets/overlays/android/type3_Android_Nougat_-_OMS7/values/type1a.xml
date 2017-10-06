@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- BACKGROUND -->
+    <color name="Indigo_700">#181818</color>
+	<color name="Indigo_800">#131313</color>
+	<color name="Red_700">#69131313</color>
+	
+	<bool name="config_windowIsRound">false</bool>
+</resources>

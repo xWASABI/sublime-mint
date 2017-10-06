@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Reboot Dialog -->
+    <string name="global_action_reboot">Reboot</string>
+   
+</resources>

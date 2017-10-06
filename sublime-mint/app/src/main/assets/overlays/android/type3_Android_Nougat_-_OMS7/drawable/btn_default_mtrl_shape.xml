@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient 
+				android:startColor="@*android:color/Purple_700" 
+				android:endColor="@*android:color/transparent"
+				android:angle="90.0" 
+				android:type="linear" 
+				android:centerY="0.5"
+				android:centerColor="@*android:color/Pink_700" />
+			<padding android:left="@*android:dimen/button_padding_horizontal_material"
+				android:top="@*android:dimen/button_padding_vertical_material"
+				android:right="@*android:dimen/button_padding_horizontal_material"
+				android:bottom="@*android:dimen/button_padding_vertical_material" />
+        </shape>
+    </item>
+    <item 
+		android:left="-100.0dip"
+		android:top="-1.0dip" 
+		android:right="-100.0dip" 
+		android:bottom="-1.75dip">
+        <shape android:shape="rectangle">
+	        <gradient 
+				android:startColor="@*android:color/Pink_700"
+				android:endColor="@*android:color/Pink_700"
+				android:angle="90.0" 
+				android:type="linear" 
+				android:centerY="0.5" 
+				android:centerColor="@*android:color/Pink_700" />
+            <corners android:radius="0.0dip" />
+			<padding android:left="@*android:dimen/button_padding_horizontal_material"
+				android:top="@*android:dimen/button_padding_vertical_material"
+				android:right="@*android:dimen/button_padding_horizontal_material"
+				android:bottom="@*android:dimen/button_padding_vertical_material" />
+				
+        </shape>
+    </item>
+	
+<!-- STOCK
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+	android:insetLeft="@*android:dimen/button_inset_horizontal_material"
+	android:insetTop="@*android:dimen/button_inset_vertical_material"
+	android:insetRight="@*android:dimen/button_inset_horizontal_material"
+	android:insetBottom="@*android:dimen/button_inset_vertical_material">
+	
+    <shape android:shape="rectangle"
+	android:tint="@*android:color/Pink_700"
+		
+        <corners android:radius="@*android:dimen/control_corner_material" />
+        <solid android:color="@*android:color/white" />
+        <padding android:left="@*android:dimen/button_padding_horizontal_material"
+			android:top="@*android:dimen/button_padding_vertical_material"
+			android:right="@*android:dimen/button_padding_horizontal_material"
+			android:bottom="@*android:dimen/button_padding_vertical_material" />
+    </shape>
+</inset>
+-->
+
+</layer-list>

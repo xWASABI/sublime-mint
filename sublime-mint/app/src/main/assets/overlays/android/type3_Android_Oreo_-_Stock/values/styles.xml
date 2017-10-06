@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	
+	<style name="TextAppearance.Material.Widget.ActionBar.Title"
+		parent="@*android:style/TextAppearance.Material.Title">
+        <item name="android:textSize">15sp</item><!-- 14sp or 15sp -->
+        <item name="android:textColor">#fff</item>
+   		<item name="android:textStyle">bold</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:letterSpacing">0.23</item>
+	</style>
+	
+    <style 
+		name="Widget.Material.SearchView"
+		parent="@*android:style/Widget.Material">
+        <item name="android:layout">@*android:layout/search_view</item>
+        <item name="android:queryBackground">@*android:drawable/textfield_search_material</item>
+        <item name="android:submitBackground">@*android:drawable/textfield_search_material</item>
+        <item name="android:closeIcon">@*android:drawable/ic_clear_material</item>
+        <item name="android:searchIcon">@*android:drawable/ic_search_api_material</item>
+        <item name="android:searchHintIcon">@*android:drawable/ic_search_api_material</item>
+        <item name="android:goIcon">@*android:drawable/ic_go_search_api_material</item>
+        <item name="android:voiceIcon">@*android:drawable/ic_voice_search_api_material</item>
+        <item name="android:commitIcon">@*android:drawable/ic_commit_search_api_material</item>
+        <item name="android:suggestionRowLayout">@*android:layout/search_dropdown_item_icons_2line</item>
+    </style>
+	
+	<!-- TEXT -->
+	<style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+		<item name="android:textAllCaps">false</item>
+		<item name="android:shadowRadius">0</item>
+		<item name="android:shadowColor">@*android:color/Teal_700</item>
+		
+    </style>
+    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+		<item name="android:textColor">#9F9F9F</item>
+    </style>
+	<style name="TextAppearance.Material.Notification.Info" parent="@android:style/TextAppearance">
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+    </style>
+		
+	<style name="TextAppearance.Material.Title" parent="@android:style/TextAppearance">
+		<item name="android:textSize">16.0sp</item>   
+		<item name="android:textColor">#ff9f9f9f</item>
+    </style>
+	<style name="TextAppearance.Material.Large" parent="@android:style/TextAppearance">
+		<item name="android:textSize">16.0sp</item>    
+		<item name="android:textColor">#ff9f9f9f</item>
+    </style>
+    <style name="TextAppearance.Material.Small" parent="@android:style/TextAppearance">
+		<item name="android:textSize">11.0sp</item>
+		<item name="android:textColor">#ff9f9f9f</item>
+    </style>
+	<style name="TextAppearance.Material.Notification.Time" parent="@android:style/TextAppearance">
+		<item name="android:textSize">13.0sp</item>
+		<item name="android:textColor">@*android:color/Teal_700</item>
+		<item name="android:textAllCaps">false</item>
+	</style>
+    <style name="TextAppearance.Material.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Menu">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff9f9f9f</item>
+    </style>
+    <style name="TextAppearance.Material.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Material.Menu">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff9f9f9f</item>
+    </style>
+	
+	<!-- ATTRS -->
+	<attr name="headerTextColor" format="color" />
+	<attr name="internalLayout" format="reference"  />
+	<attr name="legacyLayout" />
+	<!-- TIMEPICKER -->
+    <style name="Widget.Material.TimePicker" parent="@*android:style/Widget.Material">
+        <item name="android:timePickerMode">clock</item>
+        <item name="legacyLayout">@*android:layout/time_picker_material</item>
+        <item name="internalLayout">@*android:layout/time_picker_material</item>
+        <item name="android:headerBackground">@*android:color/transparent</item>
+		<item name="headerTextColor">@*android:color/Teal_700</item>
+        <item name="android:numbersTextColor">@*android:color/Teal_700</item>
+        <item name="android:numbersInnerTextColor">#FFFFFF</item>
+        <item name="android:numbersSelectorColor">#404040</item>
+        <item name="android:numbersBackgroundColor">@*android:color/Pink_700</item>
+        <item name="android:amPmTextColor">@*android:color/Teal_700</item>
+    </style>
+	<!-- TIMEPICKER - HEADER TIME LABEL -->
+    <style name="TextAppearance.Material.TimePicker.TimeLabel" parent="@*android:TextAppearance.Material">
+        <item name="android:textSize">72dp</item>
+        <item name="android:textColor">@*android:color/Teal_700</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">center</item>
+    </style>
+	<!-- TIMEPICKER - HEADER AMPM LABEL -->
+	<style name="TextAppearance.Material.TimePicker.AmPmLabel" parent="@*android:TextAppearance.Material">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+	<!-- DATEPICKER -->
+	<style name="Widget.Material.DatePicker" parent="@*android:style/Widget.Material">
+        <item name="android:datePickerMode">calendar</item>
+		<item name="android:calendarViewShown">true</item>
+		<item name="android:headerBackground">@*android:color/transparent</item>
+		<item name="legacyLayout">@*android:layout/date_picker_material</item>
+        <item name="internalLayout">@*android:layout/date_picker_material</item>
+        <item name="headerTextColor">@*android:color/Teal_700</item>		
+    </style>
+	<!-- DATEPICKER - HEADER YEAR LABEL -->
+	<style name="TextAppearance.Material.DatePicker.YearLabel" parent="@*android:TextAppearance.Material">
+        <item name="android:textColor">@*android:color/Teal_700</item>
+        <item name="android:textSize">@*android:dimen/date_picker_year_label_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<!-- DATEPICKER - HEADER DATE LABEL -->
+    <style name="TextAppearance.Material.DatePicker.DateLabel" parent="@*android:TextAppearance.Material">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@*android:dimen/date_picker_date_label_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+	<!-- THEME MATERIAL -->
+    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@android:style/Theme.Material">
+		<item name="android:windowShowWallpaper">false</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+        <item name="android:windowBackground">@*android:color/Indigo_700</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@*android:color/Pink_800</item>
+        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+    </style>
+    <style name="Theme.Material.DayNight" parent="@android:style/Theme.Material.Settings" />
+    <style name="Theme.Material.DayNight.DarkActionBar" parent="@android:style/Theme.Material.Settings" />
+    
+	<style name="Theme.Material.Settings" parent="@*android:style/Theme.Material">	
+		<item name="android:windowShowWallpaper">false</item>
+        <item name="android:colorForeground">@android:color/transparent</item>
+        <item name="android:colorBackground">@*android:color/Indigo_700</item>
+        <item name="android:windowBackground">@*android:color/Indigo_800</item>
+		<item name="android:colorButtonNormal">@*android:color/Pink_700</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@*android:color/Pink_800</item>
+        <item name="android:navigationBarColor">@*android:color/Indigo_800</item>
+    </style>
+	
+	<!-- RESOLVER -->
+    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listPreferredItemPaddingStart">10.0dip</item>
+        <item name="android:listPreferredItemPaddingEnd">10.0dip</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:colorControlActivated">@*android:color/Indigo_700</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:backgroundTint">@*android:color/Indigo_700</item>
+        <item name="android:backgroundTintMode">src_in</item>
+    </style>
+	
+	<!-- ACTIONBAR -->
+    <style name="Widget.Material.ActionBar.Solid" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@*android:drawable/action_bar_background</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:backgroundStacked">@*android:drawable/action_bar_background</item>
+        <item name="android:backgroundSplit">@*android:drawable/action_bar_background</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="Widget.Material.Light.ActionBar.Solid" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@*android:drawable/action_bar_background</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:backgroundStacked">@*android:drawable/action_bar_background</item>
+        <item name="android:backgroundSplit">@*android:drawable/action_bar_background</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+	<!-- POPUP MENU -->
+    <style name="Widget.Material.PopupMenu" parent="@android:style/Theme.Material">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Widget.PopupMenu.Large</item>
+        <item name="android:windowFrame">@*android:drawable/box</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:popupBackground">@*android:color/Indigo_700</item>
+        <item name="android:textAppearanceSmallPopupMenu">@android:style/TextAppearance.Material.Widget.PopupMenu.Small</item>
+        <item name="android:windowElevation">20.0dip</item>
+    </style>
+	
+</resources>
