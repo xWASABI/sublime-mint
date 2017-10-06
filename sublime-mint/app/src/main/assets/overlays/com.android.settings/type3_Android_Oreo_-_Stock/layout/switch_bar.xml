@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView android:id="@*com.android.settings:id/switch_text"
+		android:layout_height="wrap_content"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:layout_gravity="center_vertical"
+		android:maxLines="2"
+		android:ellipsize="end"
+		android:textAppearance="@android:style/TextAppearance.Material.Title"
+		android:textColor="@android:color/white"
+		android:textAlignment="viewStart" />
+
+    <ImageView android:id="@*com.android.settings:id/restricted_icon"
+		android:layout_width="16dp"
+		android:layout_height="16dp"
+		android:src="@*com.android.settings:drawable/ic_info"
+		android:theme="@android:style/Theme.Material"
+		android:layout_gravity="center_vertical"
+		android:layout_marginEnd="16dp"
+		android:visibility="gone" />
+
+    <com.android.settings.widget.ToggleSwitch 
+		android:id="@*com.android.settings:id/switch_widget"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:theme="@*com.android.settings:style/ThemeOverlay.SwitchBar.Settings" />
+
+</merge>

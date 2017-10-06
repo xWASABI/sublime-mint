@@ -1,0 +1,16 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:drawableTop="@*com.android.systemui:drawable/recents_empty"
+    android:drawablePadding="25dp"
+    android:textSize="16sp"
+	android:textAllCaps="true"
+    android:textColor="#FFFFFF"
+	android:shadowColor="#BBFFF1"
+	android:shadowRadius="20.00"
+    android:text="@*com.android.systemui:string/recents_empty_message"
+    android:fontFamily="sans-serif"
+    android:visibility="gone" />

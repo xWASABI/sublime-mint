@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<dimen name="dashboard_padding_start">0dip</dimen>
+    <dimen name="dashboard_padding_end">0dip</dimen>
+    <dimen name="dashboard_padding_bottom">0.0dip</dimen>
+    <dimen name="dashboard_padding_top">0.0dip</dimen>
+    <!--
+	<dimen name="preference_screen_image_width">24.0dip</dimen>
+    <dimen name="preference_screen_image_height">24.0dip</dimen>
+    <dimen name="preference_screen_twisted_min_height">64.0dip</dimen>
+    <dimen name="actionbar_size">56.0dip</dimen>
+    <dimen name="settings_side_margin">9.0dip</dimen>
+	-->
+	<!-- Dashboard image tile size -->
+    <dimen name="dashboard_tile_image_size">22dp</dimen><!-- 24 -->
+
+    <!-- Dashboard tile image margin start / end -->
+    <dimen name="dashboard_tile_image_margin_start">16dp</dimen><!-- 16 -->
+    <dimen name="dashboard_tile_image_margin_end">32dp</dimen><!-- 32 -->
+	
+	<!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">1dp</dimen>
+    <dimen name="activity_vertical_margin">1dp</dimen>
+	
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Keyguard -->
+  	<dimen name="keyguard_affordance_width">100dp</dimen> <!-- 200 -->
+  	<dimen name="status_bar_header_height_keyguard">42dp</dimen>
+  	<dimen name="widget_label_font_size">15sp</dimen>
+  	<dimen name="widget_big_font_size">42sp</dimen>
+	<dimen name="header_battery_margin_keyguard">4dp</dimen>
+	<!-- Height of notification icons in the status bar -->
+    <dimen name="status_bar_icon_size">@*android:dimen/status_bar_icon_size</dimen>
+	<!-- Margin on the left side of the carrier text on Keyguard -->
+    <!--<dimen name="keyguard_carrier_text_margin">-80dp</dimen>-->
+    <!-- Battery level text padding end when in expanded QS and on Keyguard -->
+	<dimen name="battery_level_padding_end">2dp</dimen>
+	
+	<!-- Notifications -->
+	<dimen name="notification_divider_height">0.0dip</dimen>
+    <dimen name="notification_padding">0.0dip</dimen>
+    <dimen name="notification_material_rounded_rect_radius">0.0dip</dimen>
+    <dimen name="notifications_top_padding">0.0dip</dimen>
+    <dimen name="notification_side_padding">0.0dip</dimen>
+	<dimen name="notifications_bottom_padding">0.0dip</dimen>
+	<dimen name="notification_material_rounded_rect_radius_negative">-2.0dip</dimen>
+	<dimen name="speed_bump_height">0.0dip</dimen>
+    <dimen name="z_distance_between_notifications">0.0dip</dimen>
+    <dimen name="notification_summary_height">44dp</dimen>
+	
+    <!-- Recents -->
+    <dimen name="recents_task_view_rounded_corners_radius">0.0dip</dimen>
+    <dimen name="fake_shadow_inset">0.0dip</dimen>
+    <dimen name="fake_shadow_size">0.0dip</dimen>
+    <dimen name="top_stack_slow_down_length">0.0dip</dimen>
+    <dimen name="top_stack_peek_amount">30.0dip</dimen>
+	
+	<!-- Volume 
+	<dimen name="standard_notification_panel_width">616dp</dimen>
+	-->
+	<!-- Quick Settings -->
+	<dimen name="status_bar_expanded_header_elevation">0.0dip</dimen>
+    <dimen name="qs_panel_side_padding">0.0dip</dimen>
+	<dimen name="qs_tile_icon_size">24dp</dimen>
+
+</resources>

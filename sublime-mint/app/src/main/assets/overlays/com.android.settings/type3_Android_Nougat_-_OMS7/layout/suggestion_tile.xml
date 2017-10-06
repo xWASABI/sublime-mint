@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@*android:color/Indigo_800"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:minHeight="@*com.android.settings:dimen/dashboard_tile_minimum_height">
+
+    <ImageView
+        android:id="@*android:id/icon"
+		android:tint="@*android:color/Teal_700"
+        android:layout_width="@*com.android.settings:dimen/dashboard_tile_image_size"
+        android:layout_height="@*com.android.settings:dimen/dashboard_tile_image_size"
+        android:layout_marginStart="@*com.android.settings:dimen/dashboard_tile_image_margin_start"
+        android:layout_marginEnd="@*com.android.settings:dimen/dashboard_tile_image_margin_end"
+        android:scaleType="centerInside"/>
+
+    <RelativeLayout
+		android:layout_marginEnd="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView android:id="@*android:id/title"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:shadowColor="@android:color/black"
+			android:shadowRadius="20.0"
+			android:singleLine="true"
+			android:textAppearance="@*com.android.settings:style/TextAppearance.TileTitle"
+			android:ellipsize="marquee"
+			android:fadingEdge="horizontal"/>
+
+        <TextView android:id="@*android:id/summary"
+			android:textSize="11sp"
+			android:gravity="center"
+			android:singleLine="false"
+			android:layout_gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@*android:id/title"
+			android:layout_alignStart="@*android:id/title"
+			android:textAppearance="@*com.android.settings:style/TextAppearance.Small"
+			android:textColor="#a8a8a8"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@*com.android.settings:id/overflow"
+        style="?android:attr/actionOverflowButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:tint="@*android:color/Teal_700"
+        android:padding="16dp"/>
+
+</LinearLayout>

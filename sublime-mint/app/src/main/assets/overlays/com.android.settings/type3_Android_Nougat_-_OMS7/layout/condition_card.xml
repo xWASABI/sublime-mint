@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    <LinearLayout
+        android:id="@*com.android.settings:id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@*android:color/Indigo_800"
+        android:elevation="2dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:id="@*com.android.settings:id/collapsed_group"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@*android:id/icon"
+                android:layout_width="@*com.android.settings:dimen/dashboard_tile_image_size"
+                android:layout_height="@*com.android.settings:dimen/dashboard_tile_image_size"
+                android:layout_marginStart="@*com.android.settings:dimen/dashboard_tile_image_margin_start"
+                android:layout_marginEnd="@*com.android.settings:dimen/dashboard_tile_image_margin_end"
+                android:tint="@*com.android.settings:color/condition_card_icon_color" />
+
+            <TextView
+                android:id="@*android:id/title"
+				android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+				android:textAllCaps="true"
+				android:shadowColor="@android:color/black"
+				android:shadowRadius="20.0"
+                android:textAppearance="@*com.android.settings:style/TextAppearance.SuggestionTitle"
+                android:textColor="@*com.android.settings:color/condition_card_title_text_color" />
+
+            <ImageView
+                android:id="@*com.android.settings:id/expand_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:tint="@*com.android.settings:color/condition_card_expander_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@*com.android.settings:id/detail_group"
+			android:layout_marginEnd="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingStart="72dp"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <!-- TODO: Don't set alpha here, and do proper themeing that
+			handles night mode -->
+            <TextView
+                android:id="@*android:id/summary"
+				android:gravity="center"
+				android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+                android:paddingBottom="16dp"
+                android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+                android:alpha="100"
+                android:textColor="@*com.android.settings:color/condition_card_summary_text_color" />
+
+            <!-- TODO: Better background -->
+            <View
+                android:id="@*com.android.settings:id/divider"
+				android:layout_marginEnd="14dp"
+                android:layout_width="match_parent"
+                android:layout_height=".25dp"
+                android:background="@*com.android.settings:color/condition_card_divider_color" />
+
+            <com.android.internal.widget.ButtonBarLayout
+                android:id="@*com.android.settings:id/buttonBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                style="?android:attr/buttonBarStyle"
+                android:paddingEnd="?*android:attr/listPreferredItemPaddingEnd">
+
+                <Button
+                    android:id="@*com.android.settings:id/first_action"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="0dp"
+                    android:alpha=".8"
+                    android:textAlignment="center"
+                    android:textColor="@*com.android.settings:color/condition_card_first_button_text_color"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@*com.android.settings:id/second_action"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:alpha=".8"
+                    android:textAlignment="center"
+                    android:textColor="@*com.android.settings:color/condition_card_second_button_text_color"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            </com.android.internal.widget.ButtonBarLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
+

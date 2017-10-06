@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Title label of Sim Editor.  [CHAR LIMIT=40] -->
+    <string name="sim_editor_title"><font color="#00000000">SIM slot %1$d</font></string>
+ 
+	<string name="themes_dashboard_summary">Sublime Mint</string>
+	
+</resources>

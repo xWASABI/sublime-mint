@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Array of titles for sim color for multi-sim -->
+    <string-array name="color_picker">
+        <item><font color="#BBFFF1">Teal</font></item>
+        <item><font color="#BBFFF1">Blue</font></item>
+        <item><font color="#BBFFF1">Indigo</font></item>
+        <item><font color="#BBFFF1">Purple</font></item>
+        <item><font color="#BBFFF1">Pink</font></item>
+        <item><font color="#BBFFF1">Red</font></item>
+    </string-array>
+
+</resources>

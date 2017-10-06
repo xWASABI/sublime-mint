@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+
+    <style name="TextAppearance.StatusBar.PhoneTicker"
+        parent="@*android:style/TextAppearance.StatusBar.Ticker">
+		<item name="android:textAllCaps">true</item>
+		<item name="android:letterSpacing">0.11</item>
+		<!-- Note: must be dp to fit in status bar -->
+   		<item name="android:textSize">8dp</item>
+    </style>
+
+	<style name="systemui_theme_remote_input" parent="@*android:style/Theme.Material">
+		<!-- REPLY BOX -->
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:backgroundTint">@*android:color/Indigo_800</item>
+      	<!-- ACCENT -->
+		<item name="android:colorControlActivated">@*android:color/Teal_700</item>
+    </style>
+	
+	<style name="TextAppearance.StatusBar.Expanded" parent="@*android:style/TextAppearance.StatusBar" />
+
+    <style name="TextAppearance.StatusBar.Expanded.Clock">
+        <item name="android:textSize">8sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#fff</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:letterSpacing">0.11</item>
+    </style>
+
+	<style 
+		name="TextAppearance.StatusBar.Clock" 
+		parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+		<item name="android:letterSpacing">0.26</item>
+    </style>
+	
+	<!-- Keyguard -->
+	<style name="widget_big_thin">	
+		<item name="android:focusable">true</item>	
+		<item name="android:letterSpacing">.10</item>
+	    <item name="android:textSize">@*com.android.systemui:dimen/widget_big_font_size</item>
+	    <item name="android:background">#00000000</item>
+		<item name="android:shadowColor">@*android:color/Teal_700</item>
+        <item name="android:shadowRadius">25.00</item>	
+    </style>
+	<style name="widget_label">
+		<item name="android:letterSpacing">0</item>
+	    <item name="android:textSize">@*com.android.systemui:dimen/widget_label_font_size</item>
+	    <item name="android:background">#00000000</item>
+		<item name="android:shadowColor">@*android:color/Teal_700</item>
+        <item name="android:shadowRadius">25.00</item>	
+    </style>
+	
+	<!-- Keyguard PIN pad styles -->
+    <style name="Widget.TextView.NumPadKey" parent="@android:style/Widget.TextView">
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@*android:color/Teal_700</item>
+        <item name="android:paddingBottom">-16dp</item>
+    </style>
+	
+	<!-- Notifications -->
+	<style name="TextAppearance" />
+    <style name="TextAppearance.NotificationGuts">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">roboto-regular</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+	<style name="TextAppearance.NotificationGuts.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@*android:color/Teal_700</item>
+    </style>
+	
+</resources>

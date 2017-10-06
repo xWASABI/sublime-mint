@@ -1,0 +1,57 @@
+<com.android.systemui.statusbar.NotificationOverflowContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@*com.android.systemui:dimen/notification_summary_height"
+    android:focusable="true"
+    android:clickable="true"
+>
+
+    <com.android.systemui.statusbar.NotificationBackgroundView android:id="@*com.android.systemui:id/backgroundNormal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	/>
+    <com.android.systemui.statusbar.NotificationBackgroundView android:id="@*com.android.systemui:id/backgroundDimmed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	/>
+
+    <com.android.keyguard.AlphaOptimizedLinearLayout
+        android:id="@*com.android.systemui:id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@*com.android.systemui:id/more_text"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="12dp"
+            android:layout_gravity="center_vertical"
+            android:background="@*com.android.systemui:drawable/keyguard_overflow_number_background"
+            android:gravity="center"
+            android:textColor="@*android:color/Teal_700"
+            android:textStyle="bold"
+            android:textSize="14dp"
+		/>
+        <com.android.systemui.statusbar.StatusBarIconView
+            android:id="@*com.android.systemui:id/more_icon_overflow"
+            android:layout_width="@*com.android.systemui:dimen/status_bar_icon_size"
+            android:layout_height="match_parent"
+            android:src="@*com.android.systemui:drawable/stat_notify_more"
+            android:tint="@*com.android.systemui:color/keyguard_overflow_content_color"
+            android:visibility="gone"
+		/>
+        <com.android.systemui.statusbar.NotificationOverflowIconsView
+            android:id="@*com.android.systemui:id/overflow_icons_view"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		/>
+    </com.android.keyguard.AlphaOptimizedLinearLayout>
+
+    <com.android.systemui.statusbar.notification.FakeShadowView
+        android:id="@*com.android.systemui:id/fake_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.android.systemui.statusbar.NotificationOverflowContainer>

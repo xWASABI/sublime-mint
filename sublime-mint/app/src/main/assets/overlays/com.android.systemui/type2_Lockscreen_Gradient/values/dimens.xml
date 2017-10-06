@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Keyguard -->
+  <dimen name="keyguard_affordance_width">100dp</dimen> <!-- 200 -->
+  <dimen name="status_bar_header_height_keyguard">42dp</dimen>
+  <dimen name="widget_label_font_size">15sp</dimen>
+  <dimen name="widget_big_font_size">42sp</dimen>
+ 
+</resources>

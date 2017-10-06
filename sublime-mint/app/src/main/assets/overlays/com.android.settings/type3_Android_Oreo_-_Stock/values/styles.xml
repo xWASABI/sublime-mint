@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">
+		<item name="android:windowShowWallpaper">@*android:bool/config_windowIsRound</item>
+		<item name="android:windowBackground">@*android:drawable/screen_background_dark</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	
+	<style name="Theme.AlertDialog" parent="@android:style/Theme.Material.Dialog.Alert" /> 
+		
+	<style name="Theme.FingerprintEnroll" parent="@*com.android.settings:style/SuwThemeGlif">
+        <item name="android:textAppearanceListItemSmall">@android:style/TextAppearance.Material.Body1</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_800</item>
+		<item name="android:colorAccent">@*android:color/Pink_700</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+
+	<style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">	
+		<item name="android:windowShowWallpaper">@*android:bool/config_windowIsRound</item>
+		<item name="android:windowBackground">@*android:drawable/screen_background_dark</item>	
+		<item name="android:colorForeground">@*android:color/transparent</item>
+	</style>
+	
+	<style name="Theme.SettingsBase" parent="@android:style/Theme.Material">
+		<item name="android:colorBackground">@*android:color/Indigo_800</item>
+		<item name="android:colorSecondary">@*android:color/Indigo_800</item>	
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorPrimary">#fff</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>	
+		<item name="android:listDivider">@*android:color/transparent</item>	
+		<item name="android:windowShowWallpaper">@*android:bool/config_windowIsRound</item>
+		<item name="android:windowBackground">@*android:drawable/screen_background_dark</item>
+		<item name="android:backgroundTint">@null</item>
+		<item name="android:verticalScrollbarPosition">right</item>
+		<item name="android:scrollbarStyle">outsideOverlay</item>
+		<item name="android:fadeScrollbars">true</item>
+		<item name="android:colorPrimary">@*android:color/Pink_700</item>
+		<item name="android:colorPrimaryDark">@*android:color/Indigo_800</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:colorForeground">@*android:color/transparent</item>
+		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
+		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>	
+		<item name="android:colorControlNormal">@*android:color/Teal_700</item>	
+	</style>
+	
+    <style name="TextAppearance.EntityHeaderTitle"
+		parent="@android:style/TextAppearance.Material.Subhead">
+		<item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

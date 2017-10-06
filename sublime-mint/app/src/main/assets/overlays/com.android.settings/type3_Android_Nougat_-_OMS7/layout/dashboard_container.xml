@@ -1,0 +1,6 @@
+<com.android.settings.widget.RtlCompatibleViewPager
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@*com.android.settings:id/pager"
+	android:background="@*android:color/Indigo_700"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"/>

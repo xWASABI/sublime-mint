@@ -1,0 +1,46 @@
+<!--
+    Copyright (C) 2016 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24.0dp"
+        android:height="24.0dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0"
+        android:tint="?android:attr/colorAccent">
+    <path
+        android:strokeWidth="0.75"
+		android:strokeColor="@android:color/white"
+		android:fillColor="#30FFFFFF" 
+        android:pathData="M15.979 7.054c0.4-0.108 0.638-0.518 0.53-0.919s-0.518-0.638-0.919-0.53l-7.568
+		2.329c-0.401 0.107-0.638 0.518-0.531 0.919s0.518 0.638 0.919 0.53l0.625-0.192
+		0.716 1.303h-0.75c-0.828 0-1.5 0.672-1.5 1.5v3.125l1.5
+		2.125h6l1.5-2.125v-3.125c0-0.828-0.672-1.5-1.5-1.5h-0.75l1.511-3.373
+		0.217-0.067zM12.75 10.494h-1.5l-0.932-1.698 3.704-1.14-1.271 2.838zM15.59
+		3.356l-7.568 2.329c-0.401 0.107-0.638 0.518-0.531 0.919s0.518 0.638 0.919
+		0.53l7.568-2.329c0.4-0.108 0.638-0.518 0.53-0.919s-0.518-0.638-0.918-0.53zM8.41
+		4.883l7.568-2.329c0.4-0.108 0.638-0.518
+		0.53-0.919s-0.518-0.638-0.919-0.53l-7.567 2.329c-0.401 0.107-0.637 0.518-0.531
+		0.919s0.519 0.638 0.919 0.53zM14.625 17.994h-5.25c-0.207 0-0.375 0.168-0.375
+		0.375s0.168 0.375 0.375 0.375h5.25c0.206 0 0.375-0.168
+		0.375-0.375s-0.169-0.375-0.375-0.375zM14.625 19.494h-5.25c-0.207 0-0.375
+		0.168-0.375 0.375s0.168 0.375 0.375 0.375h5.25c0.206 0 0.375-0.168
+		0.375-0.375s-0.169-0.375-0.375-0.375zM14.625 20.994h-5.25c-0.207 0-0.375
+		0.168-0.375 0.375s0.168 0.375 0.375 0.375h5.25c0.206 0 0.375-0.168
+		0.375-0.375s-0.169-0.375-0.375-0.375zM10.875 22.494c-0.076 0.617 0.504 1.125
+		1.125 1.125s1.125-0.504 1.125-1.125c0 0.032-2.25 0.080-2.25 0zM8.453
+		2.667l5.010-1.57c0.395-0.124 0.615-0.545
+		0.491-0.94s-0.544-0.616-0.94-0.492l-5.010 1.57c-0.395 0.124-0.615 0.545-0.491
+		0.941s0.545 0.615 0.94 0.491z"/>
+</vector>

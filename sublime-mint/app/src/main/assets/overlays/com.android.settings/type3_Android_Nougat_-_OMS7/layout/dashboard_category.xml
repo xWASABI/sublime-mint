@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.android.settings:id/category"
+    android:layout_width="match_parent"
+    android:layout_height="@*com.android.settings:dimen/dashboard_category_height"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:background="@*com.android.settings:drawable/dashboard_category_title_bg">
+
+    <TextView android:id="@android:id/title"
+		android:gravity="center_vertical"
+		android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:singleLine="true"
+		android:paddingTop="1dp"
+		android:paddingStart="@*com.android.settings:dimen/dashboard_category_title_margin_start"
+        android:textAppearance="@*com.android.settings:style/TextAppearance.CategoryTitle"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal" />
+	
+	<LinearLayout 
+		android:gravity="center_vertical"	
+		android:layout_width="match_parent"
+		android:layout_height="@*com.android.settings:dimen/dashboard_category_height">
+	
+	<ImageView android:id="@android:id/icon"
+		android:src="@*com.android.settings:drawable/ic_cross_grey_24dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="centerInside"
+		android:layout_marginTop="11dp"   
+		android:layout_marginStart="3dp"
+        android:layout_marginEnd="@*com.android.settings:dimen/dashboard_tile_image_margin_end" />
+	
+	</LinearLayout>
+</LinearLayout>

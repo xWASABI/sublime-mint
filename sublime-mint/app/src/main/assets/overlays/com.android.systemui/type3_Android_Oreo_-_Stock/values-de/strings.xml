@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="empty_shade_text">KEINE BENACHRICHTIGUNGEN</string>
+	<!-- The text to clear all notifications. [CHAR LIMIT=60] -->
+    <string name="clear_all_notifications_text"></string>
+
+    <!-- When the lock screen is showing, the phone is plugged in and the battery is fully
+	charged, say that it is charged. -->
+    <string name="keyguard_charged">Berechnet</string>
+
+    <!-- When the lock screen is showing and the phone plugged in, and the battery
+	is not fully charged, say that it's charging.  -->
+    <string name="keyguard_plugged_in">⚡\nAufladen</string>
+	<!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_dash_charging_time">⚡\nBindestrich Aufladung (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> bis voll)</string>
+    <string name="keyguard_plugged_in_dash_charging">⚡\nBindestrich Aufladung</string>
+</resources>

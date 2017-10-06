@@ -1,0 +1,74 @@
+<com.android.systemui.statusbar.phone.KeyguardBottomAreaView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui"
+    android:id="@*com.android.systemui:id/keyguard_bottom_area"
+    android:layout_height="match_parent"
+	android:background="@*com.android.systemui:drawable/recents_tv_background_gradient"
+    android:layout_width="match_parent"
+    android:outlineProvider="none"
+    android:elevation="5dp" > <!-- Put it above the status bar header -->
+
+    <com.android.systemui.statusbar.phone.KeyguardIndicationTextView
+        android:id="@*com.android.systemui:id/keyguard_indication_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@*com.android.systemui:dimen/keyguard_indication_margin_bottom"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center_horizontal"
+		android:textAllCaps="true"
+		android:textSize="9.75sp"
+		android:letterSpacing="0.12"    
+		android:textStyle="italic"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:accessibilityLiveRegion="polite" />
+
+    <FrameLayout
+        android:id="@*com.android.systemui:id/preview_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	
+		<!-- EXPERIMENTAL
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="342dp"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:src="@*com.android.systemui:drawable/ic_pointer_on"
+			android:scaleType="centerInside"
+		/>
+	    -->
+	</FrameLayout>
+	
+    <com.android.systemui.statusbar.KeyguardAffordanceView
+        android:id="@*com.android.systemui:id/camera_button"
+        android:layout_height="@*com.android.systemui:dimen/keyguard_affordance_height"
+        android:layout_width="@*com.android.systemui:dimen/keyguard_affordance_width"
+        android:layout_gravity="bottom|end"
+        android:tint="@*android:color/Teal_700"
+        android:src="@*com.android.systemui:drawable/ic_camera_alt_24dp"
+        android:scaleType="center"
+        android:contentDescription="@*com.android.systemui:string/accessibility_camera_button" />
+
+    <com.android.systemui.statusbar.KeyguardAffordanceView
+        android:id="@*com.android.systemui:id/left_button"
+        android:layout_height="@*com.android.systemui:dimen/keyguard_affordance_height"
+        android:layout_width="@*com.android.systemui:dimen/keyguard_affordance_width"
+        android:layout_gravity="bottom|start"
+        android:tint="@*android:color/Teal_700"
+        android:src="@*com.android.systemui:drawable/ic_phone_24dp"
+        android:scaleType="center"
+        android:contentDescription="@*com.android.systemui:string/accessibility_phone_button" />
+
+    <com.android.systemui.statusbar.phone.LockIcon
+		android:visibility="visible"
+        android:id="@*com.android.systemui:id/lock_icon"
+        android:layout_width="@*com.android.systemui:dimen/keyguard_affordance_width"
+        android:layout_height="@*com.android.systemui:dimen/keyguard_affordance_height"
+        android:layout_gravity="bottom|center_horizontal"
+        android:src="@*com.android.systemui:drawable/ic_lock_24dp"
+		android:tint="@*android:color/Teal_700"
+		android:scaleType="center" />
+
+</com.android.systemui.statusbar.phone.KeyguardBottomAreaView>

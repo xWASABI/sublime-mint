@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="batterymeter_frame_color">@*android:color/Teal_700</color><!-- 30% white -->
+	
+	
+	<color name="light_mode_icon_color_single_tone">@*android:color/Teal_700</color>
+    <color name="light_mode_icon_color_dual_tone_background">@*android:color/Purple_700</color>
+    <color name="light_mode_icon_color_dual_tone_fill">@*android:color/Teal_700</color>
+
+	<color name="dark_mode_icon_color_single_tone">@*android:color/Teal_700</color>
+    <color name="dark_mode_icon_color_dual_tone_background">@*android:color/Purple_700</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">@*android:color/Teal_700</color>
+	
+	<style name="DualToneLightTheme">
+        <item name="backgroundColor">@*android:color/Teal_700</item>
+        <item name="fillColor">@*android:color/Teal_700</item>
+        <item name="singleToneColor">@*android:color/Teal_700</item>
+    </style>
+    <style name="DualToneDarkTheme">
+        <item name="backgroundColor">@*android:color/Teal_700</item>
+        <item name="fillColor">@*android:color/Purple_700</item>
+        <item name="singleToneColor">@*android:color/Teal_700</item>
+    </style>
+	
+</resources>

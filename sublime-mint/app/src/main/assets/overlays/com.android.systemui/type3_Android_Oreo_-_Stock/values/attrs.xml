@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="UserAvatarView">
+        <attr name="avatarPadding" format="dimension" />
+        <attr name="frameWidth" format="dimension" />
+        <attr name="framePadding" format="dimension" />
+        <!-- {@deprecated Use a statelist in frameColor instead.} -->
+        <attr name="activeFrameColor" format="color" />
+        <attr name="frameColor" format="color" />
+        <attr name="badgeDiameter" format="dimension" />
+        <attr name="badgeMargin" format="dimension" />
+    </declare-styleable>
+	
+	<attr name="layout_maxWidth" format="dimension"/>
+	<attr name="layout_maxHeight" format="dimension" />
+		
+</resources>

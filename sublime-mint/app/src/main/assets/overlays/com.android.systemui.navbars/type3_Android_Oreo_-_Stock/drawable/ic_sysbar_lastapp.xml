@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector 
+	android:tint="@*com.android.systemui:color/assist_orb_color"
+	android:height="27.0dip" 
+	android:width="27.0dip" 
+	android:viewportWidth="27.0"
+	android:viewportHeight="27.0"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<path android:pathData="M13.5 0.54c-7.158 0-12.96 5.802-12.96 12.96s5.802 12.96 12.96 12.96c7.156 0   12.96-5.802 12.96-12.961 0-7.156-5.804-12.959-12.96-12.959zM13.5 23.759c-5.666   0-10.26-4.593-10.26-10.26s4.593-10.259 10.26-10.259c5.666 0 10.261 4.593 10.261   10.26s-4.595 10.259-10.261 10.259z"
+		android:fillColor="@*android:color/Purple_700"
+		android:strokeColor="@*android:color/Teal_700" 
+		android:strokeWidth="0.85" />
+
+	<group
+		android:translateX="5.0"
+		android:translateY="5.0">
+
+		<path 
+			android:fillColor="@*android:color/Purple_700"
+			android:strokeColor="@*android:color/Teal_700" 
+			android:strokeWidth="0.65" 
+			android:pathData="M1.428 8.135c0-2.523 2.059-4.582 4.582-4.582h2.49v1.395h-2.49c-1.76 0-3.188
+			1.428-3.188 3.188s1.428 3.188 3.188 3.188h0.365v-1.395l2.125 2.125-2.125
+			2.125v-1.428h-0.365c-2.523 0-4.582-2.092-4.582-4.615zM9.928
+			11.322h5.645v1.428h-5.645v-1.428zM9.928 7.438h5.645v1.428h-5.645v-1.428zM9.928
+			3.553h5.645v1.395h-5.645v-1.395z"  />
+
+	</group>
+
+</vector>

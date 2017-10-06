@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+  <!--Keyguard -->
+  <dimen name="keyguard_affordance_width">2000dp</dimen> <!-- 200 -->
+  <dimen name="status_bar_header_height_keyguard">0dp</dimen>
+  <dimen name="widget_label_font_size">15sp</dimen>
+  <dimen name="widget_big_font_size">42sp</dimen>
+  <dimen name="keyguard_indication_margin_bottom">70dp</dimen>
+
+  <!-- carrier label text height 
+  <dimen name="status_bar_carrier_height">0dp</dimen>
+  -->
+  
+  
+</resources>

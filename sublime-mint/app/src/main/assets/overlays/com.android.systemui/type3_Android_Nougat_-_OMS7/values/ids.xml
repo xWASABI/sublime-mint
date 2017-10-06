@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<item type="id" name="header_bar_container"/>
+    <item type="id" name="header_bar_layout"/>
+    <item type="id" name="shortcuts"/>
+
+		
+</resources>

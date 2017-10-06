@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+	<color name="light_mode_icon_color_single_tone">#a8a8a8</color>
+    <color name="light_mode_icon_color_dual_tone_background">#4da8a8a8</color>
+    <color name="light_mode_icon_color_dual_tone_fill">#a8a8a8</color>
+	<color name="dark_mode_icon_color_single_tone">#a8a8a8</color>
+    <color name="dark_mode_icon_color_dual_tone_background">#4da8a8a8</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">#a8a8a8</color>
+	-->
+	<!--
+	<color name="light_mode_icon_color_single_tone">#f1f</color>
+    <color name="light_mode_icon_color_dual_tone_background">#4d686868</color>
+    <color name="light_mode_icon_color_dual_tone_fill">#ef1</color>
+	<color name="dark_mode_icon_color_single_tone">#f22f</color>
+    <color name="dark_mode_icon_color_dual_tone_background">#4d686868</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">#f44</color>
+	<color name="batterymeter_frame_color">@*android:color/white</color>
+	-->
+	
+	<style name="DualToneLightTheme">
+        <item name="backgroundColor">@android:color/white</item>
+        <item name="fillColor">@android:color/white</item>
+        <item name="singleToneColor">@android:color/white</item>
+    </style>
+    <style name="DualToneDarkTheme">
+        <item name="backgroundColor">@*android:color/secondary_text_default_material_light</item>
+        <item name="fillColor">@*android:color/primary_text_default_material_light</item>
+        <item name="singleToneColor">@*android:color/secondary_text_default_material_light</item>
+    </style>
+	
+</resources>
