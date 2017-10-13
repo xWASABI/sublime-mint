@@ -3,7 +3,4 @@
 	
 	<dimen name="status_bar_header_height_keyguard">0dp</dimen>
 	
-    <!-- Volume dialog vertical offset from the top of the screen -->
-    <dimen name="volume_offset_top">0dp</dimen>
-	
 </resources>

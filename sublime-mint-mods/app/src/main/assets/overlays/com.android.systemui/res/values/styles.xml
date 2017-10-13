@@ -4,7 +4,6 @@
 	<attr name="lightIconTheme" format="reference" />
     <attr name="darkIconTheme" format="reference" />
 
-	<!--
 	<style 
 		name="systemui_theme"
 		parent="@*android:style/Theme.DeviceDefault">
@@ -15,6 +14,5 @@
 		<item name="*com.android.systemui:lightIconTheme">@*com.android.systemui:style/DualToneLightTheme</item>
         <item name="*com.android.systemui:darkIconTheme">@*com.android.systemui:style/DualToneDarkTheme</item>
     </style>
-	-->
 	
 </resources>

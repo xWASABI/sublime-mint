@@ -40,7 +40,7 @@
 		<shape android:shape="rectangle">
 			<gradient 
 				android:startColor="@*android:color/transparent" 
-				android:endColor="#85000000"
+				android:endColor="#70000000"
 				android:angle="90.0" 
 				android:type="linear" 
 				android:centerY="0.5"
