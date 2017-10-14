@@ -27,23 +27,34 @@
         android:paddingEnd="8dp"
         android:orientation="horizontal">
 		
-		<include layout="@*com.android.systemui:layout/system_icons" />
+		<include
+			layout="@*com.android.systemui:layout/system_icons" />
 		
-        <!--Added paddingStart-->
-        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout
-            android:id="@*com.android.systemui:id/notification_icon_area"
-			android:paddingStart="1dp"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal" />
-		
+		<RelativeLayout
+			android:layout_width="0dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1" >
+			
+			<!--Added paddingStart-->
+			<com.android.systemui.statusbar.AlphaOptimizedFrameLayout
+				android:id="@*com.android.systemui:id/notification_icon_area"
+				android:gravity="center"
+				android:layout_gravity="center"
+				android:paddingStart="1dp"
+				android:layout_width="68dp"
+				android:layout_height="48dp"
+				android:layout_weight="1"
+				android:orientation="horizontal" />
+		</RelativeLayout>
+			
         <com.android.keyguard.AlphaOptimizedLinearLayout 
 			android:id="@*com.android.systemui:id/system_icon_area"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal">
-		
+			
 			<com.android.systemui.statusbar.policy.Clock
 				android:id="@*com.android.systemui:id/clock"
 				android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"
@@ -53,8 +64,7 @@
 				android:singleLine="true"
 				android:paddingStart="@*com.android.systemui:dimen/status_bar_clock_starting_padding"
 				android:paddingEnd="@*com.android.systemui:dimen/status_bar_clock_end_padding"
-				android:gravity="center_vertical|start"
-			/>
+				android:gravity="center_vertical|start"/>
 		
         </com.android.keyguard.AlphaOptimizedLinearLayout>
     </LinearLayout>
