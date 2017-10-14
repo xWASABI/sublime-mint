@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- Whether or not a background should be drawn behind a notification. -->
+	<!-- Turn false for transparent support -->
+    <bool name="config_drawNotificationBackground">true</bool>
+	
+	
+</resources>
