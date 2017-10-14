@@ -41,9 +41,10 @@
 			<com.android.systemui.statusbar.AlphaOptimizedFrameLayout
 				android:id="@*com.android.systemui:id/notification_icon_area"
 				android:gravity="center"
+				android:layout_marginStart="20dp"		
 				android:layout_gravity="center"
 				android:paddingStart="1dp"
-				android:layout_width="68dp"
+				android:layout_width="72dp"
 				android:layout_height="48dp"
 				android:layout_weight="1"
 				android:orientation="horizontal" />
