@@ -3,7 +3,7 @@
 	
     <!-- Whether or not a background should be drawn behind a notification. -->
 	<!-- Turn false for transparent support -->
+	<!--
     <bool name="config_drawNotificationBackground">true</bool>
-	
-	
+	-->
 </resources>

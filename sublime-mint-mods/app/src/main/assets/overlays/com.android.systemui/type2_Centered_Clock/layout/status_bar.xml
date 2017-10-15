@@ -11,7 +11,7 @@
     android:orientation="vertical"
     android:focusable="false"
     android:descendantFocusability="afterDescendants">
-
+	
     <ImageView
         android:id="@*com.android.systemui:id/notification_lights_out"
         android:layout_width="@*com.android.systemui:dimen/status_bar_icon_size"
@@ -21,7 +21,7 @@
         android:src="@*com.android.systemui:drawable/ic_sysbar_lights_out_dot_small"
         android:scaleType="center"
         android:visibility="gone" />
-
+	
 	<LinearLayout android:id="@*com.android.systemui:id/status_bar_contents"
 		android:background="@*com.android.systemui:drawable/status_background"
         android:layout_width="match_parent"
@@ -29,9 +29,9 @@
         android:paddingStart="6dp"
         android:paddingEnd="8dp"
         android:orientation="horizontal">
-
+		
 		<include layout="@*com.android.systemui:layout/system_icons" />
-
+	
         <com.android.keyguard.AlphaOptimizedLinearLayout 
 			android:id="@*com.android.systemui:id/system_icon_area"
 			android:background="#f44"
@@ -39,61 +39,63 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal" />
-
+	
 	</LinearLayout>
-
-	<!-- CLOCK -->
-
+	
+	<!-- NOTIFICATION ICONS -->
+	
 	<RelativeLayout
+		android:layoutDirection="ltr"
 		android:layout_width="fill_parent"
 		android:layout_marginEnd="8dp"
 		android:gravity="end"
 		android:layout_height="wrap_content"
 		android:layout_gravity="end"
 		android:layout_weight="1" >
-
-		<com.android.systemui.statusbar.policy.Clock
-			android:id="@*com.android.systemui:id/clock"
-			android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"
-			android:letterSpacing="0.25"     
-			android:textStyle="bold"	
-			android:layout_width="wrap_content"
-			android:layout_height="match_parent"
-			android:singleLine="false"
-			android:paddingStart="@*com.android.systemui:dimen/status_bar_clock_starting_padding"
-			android:paddingEnd="@*com.android.systemui:dimen/status_bar_clock_end_padding"
-			android:layout_gravity="center"      
-			android:gravity="center"/>
 		
+		
+	<com.android.systemui.statusbar.AlphaOptimizedFrameLayout
+		android:id="@*com.android.systemui:id/notification_icon_area"
+		android:layout_gravity="end"
+		android:gravity="end"	
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal" />
+	
 	</RelativeLayout>
-
-	<!-- NOTIFICATION ICONS -->
-
-	<RelativeLayout
-		android:layout_width="fill_parent"
-		android:gravity="center"
-		android:layout_height="wrap_content"
-		android:layout_gravity="center"
-		android:layout_weight="1" >
-
-		<com.android.systemui.statusbar.AlphaOptimizedFrameLayout
-			android:id="@*com.android.systemui:id/notification_icon_area"
+	
+	<!-- CENTER CLOCK -->
+		
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:gravity="center"
+			android:layout_height="wrap_content"
 			android:layout_gravity="center"
-			android:gravity="center"	
-			android:layout_width="80dp"
-			android:layout_height="match_parent"
-			android:layout_weight="1"
-			android:orientation="horizontal" />
+			android:layout_weight="1" >
+		
+			<com.android.systemui.statusbar.policy.Clock
+				android:id="@*com.android.systemui:id/clock"
+				android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"
+				android:letterSpacing="0.25"     
+				android:textStyle="bold"	
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:singleLine="false"
+				android:paddingStart="@*com.android.systemui:dimen/status_bar_clock_starting_padding"
+				android:paddingEnd="@*com.android.systemui:dimen/status_bar_clock_end_padding"
+				android:layout_gravity="center"      
+				android:gravity="center"/>
+			
+		</RelativeLayout>
 
-	</RelativeLayout>
-
-
+	
     <ViewStub
         android:id="@*com.android.systemui:id/emergency_cryptkeeper_text"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout="@*com.android.systemui:layout/emergency_cryptkeeper_text"
     />
-
+	
 
 </com.android.systemui.statusbar.phone.PhoneStatusBarView>
