@@ -12,9 +12,10 @@
 	</style>
 	
 	<style name="Theme.CameraSettings" parent="@android:style/Theme.Material">
-		<!--
-		<item name="android:preferenceCategoryStyle">@style/PreferenceCategoryStyle</item>
-		-->
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorPrimary">#fff</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>	
+		
 		<item name="android:windowFullscreen">true</item>
 		<item name="android:colorForeground">#00000000</item>
         <item name="android:colorPrimary">@*android:color/Pink_700</item>

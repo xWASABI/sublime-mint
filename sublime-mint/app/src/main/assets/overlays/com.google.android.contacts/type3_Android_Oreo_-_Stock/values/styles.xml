@@ -22,6 +22,7 @@
 	<style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material">	 
 		<item name="*com.google.android.contacts:actionModeBackground">@*android:color/Teal_700</item>	
 		<item name="android:windowNoTitle">true</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
     </style>
 	
     <style name="EmptyStateTextStyle">
@@ -36,12 +37,14 @@
 	
     <style name="ListViewStyle" parent="@*android:style/Widget.Material.ListView">    
 		<item name="android:overScrollMode">always</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
     </style>
 
 	<style name="Theme.QuickContact" parent="@*com.google.android.contacts:style/ContactsColorTheme">
 		<item name="android:windowBackground">@android:color/transparent</item>
 		<item name="android:backgroundTint">@*android:color/Indigo_700</item>
-		<item name="android:tint">#fff</item>
+		<item name="android:colorPrimaryDark">#f44</item>
+		<item name="android:navigationBarColor">@*android:color/Indigo_700</item>
 		<item name="android:windowFrame">@null</item>
 		<item name="android:windowNoTitle">true</item>
 		<item name="android:windowIsFloating">false</item>
