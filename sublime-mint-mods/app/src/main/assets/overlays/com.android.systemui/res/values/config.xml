@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<!-- Show camera affordance on Keyguard -->
+    <bool name="config_keyguardShowCameraAffordance">false</bool>
+
+    <!-- Show voice affordance on Keyguard -->
+    <bool name="config_keyguardShowVoiceAffordance">false</bool>
 	
-    <!-- Whether or not a background should be drawn behind a notification. -->
-	<!-- Turn false for transparent support -->
-	<!--
-    <bool name="config_drawNotificationBackground">true</bool>
-	-->
+	
 </resources>

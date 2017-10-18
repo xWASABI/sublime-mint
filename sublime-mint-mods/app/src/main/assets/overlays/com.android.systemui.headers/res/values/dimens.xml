@@ -2,5 +2,6 @@
 <resources>
 
 	<dimen name="status_bar_header_height_keyguard">0dp</dimen>
-
+	<dimen name="keyguard_carrier_text_margin">-20dp</dimen>
+	
 </resources>

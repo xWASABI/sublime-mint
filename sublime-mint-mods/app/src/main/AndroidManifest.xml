@@ -51,10 +51,11 @@
         <meta-data
             android:name="Substratum_ThemeReady"
             android:value="stock"/> <!-- Only pick one! -->
+		<!--
         <meta-data
             android:name="Substratum_Wallpapers"
             android:value="https://raw.githubusercontent.com/xWASABI/ThemeResources/master/Wallpapers/Walls.xml"/>
-
+		-->
         <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data
             android:name="Substratum_Plugin"
