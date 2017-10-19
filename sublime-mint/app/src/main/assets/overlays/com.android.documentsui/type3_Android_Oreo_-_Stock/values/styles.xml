@@ -5,7 +5,11 @@
 	<attr name="actionBarPopupTheme" format="reference" />
 	
 	<style name="DocumentsTheme" parent="@*com.android.documentsui:style/Theme.AppCompat">
-        <item name="actionBarWidgetTheme">@null</item>
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorPrimary">#fff</item>
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>	
+			
+		<item name="actionBarWidgetTheme">@null</item>
         <item name="actionBarTheme">@*com.android.documentsui:style/ActionBarTheme</item>
         <item name="actionBarPopupTheme">@*com.android.documentsui:style/ActionBarPopupTheme</item>
         <item name="android:windowBackground">@*com.android.documentsui:color/window_background</item>

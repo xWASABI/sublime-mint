@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
 	<color name="lock_pattern_view_error_color">#ef1</color>
 	<color name="lock_pattern_view_regular_color">#ffbebebe</color>
 	<color name="unlock_pattern_view_error_color">#f44</color>
