@@ -54,8 +54,8 @@
 			android:singleLine="false"
 			android:paddingStart="@*com.android.systemui:dimen/status_bar_clock_starting_padding"
 			android:paddingEnd="@*com.android.systemui:dimen/status_bar_clock_end_padding"
-			android:layout_gravity="end"      
-			android:gravity="end"/>
+			android:layout_gravity="center_vertical|end"      
+			android:gravity="center_vertical|end"/>
 
 	</RelativeLayout>	
 		</com.android.keyguard.AlphaOptimizedLinearLayout>

@@ -42,6 +42,7 @@
         android:layout_height="match_parent" />
 	
     <com.android.systemui.statusbar.KeyguardAffordanceView
+		android:visibility="gone"
         android:id="@*com.android.systemui:id/camera_button"
         android:layout_height="@*com.android.systemui:dimen/keyguard_affordance_height"
         android:layout_width="@*com.android.systemui:dimen/keyguard_affordance_width"
@@ -52,7 +53,7 @@
         android:contentDescription="@*com.android.systemui:string/accessibility_camera_button" />
 
     <com.android.systemui.statusbar.KeyguardAffordanceView
-        android:id="@*com.android.systemui:id/left_button"
+		android:id="@*com.android.systemui:id/left_button"
         android:layout_height="@*com.android.systemui:dimen/keyguard_affordance_height"
         android:layout_width="@*com.android.systemui:dimen/keyguard_affordance_width"
         android:layout_gravity="bottom|start"

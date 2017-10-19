@@ -8,5 +8,5 @@
   <dimen name="widget_label_font_size">15sp</dimen>
   <dimen name="widget_big_font_size">42sp</dimen>
   <dimen name="keyguard_indication_margin_bottom">70dp</dimen>
-
+  
 </resources>
