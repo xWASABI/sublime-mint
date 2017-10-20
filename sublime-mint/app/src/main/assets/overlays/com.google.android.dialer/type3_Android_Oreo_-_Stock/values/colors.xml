@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<color name="dialer_theme_color">#fff</color>
+	<color name="contactscommon_actionbar_background_color">@*android:color/Pink_700</color>
+	
+	<color name="dialer_theme_color_20pct">#ef1</color>
+	
+	<color name="dialer_primary_text_color">@android:color/white</color>
+	<color name="dialer_secondary_text_color">@*android:color/Teal_700</color>
+	<color name="dialer_ripple_material_dark">@*android:color/Teal_700</color>
+	<color name="dialer_ripple_material_light">@*android:color/Teal_700</color>
+	
+	<color name="dialer_flat_button_text_color">#f1f</color>
+	<color name="dialer_secondary_color">@*android:color/Pink_700</color>
+	
 	<color name="section_header_text_color">@*android:color/Teal_700</color>
-	<color name="dialpad_fab_green">@*android:color/Teal_700</color>
+	<color name="dialpad_fab_green">@*android:color/Pink_700</color>
 	
 	<color name="incall_background_gradient_bottom">@*android:color/Red_700</color>
 	<color name="incall_background_gradient_middle">@*android:color/Red_700</color>
@@ -27,12 +40,12 @@
     <color name="remove_text_color">@android:color/white</color>
 	
 	<!-- MISC COLORS -->
+	<color name="dialer_theme_color_dark">@*android:color/Pink_700</color>	
+		
 	<color name="incall_call_banner_text_color">#FFFFFF</color>	
 	<color name="call_log_primary_color">#FFFFFF</color>
-    <color name="incall_dialpad_background">#939393</color>
+    <color name="incall_dialpad_background">@*android:color/Indigo_700</color><!-- 939393 -->
 	<color name="incall_accent_color">@*android:color/Teal_700</color>
-	<color name="dialer_theme_color">@*android:color/Pink_700</color>
-	<color name="dialer_theme_color_dark">#ff121212</color>
     <color name="dialtacts_theme_color">@*android:color/Teal_700</color>
 	<color name="selectable_icon_tint">@*android:color/Teal_700</color>
 	<color name="searchbox_icon_tint">@*android:color/Teal_700</color>
@@ -54,7 +67,7 @@
 	
 	<!-- BACKGROUND - INDIGO_800; #131313; #000000 -->
     <color name="background_white">@*android:color/Indigo_800</color>
-    <color name="setting_background_color">@*android:color/Indigo_800</color>
+    <color name="setting_background_color">@*android:color/Indigo_700</color>
     <color name="background_dialer_light">@*android:color/Indigo_700</color>
 	<color name="actionbar_background_color_dark">@*android:color/Red_700</color>
 	<color name="searchbox_background_color">@*android:color/Indigo_800</color>

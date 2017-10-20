@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Default color for notification LED. -->
+    <color name="config_defaultNotificationColor">#bbfff1</color>
+		
 	<!--
     <bool name="config_invert_colors_on_doze">false</bool>
 	-->

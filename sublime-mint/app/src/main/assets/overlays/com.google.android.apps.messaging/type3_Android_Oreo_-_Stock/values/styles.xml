@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	
+	<style name="BugleTheme.SettingsActivity" parent="@*com.google.android.apps.messaging:style/BugleTheme">
+  		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorPrimary">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
 
-	<style name="ConversationMessageText">
-		<item name="android:background">#f44</item>
-	</style>
-	<style name="ConversationMessageViewStyle">
-		<item name="android:backgroundTint">#ef1</item>
-		<item name="android:paddingStart">8.0dip</item>
-		<item name="android:paddingEnd">8.0dip</item>
-	</style>
+		<item name="android:colorForeground">#00000000</item>
+    </style>
+	
+ 
+    <style 
+		name="BugleTheme.ConversationListActivity" 
+		parent="@*com.google.android.apps.messaging:style/BugleTheme.ConversationActivity">
+		<item name="android:statusBarColor">@*android:color/Indigo_700</item>
+        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+    </style>
+
+    <style name="BugleTheme.ArchivedConversationListActivity" parent="@*com.google.android.apps.messaging:style/Theme.AppCompat.NoActionBar">
+		<item name="android:statusBarColor">@*android:color/Indigo_700</item>
+        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		<item name="android:windowBackground">@*android:color/Indigo_700</item>
+    </style>
+	
+	<style name="BugleTheme.DialogActivity" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+    </style>
 	
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	
+	<!--
 	<style name="Widget.Design.FloatingActionButton" parent="@*android:style/Widget">
         <item name="android:background">@*com.google.android.dialer:drawable/design_fab_background</item>
         <item name="*com.google.android.dialer:elevation">@*com.google.android.dialer:dimen/design_fab_elevation</item>
@@ -10,6 +10,37 @@
         <item name="*com.google.android.dialer:borderWidth">@*com.google.android.dialer:dimen/design_fab_border_width</item>
         <item name="*com.google.android.dialer:backgroundTint">@null</item>
     </style>
+	-->
+	<!--
+	<attr name="dialpad_style" format="reference" />
+	<attr name="dialpad_key_button_touch_tint" format="color" />
+	
+	<style name="Theme.InCallScreen" parent="@*com.google.android.dialer:style/Theme.AppCompat.NoActionBar">
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:textColorPrimary">#ffffff</item>
+		<item name="android:textColorSecondary">#DDFFFFFF</item>
+		<item name="android:colorPrimary">@*com.google.android.dialer:color/dialer_theme_color</item>
+		<item name="android:colorPrimaryDark">@*com.google.android.dialer:color/dialer_theme_color_dark</item>
+		<item name="android:statusBarColor">@android:color/transparent</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		<item name="*com.google.android.dialer:dialpad_key_button_touch_tint">@*com.google.android.dialer:color/incall_dialpad_touch_tint</item>
+		<item name="*com.google.android.dialer:dialpad_style">@*com.google.android.dialer:style/InCallDialpad</item>
+		<item name="android:windowAnimationStyle">@null</item>
+		<item name="android:alertDialogTheme">@*com.google.android.dialer:style/AlertDialogTheme</item>
+		<item name="android:windowBackground">@*com.google.android.dialer:drawable/incall_background_gradient</item>
+		<item name="android:windowShowWallpaper">true</item>
+	</style>
+	-->
+	<style name="PrimaryText">
+		<item name="android:textColor">#fff</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+	
+	<style name="SecondaryText">
+		<item name="android:textColor">@*android:color/Blue_700</item>
+		<item name="android:textSize">16sp</item>
+	</style>
 	
 	<style name="DialpadKeyNumberStyle">
 		<item name="android:textSize">18sp</item>

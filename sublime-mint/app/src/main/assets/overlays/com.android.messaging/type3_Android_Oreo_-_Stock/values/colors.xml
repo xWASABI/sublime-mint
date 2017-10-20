@@ -9,7 +9,7 @@
 	<color name="archived_conversation_action_bar_background_color_dark">@*android:color/Pink_700</color>
 	<color name="fab_color">@*android:color/Pink_700</color>
 	<color name="compose_message_send_color">@*android:color/Pink_700</color>
-
+	
 	<!-- Status Bar #181818 -->
 	<color name="action_bar_background_color_dark">@*android:color/Red_800</color>
 	<!-- White #FFFFFF -->

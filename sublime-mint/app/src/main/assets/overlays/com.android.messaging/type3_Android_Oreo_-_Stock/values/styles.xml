@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	
-
     <style name="BugleBaseTheme" parent="@*com.android.messaging:style/Theme.AppCompat">
 		<item name="android:colorPrimary">@*android:color/Pink_700</item>
 		<item name="android:statusBarColor">@*android:color/Red_800</item>
     </style>
+	
 	<style name="BugleTheme.SettingsActivity" parent="@*com.android.messaging:style/BugleTheme">
   		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorPrimary">#fff</item>	
 		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
-		
+	
 		<item name="android:textSize">@*com.android.messaging:dimen/settings_list_text_size</item>
 		<item name="android:colorForeground">#00000000</item>
     </style>
@@ -31,6 +32,10 @@
 		<item name="android:dividerHeight">0dp</item>
 		<item name="android:background">@*android:color/Indigo_700</item>
     </style>
-    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" >
+		<item name="android:textColor">#fff</item>	
+		<item name="android:textColorPrimary">#fff</item>	
+		<item name="android:textColorSecondary">@*android:color/Blue_700</item>
+	</style>
 	
 </resources>

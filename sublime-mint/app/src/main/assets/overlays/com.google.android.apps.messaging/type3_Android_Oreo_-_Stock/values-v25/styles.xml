@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>	
-    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+
+	<style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
 		<item name="android:colorForeground">#00000000</item>
 		<item name="android:statusBarColor">@*android:color/Indigo_700</item>
         <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
         <item name="android:windowBackground">@*android:color/Indigo_700</item>
     </style>
-    <style name="BugleTheme.ConversationListActivity" parent="@*com.google.android.apps.messaging:style/BugleTheme.BigTitle">
-		<item name="android:statusBarColor">@*android:color/Indigo_700</item>
-        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
-		<item name="android:windowBackground">@*android:color/Indigo_700</item>
-    </style>
-    <style name="BugleTheme.ArchivedConversationListActivity" parent="@*com.google.android.apps.messaging:style/BugleTheme">
-		<item name="android:statusBarColor">@*android:color/Indigo_700</item>
-        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
-		<item name="android:windowBackground">@*android:color/Indigo_700</item>
-    </style>
+	
 </resources>

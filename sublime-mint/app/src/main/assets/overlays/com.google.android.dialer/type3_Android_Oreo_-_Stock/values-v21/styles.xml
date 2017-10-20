@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.AppCompat.Light" parent="@*com.google.android.dialer:style/Theme.AppCompat">
-		<item name="android:navigationBarColor">@*android:color/Indigo_800</item>
-	</style>
-</resources>
