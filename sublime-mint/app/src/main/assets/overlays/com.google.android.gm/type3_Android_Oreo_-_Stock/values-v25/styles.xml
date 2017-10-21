@@ -2,6 +2,7 @@
 <resources>
 	<!-- STYLES -->
     <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material">
+		<item name="android:editTextColor">@*android:color/Blue_700</item>
 		<item name="android:windowBackground">@*android:color/Indigo_700</item>
 		<item name="android:itemBackground">@*android:color/Indigo_700</item>
 		<item name="android:windowNoTitle">true</item>
@@ -16,8 +17,9 @@
 		<item name="android:colorEdgeEffect">@*android:color/Teal_700</item>
 		<item name="android:colorControlHighlight">@*android:color/Teal_700</item>
         <item name="android:statusBarColor">@*android:color/Red_800</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
 	</style>
+
 	<!--
     <style name="Platform.AppCompat" parent="@android:style/Theme.Material.NoActionBar" />
     <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar" />

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	
+	<color name="quantum_grey300">@*android:color/Red_700</color>
+	<color name="search_banner_bg">@*android:color/Indigo_800</color>
+
+	
+	<color name="compose_user_text">@*android:color/Blue_700</color>
+	<color name="compose_background">#ef1</color>
+	<color name="compose_label_hint">@*android:color/Pink_700</color>
+	<color name="compose_label_text">@*android:color/Pink_700</color>
+	
     <!-- ACTION BAR -->
 	<color name="primary_color">@*android:color/Pink_700</color>
 	<color name="action_mode_background">@*android:color/Pink_700</color>
