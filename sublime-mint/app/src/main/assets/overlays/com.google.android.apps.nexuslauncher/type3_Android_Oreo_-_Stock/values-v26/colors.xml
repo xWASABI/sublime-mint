@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="icon_background">#f44</color>
-	<color name="legacy_icon_background">#f22f</color>
-	<color name="all_apps_bg_hand_fill">#bf1</color>
-		
-		
+	<color name="icon_background">@*android:color/Pink_700</color>
+			
 	<color name="all_apps_container_color">@*android:color/Indigo_700</color>
 	<color name="all_apps_divider_color">@*android:color/Teal_700</color>
 	<color name="all_apps_caret_color">@*android:color/Teal_700</color>
