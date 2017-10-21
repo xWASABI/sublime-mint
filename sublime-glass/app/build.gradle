@@ -5,11 +5,11 @@ android {
     buildToolsVersion "26"
 
     defaultConfig {
-        applicationId "sublime.mint"
+        applicationId "sublime.glass"
         minSdkVersion 24
         targetSdkVersion 26
         versionCode 1
-        versionName "1.37"
+        versionName "1.00"
     }
     buildTypes {
         debug {

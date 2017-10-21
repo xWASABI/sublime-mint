@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Keyguard -->
+	<style name="widget_big_thin">	
+		<item name="android:focusable">true</item>	
+		<item name="android:letterSpacing">.10</item>
+		<item name="android:textSize">@*com.android.systemui:dimen/widget_big_font_size</item>
+		<item name="android:background">#00000000</item>
+		<item name="android:shadowColor">@*android:color/accent_material_dark</item>
+		<item name="android:shadowRadius">25.00</item>	
+	</style>
+	<style name="widget_label">
+		<item name="android:letterSpacing">0</item>
+		<item name="android:textSize">@*com.android.systemui:dimen/widget_label_font_size</item>
+		<item name="android:background">#00000000</item>
+		<item name="android:shadowColor">@*android:color/accent_material_dark</item>
+		<item name="android:shadowRadius">25.00</item>	
+	</style>
+</resources>
