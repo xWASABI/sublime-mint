@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="alert_background">#ef1</color>
+    <color name="alert_background">@*android:color/Indigo_800</color>
 	
     <color name="default_account_details_color">#fff</color>
 	<color name="manage_accounts_text_color">#fff</color>

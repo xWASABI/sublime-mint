@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat" parent="@*com.google.android.dialer:style/Platform.V25.AppCompat" />
+    <style name="Platform.AppCompat.Light" parent="@*com.google.android.dialer:style/Platform.V25.AppCompat">
+	
+		<item name="android:itemBackground">@*android:color/Indigo_800</item>
+		<item name="android:statusBarColor">@*android:color/Indigo_700</item>
+        <item name="android:navigationBarColor">@*android:color/Indigo_700</item>
+		
+	</style>
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar" />
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_actionbar">@android:color/background_dark</color>
+    
+	<color name="activity_primary">@android:color/background_dark</color>
+    <color name="activity_secondary">@android:color/holo_orange_light</color>
+	<color name="auth_setup_wizard_color_accent_dark">#f44</color>
+    <color name="auth_setup_wizard_link_color_dark">#f44</color>
+    <color name="avatar_selected_stroke">#f44</color>
+    <color name="common_nexus_primary">@android:color/background_dark</color>
+    <color name="common_nexus_primary_dark">@android:color/background_dark</color>
+    <color name="credentials_black_alpha_54">#80ffffff</color>
+    <color name="gf_text_color_primary_dark">#ffffffff</color>
+    <color name="material_blue_grey_900">@android:color/background_dark</color>
+    <color name="material_deep_teal_500">@android:color/holo_orange_light</color>
+    <color name="material_google_blue_500">@android:color/holo_orange_light</color>
+    <color name="material_google_blue_600">@android:color/background_dark</color>
+    <color name="material_google_blue_A200">#f44</color>
+    <color name="material_grey_600">@android:color/holo_orange_light</color>
+    <color name="material_teal_500">#f44</color>
+    <color name="people_list_display_name_color">#ffffffff</color>
+    <color name="people_list_metadata_color">@android:color/holo_orange_light</color>
+    <color name="profile_background_color">@android:color/background_dark</color>
+    <color name="profile_card_color">@android:color/background_dark</color>
+    <color name="profile_card_default_text_color">#ffffffff</color>
+    <color name="profile_card_expanding_entry_metadata_color">@android:color/holo_orange_light</color>
+    <color name="profile_card_margin">@android:color/background_dark</color>
+    <color name="profile_card_separator_color">@android:color/background_dark</color>
+    <color name="profile_card_title">#ffffffff</color>
+    <color name="profile_default_theme_color">#f44</color>
+    <color name="profile_header_about_background_color">@android:color/background_dark</color>
+    <color name="profile_header_about_text_color">#ffffffff</color>
+    <color name="profile_header_avatar_border">#f44</color>
+    <color name="profile_header_text_color">#ffffffff</color>
+    <color name="profile_overlay_color">#ffffffff</color>
+    <color name="quantum_googblueA200">#f44</color>
+    <color name="quantum_vanillablueA200">#f44</color>
+    <color name="smartdevice_material_blue_A200">@android:color/holo_orange_light</color>
+    <color name="suw_color_accent_dark">@android:color/holo_orange_light</color>
+    <color name="suw_link_color_dark">#f44</color>
+    <color name="material_grey_900">@android:color/background_dark</color>
+    <color name="quantum_googblue400">#f44</color>
+    <color name="material_google_blue_400">#f44</color>
+    <color name="home_addr_from_color">#f44</color>
+    <color name="coffee_personal_unlocking_icon_color">#f44</color>
+    <color name="auth_coffee_on_boarding_intro_screen_header">@android:color/background_dark</color>
+    <color name="activity_background">@android:color/background_dark</color>
+    <color name="education_text">@android:color/holo_orange_light</color>
+    <color name="common_nexus_secondary">@android:color/background_dark</color>
+    <color name="button_material_light">#f44</color>
+	
+    <color name="material_blue_grey_700">@android:color/background_dark</color>
+    <color name="material_grey_100">@*android:color/Pink_700</color>
+    <color name="material_grey_300">@*android:color/Red_800</color>
+</resources>
