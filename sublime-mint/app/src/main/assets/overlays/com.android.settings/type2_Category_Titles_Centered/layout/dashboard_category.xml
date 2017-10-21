@@ -1,15 +1,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@*com.android.settings:id/category"
     android:layout_width="match_parent"
-    android:layout_height="@*com.android.settings:dimen/dashboard_category_height"
+    android:layout_height="48dp"
     android:orientation="vertical"
-    android:paddingBottom="@*com.android.settings:dimen/dashboard_category_padding_bottom"
-    android:background="@*com.android.settings:drawable/dashboard_category_title_bg">
+    android:paddingBottom="4dp"
+    android:background="#00000000">
 
     <TextView android:id="@android:id/title"
         android:layout_width="match_parent"
 		android:layout_height="62dp"
-        android:paddingStart="@*com.android.settings:dimen/dashboard_category_title_margin_start"
+        android:paddingStart="16dp"
 		android:singleLine="true"
         android:ellipsize="marquee"
         android:gravity="center_vertical"

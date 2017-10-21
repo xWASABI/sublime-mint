@@ -3,25 +3,25 @@
     android:id="@*com.android.settings:id/dashboard_tile"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@*com.android.settings:drawable/selectable_card"
+    android:background="#00000000"
     android:gravity="center_vertical"
-    android:minHeight="@*com.android.settings:drawable/action_bar_dropshadow"
+    android:minHeight="72dp"
     android:clickable="true"
     android:focusable="true">
 
 	<LinearLayout
 		android:layout_width="38dp"
         android:layout_height="38dp"
-		android:layout_marginStart="@*com.android.settings:dimen/dashboard_tile_image_margin_start"
-        android:layout_marginEnd="@*com.android.settings:dimen/dashboard_tile_image_margin_end"
+		android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
 		android:background="@*com.android.settings:drawable/empty_icon"
         android:orientation="vertical"
 		>
 	
     <ImageView
         android:id="@android:id/icon"
-        android:layout_width="@*com.android.settings:dimen/dashboard_tile_image_size"
-        android:layout_height="@*com.android.settings:dimen/dashboard_tile_image_size"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
         android:scaleType="centerInside"
 		android:layout_margin="8dp"
         />
@@ -47,7 +47,7 @@
             android:textColor="?android:attr/textColorSecondary"
             android:maxLines="1"
             android:ellipsize="end"
-            android:paddingEnd="@*com.android.settings:dimen/dashboard_tile_image_margin_start" />
+            android:paddingEnd="16dp" />
 
     </LinearLayout>
 

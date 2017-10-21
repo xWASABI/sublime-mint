@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<!-- BACKGROUND -->
-    <color name="Indigo_700">#000000</color>
-	<color name="Indigo_800">#000000</color><!-- 181818 -->
+    <color name="Indigo_700">#69181818</color>
+	<color name="Indigo_800">#69181818</color><!-- 181818 -->
 	<color name="Red_700">#69212121</color>
+	
 	<!-- GLASS SUPPORT -->
 	<color name="user_icon_3">#69000000</color>
 	
+	<!-- GLASS CONFIG -->
 	<bool name="config_windowIsRound">true</bool>
 </resources>

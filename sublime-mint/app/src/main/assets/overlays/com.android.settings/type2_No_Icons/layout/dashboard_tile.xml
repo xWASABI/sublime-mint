@@ -3,7 +3,7 @@
     android:id="@*com.android.settings:id/dashboard_tile"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@*com.android.settings:drawable/action_bar_dropshadow"
+    android:background="#00000000"
     android:gravity="center_vertical"
     android:minHeight="72dp"
     android:clickable="true"
