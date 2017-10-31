@@ -1,0 +1,29 @@
+<!-- Extends Framelayout -->
+<com.android.systemui.statusbar.DismissView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="72dp"
+	android:layout_gravity="center"
+	android:visibility="gone">
+  
+	<ImageView
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:layout_gravity="center"
+		android:background="@*com.android.systemui:drawable/ic_dismiss_outline"
+		android:layout_marginTop="0dp"
+		android:visibility="visible"/>
+
+	<com.android.systemui.statusbar.DismissViewButton
+		style="@android:style/Widget.Material.Button.Borderless"
+		android:id="@*com.android.systemui:id/dismiss_text"
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:layout_gravity="center"
+		android:focusable="true"
+		android:contentDescription=" "
+		android:textSize="0sp"
+		android:text=" "
+		android:textAllCaps="true"/>
+	
+</com.android.systemui.statusbar.DismissView>

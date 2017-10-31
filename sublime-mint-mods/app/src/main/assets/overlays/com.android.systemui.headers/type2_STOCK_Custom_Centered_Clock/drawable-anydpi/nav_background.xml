@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Main Background
+	<item
+		android:top="-10dp"
+		android:bottom="-4dp"
+		android:left="-5.5dp"
+		android:right="-5.5dp">
+		<shape android:shape="rectangle">
+			<corners
+				android:bottomRightRadius="22.0dip"
+				android:bottomLeftRadius="22.0dip" />
+            <stroke android:width="5.0dip" android:color="@*android:color/black" />
+            <solid android:color="#00000000" />		
+		</shape>
+    </item>
+	-->
+	<!-- Border for main background 
+	<item
+		android:top="-2dp"
+		android:bottom="-3dp"
+		android:left="-3.5dp"
+		android:right="-3.5dp">
+		<shape android:shape="rectangle">
+			<corners
+				android:bottomRightRadius="22dip"
+				android:bottomLeftRadius="22dip" />
+            <stroke android:width="4.0dip" android:color="@*android:color/black" />
+            <solid android:color="@*android:color/Indigo_700" />		
+		</shape>
+    </item>
+	-->
+	<item
+		android:bottom="-3dp"
+		android:top="0dp"
+		android:left="0dp"
+		android:right="0dp">
+		<shape android:shape="rectangle">
+			<gradient 
+				android:startColor="#70000000" 
+				android:endColor="@*android:color/transparent"
+				android:angle="90.0" 
+				android:type="linear" 
+				android:centerY="0.5"
+				android:centerColor="@*android:color/transparent" />
+		</shape>
+    </item>
+
+</layer-list>
