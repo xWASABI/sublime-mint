@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- App info header -->
+	<style name="EntityHeader">
+        <item name="android:background">@*com.android.settings:drawable/selectable_card_grey</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+	
+	<style name="AppActionPrimaryButton" parent="@*android:style/Widget.Material.Button.Colored">
+		<item name="android:background">@*com.android.settings:drawable/action_bar_dropshadow</item>
+		<item name="android:textColor">?*android:attr/colorControlNormal</item>
+	</style>
+	
+</resources>
