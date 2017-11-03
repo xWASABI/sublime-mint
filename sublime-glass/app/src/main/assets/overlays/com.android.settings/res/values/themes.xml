@@ -6,12 +6,12 @@
 		<!-- Transparent items -->
 		<item name="android:windowShowWallpaper">@*android:bool/config_windowIsRound</item>
 		<item name="android:backgroundDimEnabled">@*android:bool/config_windowIsRound</item>
-		<item name="android:backgroundDimAmount">0.50</item>
-		<item name="android:windowBackground">@*android:drawable/screen_background_dark</item>
-		<item name="android:colorPrimary">#40000000</item>
+		<item name="android:backgroundDimAmount">0.60</item>
+		<item name="android:windowBackground">@*android:drawable/background_holo_dark</item>
+		<item name="android:colorPrimary">@*android:color/black</item>
 		<item name="android:colorPrimaryDark">@*android:color/black</item>
 		<!-- Misc. items -->
-		<item name="android:colorSecondary">@*android:color/Indigo_700</item>
+		<item name="android:colorSecondary">#000000</item>
 		<item name="android:scrollbarFadeDuration">1500</item>
 		<item name="android:scrollbarDefaultDelayBeforeFade">800</item>
 		<item name="android:colorAccent">@*android:color/Teal_700</item>
@@ -23,11 +23,10 @@
 		<item name="android:colorControlHighlight">@*android:color/black</item>
 	</style>
 
-	<style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+	<style name="Theme.ActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar.Solid">
 		<item name="android:elevation">0dp</item>    
 		<item name="android:contentInsetStart">16dp</item>
-		<item name="android:colorSecondary">#f44</item>
-		<item name="android:background">@*android:drawable/background_holo_dark</item>
+		<item name="android:background">@*android:color/black</item>
     </style>
 	
 	<style name="Theme.AlertDialog" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert">
@@ -36,6 +35,5 @@
 		<item name="android:colorAccent">@*android:color/Teal_700</item>
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
     </style>
-	
-	
+
 </resources>

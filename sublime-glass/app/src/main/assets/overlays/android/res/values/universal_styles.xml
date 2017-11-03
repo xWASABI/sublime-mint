@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.DeviceDefault">
+		<!-- Transparent items -->
+		<item name="android:windowShowWallpaper">@*android:bool/config_windowIsRound</item>
+		<item name="android:backgroundDimEnabled">@*android:bool/config_windowIsRound</item>
+		<item name="android:backgroundDimAmount">0.65</item>
+		<item name="android:colorPrimary">@*android:color/black</item>
+		<item name="android:colorPrimaryDark">@*android:color/black</item>
+		<!-- TODO: Unify background w/ background holo dark
+			* Issues are in certain areas of Settings (i.e. App Permission)
+			* the background overides action bar color placement.
+			* Screen background has a filler color on top to replicate action bar.
+		-->
+		<item name="android:windowBackground">@*android:drawable/screen_background_dark</item>
+	</style>
+	
+</resources>

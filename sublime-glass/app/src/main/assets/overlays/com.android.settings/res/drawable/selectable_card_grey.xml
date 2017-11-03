@@ -3,12 +3,12 @@
 	android:insetLeft="8dp"
 	android:insetTop="8dp"
 	android:insetRight="8dp"
-	android:insetBottom="8dp">
+	android:insetBottom="6dp">
     <ripple android:color="?*android:attr/colorControlHighlight">
         <item>
             <shape android:shape="rectangle">
                 <corners android:radius="15dp" />
-                <solid android:color="@*android:color/Indigo_800" />
+                <solid android:color="@*android:color/Purple_800" />
 				<stroke
 					android:width="@*android:dimen/keyguard_avatar_frame_stroke_width"
 					android:color="@*android:color/black" />			

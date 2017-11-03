@@ -16,7 +16,8 @@
 	
 	<Button
 		android:id="@*com.android.settings:id/forget_button"
-		android:background="@*com.android.settings:drawable/selectable_card_grey"
+		android:background="@*com.android.settings:drawable/action_bar_dropshadow"
+		android:textColor="@*android:color/Teal_700"
 		android:layout_width="18dip"
 		android:layout_weight="0.4"
 		android:layout_height="wrap_content"
@@ -32,10 +33,10 @@
 	
 	<Button
 		style="@android:style/Widget.Material.Button.Colored"
-		android:background="@*com.android.settings:drawable/selectable_card_grey"
+		android:background="@*com.android.settings:drawable/action_bar_dropshadow"
 		android:id="@*com.android.settings:id/signin_button"
 		android:layout_width="18dip"
-		android:textColor="#fff"
+		android:textColor="@*android:color/Teal_700"
 		android:text="@*com.android.settings:string/cancel"
 		android:layout_weight="0.4"
 		android:layout_height="wrap_content"
