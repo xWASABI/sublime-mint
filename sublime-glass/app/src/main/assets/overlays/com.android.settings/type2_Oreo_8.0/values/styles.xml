@@ -12,14 +12,7 @@
 	
 	<style name="AppActionPrimaryButton" parent="@*android:style/Widget.Material.Button.Colored">
 		<item name="android:background">@*com.android.settings:drawable/action_bar_dropshadow</item>
-		<item name="android:textColor">#ef1</item>
+		<item name="android:textColor">?*android:attr/colorControlNormal</item>
 	</style>
-	
-	<!-- Cardview - Transparent items-->
-	<attr name="cardBackgroundColor" format="color" />
-	<color name="cardview_dark_background">@*android:color/transparent</color>
-	<style name="CardView" parent="@*android:style/Widget">
-		<item name="cardBackgroundColor">@*android:color/transparent</item>
-    </style>
 	
 </resources>

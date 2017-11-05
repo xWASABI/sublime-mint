@@ -1,0 +1,14 @@
+Settings:
+* Condition Card layout: condition_tile
+* Condition Card color: condition_card_background
+* Search and Condition/Sugestion Card background color: suggestion_condition_background
+* Cardview
+  Modify layout/suggestion_condition_container.xml to get rid of elevation
+  <attr name="cardBackgroundColor" format="color" />
+  <color name="cardview_dark_background">@*android:color/transparent</color>
+  <style name="CardView" parent="@*android:style/Widget">
+   <item name="cardBackgroundColor">*android:color/transparent</item>
+  </style>
+* Search toolbar is controlled by colorBackground in main settings style,
+  settings_main_dashboard layout, and search_panel layout.
+* Wifi icon detail color wifi_details_icon_color.
