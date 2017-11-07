@@ -15,10 +15,9 @@
 		android:layout_weight="0.2" />
 	
 	<Button
+		android:id="@*com.android.settings:id/forget_button"
 		android:background="@*com.android.settings:drawable/action_bar_dropshadow"
 		android:textColor="@*android:color/Teal_700"
-		android:id="@*com.android.settings:id/forget_button"
-		android:text="Forget"
 		android:layout_width="18dip"
 		android:layout_weight="0.4"
 		android:layout_height="wrap_content"
