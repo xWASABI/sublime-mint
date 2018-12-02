@@ -1,0 +1,11 @@
+<resources>
+    <string name="ThemeName"><b>OxygenOS Modify</b></string>
+    <string name="ThemeAuthor">by Branden M</string>
+    <string-array name="ThemeChangelog">
+        <item>Change One</item>
+        <item>Change Two</item>
+        <item>Change Three</item>
+        <item>Change Four</item>
+        <item>Change Five</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<bool name="oneplus_config_keyguardShowCameraAffordance">false</bool>
+	<bool name="oneplus_config_keyguardShowLeftAffordance">false</bool>
+
+</resources>

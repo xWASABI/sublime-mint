@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+	android:orientation="horizontal" 
+	android:id="@*com.android.systemui:id/op_fingerprint_view" 
+	android:focusable="true"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:backgroundTint="#30000000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  	<!-- Color can not be altered, fue to ID -->
+	<com.android.systemui.fingerprint.CircleImageView
+		android:drawable="@*com.android.systemui:drawable/op_ic_fingerprint_highlight"
+		android:layout_gravity="center_horizontal" 
+		android:id="@*com.android.systemui:id/op_fingerprint_icon_white"
+		android:layout_width="0dp" 
+		android:layout_height="0dp" />
+	
+	<!-- Duplicate, but remove ID -->
+	<com.android.systemui.fingerprint.CircleImageView
+		android:background="@*com.android.systemui:drawable/op_ic_fingerprint_highlight"
+		android:layout_gravity="center_horizontal" 
+		android:layout_width="@*com.android.systemui:dimen/op_biometric_icon_flash_width" 
+		android:layout_height="@*com.android.systemui:dimen/op_biometric_icon_flash_width" />
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="oneplus_contorl_text_style_body1" parent="@*com.android.systemui:style/oneplus_contorl_text_style_base">
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+		
+		<item name="android:textSize">11.0sp</item>
+		<item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+	</style>
+	<style name="TextAppearance.StatusBar.Clock" parent="@android:style/TextAppearance.StatusBar.Icon">
+		<item name="android:textColor">@*com.android.systemui:color/status_bar_clock_color</item>
+		<item name="android:textSize">16.0sp</item>
+		<item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+	</style>
+	<style name="TextAppearance.QS.TileLabel" parent="@*com.android.systemui:style/TextAppearance.QS">
+		<item name="android:textSize">12.0sp</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.2</item>
+	</style>
+	
+	<!--  Keyguard  -->
+	<style name="widget_big_thin">
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+
+		<item name="android:focusable">true</item>
+		<!--<item name="android:textSize">@*com.android.systemui:dimen/widget_big_font_size</item>-->
+		<item name="android:textSize">82sp</item>	
+		<item name="android:background">#00000000</item>
+		<item name="android:shadowColor">@*android:color/black</item>
+		<item name="android:shadowRadius">15.00</item>
+	</style>
+	<style name="widget_label">
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+		
+		<item name="android:textSize">
+			@*com.android.systemui:dimen/widget_label_font_size
+		</item>
+		<item name="android:background">#00000000</item>
+		<item name="android:shadowColor">@*android:color/black</item>
+		<item name="android:shadowRadius">15.00</item>
+	</style>
+	
+</resources>

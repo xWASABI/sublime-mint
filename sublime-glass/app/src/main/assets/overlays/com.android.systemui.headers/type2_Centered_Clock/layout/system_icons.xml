@@ -7,19 +7,19 @@
 	<com.android.systemui.BatteryMeterView 
 		android:id="@*com.android.systemui:id/battery"
 		android:paddingStart="6dp"   
-		android:layout_height="match_parent"
+		android:layout_height="999dp"
         android:layout_width="wrap_content"/>
 
     <include layout="@*com.android.systemui:layout/signal_cluster_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"/>
-
+<!--
 	<com.android.keyguard.AlphaOptimizedLinearLayout 
 		android:id="@*com.android.systemui:id/statusIcons"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:orientation="horizontal"/>
-	
+	-->
 </LinearLayout>

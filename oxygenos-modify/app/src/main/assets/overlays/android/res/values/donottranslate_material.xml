@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="font_family_display_4_material">sans-serif-black</string>
+    <string name="font_family_display_3_material">sans-serif-black</string>
+    <string name="font_family_display_2_material">sans-serif-black</string>
+    <string name="font_family_display_1_material">sans-serif-black</string>
+    <string name="font_family_headline_material">sans-serif-black</string>
+    <string name="font_family_title_material">sans-serif-black</string>
+    <string name="font_family_subhead_material">sans-serif-black</string>
+    <string name="font_family_menu_material">sans-serif-black</string>
+    <string name="font_family_body_2_material">sans-serif-black</string>
+    <string name="font_family_body_1_material">sans-serif-black</string>
+    <string name="font_family_caption_material">sans-serif-black</string>
+    <string name="font_family_button_material">sans-serif-black</string>
+
+	<!-- Name of a font family to use for headlines. If empty, falls back to platform default --> 
+    <string name="config_headlineFontFamily" translatable="false">sans-serif-black</string>
+    <!-- Lockscreen Clock - Name of a font family to use for headlines. Defaults to sans-serif-light -->
+	<string name="config_headlineFontFamilyLight" translatable="false">sans-serif-black</string>
+	<!-- Allows setting custom fontFeatureSettings on specific text. -->
+    <string name="config_headlineFontFeatureSettings" translatable="false">sans-serif-black</string>
+	
+</resources>

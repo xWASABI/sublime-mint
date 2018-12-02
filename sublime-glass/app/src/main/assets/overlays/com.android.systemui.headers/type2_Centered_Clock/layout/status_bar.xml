@@ -8,7 +8,13 @@
     android:orientation="vertical"
     android:focusable="false"
     android:descendantFocusability="afterDescendants">
-
+<!--
+	<com.android.keyguard.AlphaOptimizedLinearLayout 
+		android:id="@*com.android.systemui:id/system_icon_area"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" >
     <ImageView
         android:id="@*com.android.systemui:id/notification_lights_out"
         android:layout_width="@*com.android.systemui:dimen/status_bar_icon_size"
@@ -18,7 +24,19 @@
         android:src="@*com.android.systemui:drawable/ic_sysbar_lights_out_dot_small"
         android:scaleType="center"
         android:visibility="gone" />
-
+		<com.android.systemui.statusbar.policy.Clock
+			android:id="@*com.android.systemui:id/clock"
+			android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Clock"		
+			android:letterSpacing="0.25"     
+			android:textStyle="bold"	
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:singleLine="false"
+			android:paddingStart="0dp"
+			android:paddingEnd="@*com.android.systemui:dimen/status_bar_clock_end_padding"
+			android:layout_gravity="center_vertical|start"      
+			android:gravity="center_vertical|start"/>
+	</com.android.keyguard.AlphaOptimizedLinearLayout>
 	
 	<LinearLayout android:id="@*com.android.systemui:id/status_bar_contents"
 		android:background="@*com.android.systemui:drawable/status_background"
@@ -73,7 +91,7 @@
 				android:gravity="center_vertical|start"/>
 		</com.android.keyguard.AlphaOptimizedLinearLayout>
 		</RelativeLayout>
-
+-->
 	<!-- Temp fix to allow for center clock -->
 		<RelativeLayout	
 			android:layout_width="match_parent"
@@ -82,9 +100,9 @@
 			android:layout_gravity="end"
 			android:layout_weight="1" />
 		
-		</LinearLayout>
+		
 	
-	<!-- Notification Icons -->
+	<!-- Notification Icons 
 	<RelativeLayout	
 		android:layoutDirection="rtl"	
 		android:layout_width="fill_parent"
@@ -106,7 +124,7 @@
 
 		
 	</RelativeLayout>
-		
+		-->
     <ViewStub
         android:id="@*com.android.systemui:id/emergency_cryptkeeper_text"
         android:layout_width="wrap_content"

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TextAppearance.StatusBar.EventContent.Title" parent="@*android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@*android:dimen/notification_title_text_size</item>
+       
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+    </style>
+
+    <style name="TextAppearance.Large" parent="@*android:style/TextAppearance">
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>	
+		
+		<item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextAppearance.Large.Inverse" parent="@*android:style/TextAppearance">
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+		
+		<item name="android:textColor">?*android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?*android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?*android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?*android:attr/textColorLinkInverse</item>
+    </style>
+
+	<!-- Keyboard, etc -->
+    <style name="TextAppearance.Medium" parent="@*android:style/TextAppearance">
+		<item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+		
+		<item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Medium.Inverse" parent="@*android:style/TextAppearance">
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+		
+		<item name="android:textColor">?*android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?*android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?*android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?*android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Small" parent="@*android:style/TextAppearance">
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+		
+		<item name="android:textSize">14sp</item>
+        <item name="android:textColor">?*android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Small.Inverse" parent="@*android:style/TextAppearance">
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+		
+		<item name="android:textColor">?*android:attr/textColorSecondaryInverse</item>
+        <item name="android:textColorHint">?*android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?*android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?*android:attr/textColorLinkInverse</item>
+    </style>
+	
+</resources>
